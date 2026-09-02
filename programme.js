@@ -173,7 +173,7 @@ const programme = [
   /* ---------- DOMENICA ---------- */
 
      {
-    day: "sabato",
+    day: "domenica",
     time: "12:30",
     endTime: "15:00",
     title: "Pranzo aperto",
@@ -183,7 +183,7 @@ const programme = [
   },
 
      {
-    day: "sabato",
+    day: "domenica",
     time: "20:00",
     endTime: "22:30",
     title: "Cena aperta",
