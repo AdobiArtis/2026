@@ -1,15 +1,25 @@
+/* =========================
+   ADOBIARTIS 2026
+   WEBSITE
+========================= */
+
+
 let selectedDay = "sabato";
+
 let selectedCategory = "Tutti";
 
+let selectedPlace = "Tutti";
 
-/* --------------------------
+
+/* =========================
    MAIN NAVIGATION
--------------------------- */
+========================= */
 
 const navButtons =
   document.querySelectorAll(
     ".nav-button"
   );
+
 
 const sections =
   document.querySelectorAll(
@@ -17,87 +27,177 @@ const sections =
   );
 
 
-navButtons.forEach(
-  button => {
+navButtons.forEach(button => {
 
-    button.addEventListener(
-      "click",
-      () => {
+  button.addEventListener(
+    "click",
+    () => {
 
-        const target =
-          button.dataset.section;
-
-
-        navButtons.forEach(
-          nav =>
-            nav.classList.remove(
-              "active"
-            )
-        );
+      const target =
+        button.dataset.section;
 
 
-        button.classList.add(
+      navButtons.forEach(nav => {
+
+        nav.classList.remove(
           "active"
         );
 
+      });
 
-        sections.forEach(
-          section =>
-            section.classList.remove(
-              "active-section"
-            )
+
+      button.classList.add(
+        "active"
+      );
+
+
+      sections.forEach(section => {
+
+        section.classList.remove(
+          "active-section"
+        );
+
+      });
+
+
+      const targetSection =
+        document.getElementById(
+          target
         );
 
 
-        const targetSection =
-          document.getElementById(
-            target
-          );
+      if (targetSection) {
 
-
-        if (
-          targetSection
-        ) {
-
-          targetSection
-            .classList.add(
-              "active-section"
-            );
-
-        }
-
-
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
+        targetSection.classList.add(
+          "active-section"
+        );
 
       }
-    );
-
-  }
-);
 
 
-/* --------------------------
-   LOCATION LOOKUP
--------------------------- */
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
 
-function getLocation(
-  locationId
-) {
+    }
+  );
 
-  return locations.find(
-    location =>
-      location.id === locationId
+});
+
+
+/* =========================
+   HELPERS
+========================= */
+
+
+function getPlace(placeId) {
+
+  return places.find(
+    place =>
+      place.id === placeId
   );
 
 }
 
 
-/* --------------------------
-   PROGRAMME
--------------------------- */
+function getCategory(categoryId) {
+
+  return categories.find(
+    category =>
+      category.id === categoryId
+  );
+
+}
+
+
+function convertTimeToMinutes(time) {
+
+  if (time === "24:00") {
+    return 1440;
+  }
+
+
+  const parts =
+    time.split(":");
+
+
+  const hours =
+    Number(parts[0]);
+
+
+  const minutes =
+    Number(parts[1]);
+
+
+  return (
+    hours * 60
+    +
+    minutes
+  );
+
+}
+
+
+/* =========================
+   CREATE PLACE FILTER
+========================= */
+
+function createPlaceFilter() {
+
+  const select =
+    document.getElementById(
+      "place-filter"
+    );
+
+
+  if (!select) {
+    return;
+  }
+
+
+  places.forEach(place => {
+
+    const option =
+      document.createElement(
+        "option"
+      );
+
+
+    option.value =
+      place.id;
+
+
+    option.textContent =
+      `${place.id} · ${place.name}`;
+
+
+    select.appendChild(
+      option
+    );
+
+  });
+
+
+  select.addEventListener(
+    "change",
+    () => {
+
+      selectedPlace =
+        select.value;
+
+
+      renderProgramme();
+
+    }
+  );
+
+}
+
+
+/* =========================
+   RENDER PROGRAMME
+========================= */
 
 function renderProgramme() {
 
@@ -108,9 +208,7 @@ function renderProgramme() {
 
 
   if (!container) {
-
     return;
-
   }
 
 
@@ -120,28 +218,51 @@ function renderProgramme() {
   const filteredProgramme =
     programme
 
-      .filter(
-        event =>
-          event.day ===
-          selectedDay
+      .filter(event =>
+        event.day ===
+        selectedDay
       )
 
-      .filter(
-        event =>
-          selectedCategory ===
-            "Tutti"
-          ||
-          event.category ===
-            selectedCategory
+      .filter(event =>
+        selectedCategory ===
+          "Tutti"
+        ||
+        event.category ===
+          selectedCategory
+      )
+
+      .filter(event =>
+        selectedPlace ===
+          "Tutti"
+        ||
+        event.placeId ===
+          selectedPlace
+      )
+
+      .sort(
+        (a, b) =>
+          convertTimeToMinutes(
+            a.time
+          )
+          -
+          convertTimeToMinutes(
+            b.time
+          )
       );
 
 
   filteredProgramme.forEach(
     event => {
 
-      const location =
-        getLocation(
-          event.locationId
+      const place =
+        getPlace(
+          event.placeId
+        );
+
+
+      const category =
+        getCategory(
+          event.category
         );
 
 
@@ -155,20 +276,88 @@ function renderProgramme() {
         "event";
 
 
+      let timeDisplay =
+        event.time;
+
+
+      if (event.endTime) {
+
+        timeDisplay += `
+
+          <span class="event-end-time">
+            ${event.endTime}
+          </span>
+
+        `;
+
+      }
+
+
+      let description = "";
+
+
+      if (event.description) {
+
+        description = `
+
+          <div class="event-description">
+
+            ${event.description}
+
+          </div>
+
+        `;
+
+      }
+
+
+      let placeDisplay =
+        "";
+
+
+      if (place) {
+
+        placeDisplay = `
+
+          <div class="event-location">
+
+            <span class="location-dot">
+              ●
+            </span>
+
+            <strong>
+              ${place.id}
+            </strong>
+
+            ·
+
+            ${place.name}
+
+          </div>
+
+        `;
+
+      }
+
+
       eventElement.innerHTML = `
 
         <div class="event-time">
 
-          ${event.time}
+          ${timeDisplay}
 
         </div>
 
 
-        <div>
+        <div class="event-content">
 
           <div class="event-category">
 
-            ${event.category}
+            ${
+              category
+                ? category.name
+                : event.category
+            }
 
           </div>
 
@@ -180,15 +369,10 @@ function renderProgramme() {
           </div>
 
 
-          <div class="event-location">
+          ${placeDisplay}
 
-            📍 ${
-              location
-                ? location.name
-                : ""
-            }
 
-          </div>
+          ${description}
 
         </div>
 
@@ -203,6 +387,8 @@ function renderProgramme() {
   );
 
 
+  /* NO RESULTS */
+
   if (
     filteredProgramme.length ===
     0
@@ -210,15 +396,10 @@ function renderProgramme() {
 
     container.innerHTML = `
 
-      <div
-        style="
-          padding:30px 0;
-          color:#74716D;
-        "
-      >
+      <div class="no-events">
 
-        Nessun evento
-        in questa categoria.
+        Nessun evento trovato
+        con questi filtri.
 
       </div>
 
@@ -229,106 +410,106 @@ function renderProgramme() {
 }
 
 
-/* --------------------------
-   DAY SELECTOR
--------------------------- */
+/* =========================
+   DAY FILTER
+========================= */
 
 document
   .querySelectorAll(
     ".day-button"
   )
-  .forEach(
-    button => {
+  .forEach(button => {
 
-      button.addEventListener(
-        "click",
-        () => {
+    button.addEventListener(
+      "click",
+      () => {
 
-          selectedDay =
-            button.dataset.day;
-
-
-          document
-            .querySelectorAll(
-              ".day-button"
-            )
-            .forEach(
-              dayButton =>
-                dayButton
-                  .classList
-                  .remove(
-                    "active"
-                  )
-            );
+        selectedDay =
+          button.dataset.day;
 
 
-          button
-            .classList
-            .add(
-              "active"
-            );
+        document
+          .querySelectorAll(
+            ".day-button"
+          )
+          .forEach(
+            dayButton => {
+
+              dayButton
+                .classList
+                .remove(
+                  "active"
+                );
+
+            }
+          );
 
 
-          renderProgramme();
-
-        }
-      );
-
-    }
-  );
+        button.classList.add(
+          "active"
+        );
 
 
-/* --------------------------
+        renderProgramme();
+
+      }
+    );
+
+  });
+
+
+/* =========================
    CATEGORY FILTER
--------------------------- */
+========================= */
 
 document
   .querySelectorAll(
     ".filter-button"
   )
-  .forEach(
-    button => {
+  .forEach(button => {
 
-      button.addEventListener(
-        "click",
-        () => {
+    button.addEventListener(
+      "click",
+      () => {
 
-          selectedCategory =
-            button.dataset.category;
-
-
-          document
-            .querySelectorAll(
-              ".filter-button"
-            )
-            .forEach(
-              filterButton =>
-                filterButton
-                  .classList
-                  .remove(
-                    "active"
-                  )
-            );
+        selectedCategory =
+          button.dataset.category;
 
 
-          button
-            .classList
-            .add(
-              "active"
-            );
+        document
+          .querySelectorAll(
+            ".filter-button"
+          )
+          .forEach(
+            filterButton => {
+
+              filterButton
+                .classList
+                .remove(
+                  "active"
+                );
+
+            }
+          );
 
 
-          renderProgramme();
-
-        }
-      );
-
-    }
-  );
+        button.classList.add(
+          "active"
+        );
 
 
-/* --------------------------
-   INITIAL LOAD
--------------------------- */
+        renderProgramme();
+
+      }
+    );
+
+  });
+
+
+/* =========================
+   INITIALISE
+========================= */
+
+createPlaceFilter();
 
 renderProgramme();
