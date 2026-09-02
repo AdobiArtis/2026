@@ -946,17 +946,6 @@ footer {
     var(--white);
 
 }
-.footer-logo-left img {
-  max-width: 100px;
-  max-height: 75px;
-}
-
-.footer-logo-right img {
-  max-width: 90px;
-  max-height: 75px;
-}
-
-
 .footer-brand {
 
   font-size:
@@ -1021,8 +1010,17 @@ footer {
   color:
     #999999;
 
+
+}
+.footer-logo-left img {
+  max-width: 100px;
+  max-height: 75px;
 }
 
+.footer-logo-right img {
+  max-width: 90px;
+  max-height: 75px;
+}
 
 /* MOBILE */
 
