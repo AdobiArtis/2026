@@ -166,73 +166,121 @@
       </div>
 
 
-      <div class="day-selector">
+      <!-- =========================
+     PROGRAMME CONTROLS
+========================= -->
 
-        <button
-          class="day-button active"
-          data-day="sabato"
-          type="button"
-        >
-          SABATO
-        </button>
-
-        <button
-          class="day-button"
-          data-day="domenica"
-          type="button"
-        >
-          DOMENICA
-        </button>
-
-      </div>
+<div class="programme-controls">
 
 
-      <div class="filters">
+  <!-- DAY -->
 
-        <button
-          class="filter-button active"
-          data-category="Tutti"
-          type="button"
-        >
-          Tutto
-        </button>
+  <div class="day-selector">
 
-        <button
-          class="filter-button"
-          data-category="Arte"
-          type="button"
-        >
-          Arte
-        </button>
+    <button
+      class="day-button active"
+      data-day="sabato"
+    >
+      SABATO
+    </button>
 
-        <button
-          class="filter-button"
-          data-category="Musica"
-          type="button"
-        >
-          Musica
-        </button>
+    <button
+      class="day-button"
+      data-day="domenica"
+    >
+      DOMENICA
+    </button>
 
-        <button
-          class="filter-button"
-          data-category="Spettacoli"
-          type="button"
-        >
-          Spettacoli
-        </button>
-
-        <button
-          class="filter-button"
-          data-category="Bambini"
-          type="button"
-        >
-          Bambini
-        </button>
-
-      </div>
+  </div>
 
 
-      <div id="programme-list"></div>
+  <!-- CATEGORY -->
+
+  <div class="filters">
+
+    <button
+      class="filter-button active"
+      data-category="Tutti"
+    >
+      TUTTO
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="MU"
+    >
+      MUSICA
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="PL"
+    >
+      POESIA / LETTURA
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="LA"
+    >
+      LABORATORIO
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="SP"
+    >
+      SPETTACOLO
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="BA"
+    >
+      BAMBINI
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="AO"
+    >
+      ARTISTI ALL'OPERA
+    </button>
+
+    <button
+      class="filter-button"
+      data-category="FD"
+    >
+      FOOD & DRINKS
+    </button>
+
+  </div>
+
+
+  <!-- PLACE -->
+
+  <div class="place-filter-row">
+
+    <label for="place-filter">
+      LUOGO
+    </label>
+
+    <select id="place-filter">
+
+      <option value="Tutti">
+        Tutti i luoghi
+      </option>
+
+    </select>
+
+  </div>
+
+</div>
+
+
+<!-- PROGRAMME EVENTS -->
+
+<div id="programme-list"></div>
 
     </section>
 
