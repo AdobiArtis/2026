@@ -946,6 +946,15 @@ footer {
     var(--white);
 
 }
+.footer-logo-left img {
+  max-width: 100px;
+  max-height: 75px;
+}
+
+.footer-logo-right img {
+  max-width: 90px;
+  max-height: 75px;
+}
 
 
 .footer-brand {
@@ -1020,7 +1029,15 @@ footer {
 @media (
   max-width: 650px
 ) {
+.footer-logo-left img {
+  max-width: 58px;
+  max-height: 50px;
+}
 
+.footer-logo-right img {
+  max-width: 58px;
+  max-height: 50px;
+}
   .page-section {
 
     padding:
