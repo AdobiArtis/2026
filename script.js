@@ -317,25 +317,19 @@ function renderProgramme() {
 
       if (place) {
 
-        placeDisplay = `
+placeDisplay = `
 
-          <div class="event-location">
+  <div class="event-location">
 
-            <span class="location-dot">
-              ●
-            </span>
+    <span class="location-dot">
+      ●
+    </span>
 
-            <strong>
-              ${place.id}
-            </strong>
+    ${place.name}
 
-            ·
+  </div>
 
-            ${place.name}
-
-          </div>
-
-        `;
+`;
 
       }
 
