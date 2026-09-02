@@ -169,7 +169,7 @@ function createPlaceFilter() {
 
 
     option.textContent =
-      `${place.id} · ${place.name}`;
+  place.name;
 
 
     select.appendChild(
