@@ -3,11 +3,8 @@
    WEBSITE
 ========================= */
 
-
 let selectedDay = "sabato";
-
 let selectedCategory = "Tutti";
-
 let selectedPlace = "Tutti";
 
 
@@ -16,72 +13,42 @@ let selectedPlace = "Tutti";
 ========================= */
 
 const navButtons =
-  document.querySelectorAll(
-    ".nav-button"
-  );
-
+  document.querySelectorAll(".nav-button");
 
 const sections =
-  document.querySelectorAll(
-    ".page-section"
-  );
+  document.querySelectorAll(".page-section");
 
 
 navButtons.forEach(button => {
 
-  button.addEventListener(
-    "click",
-    () => {
+  button.addEventListener("click", () => {
 
-      const target =
-        button.dataset.section;
+    const target =
+      button.dataset.section;
 
+    navButtons.forEach(nav => {
+      nav.classList.remove("active");
+    });
 
-      navButtons.forEach(nav => {
+    button.classList.add("active");
 
-        nav.classList.remove(
-          "active"
-        );
+    sections.forEach(section => {
+      section.classList.remove("active-section");
+    });
 
-      });
+    const targetSection =
+      document.getElementById(target);
 
-
-      button.classList.add(
-        "active"
-      );
-
-
-      sections.forEach(section => {
-
-        section.classList.remove(
-          "active-section"
-        );
-
-      });
-
-
-      const targetSection =
-        document.getElementById(
-          target
-        );
-
-
-      if (targetSection) {
-
-        targetSection.classList.add(
-          "active-section"
-        );
-
-      }
-
-
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-
+    if (targetSection) {
+      targetSection.classList.add("active-section");
     }
-  );
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+
+  });
 
 });
 
@@ -90,12 +57,10 @@ navButtons.forEach(button => {
    HELPERS
 ========================= */
 
-
 function getPlace(placeId) {
 
   return places.find(
-    place =>
-      place.id === placeId
+    place => place.id === placeId
   );
 
 }
@@ -104,31 +69,57 @@ function getPlace(placeId) {
 function getCategory(categoryId) {
 
   return categories.find(
-    category =>
-      category.id === categoryId
+    category => category.id === categoryId
   );
+
+}
+
+
+/*
+  Supports BOTH:
+
+  category: "SP"
+
+  and:
+
+  categories: ["SP", "BA"]
+*/
+
+function getEventCategoryIds(event) {
+
+  if (
+    Array.isArray(event.categories)
+  ) {
+    return event.categories;
+  }
+
+  if (event.category) {
+    return [event.category];
+  }
+
+  return [];
 
 }
 
 
 function convertTimeToMinutes(time) {
 
+  if (!time) {
+    return 0;
+  }
+
   if (time === "24:00") {
     return 1440;
   }
 
-
   const parts =
     time.split(":");
-
 
   const hours =
     Number(parts[0]);
 
-
   const minutes =
     Number(parts[1]);
-
 
   return (
     hours * 60
@@ -150,10 +141,21 @@ function createPlaceFilter() {
       "place-filter"
     );
 
-
   if (!select) {
     return;
   }
+
+
+  /*
+    Prevent duplicate options
+    if script is reloaded
+  */
+
+  select.innerHTML = `
+    <option value="Tutti">
+      Tutti i luoghi
+    </option>
+  `;
 
 
   places.forEach(place => {
@@ -163,14 +165,16 @@ function createPlaceFilter() {
         "option"
       );
 
-
     option.value =
       place.id;
 
+    /*
+      Visitor sees ONLY
+      the place name
+    */
 
     option.textContent =
-  place.name;
-
+      place.name;
 
     select.appendChild(
       option
@@ -185,7 +189,6 @@ function createPlaceFilter() {
 
       selectedPlace =
         select.value;
-
 
       renderProgramme();
 
@@ -206,7 +209,6 @@ function renderProgramme() {
       "programme-list"
     );
 
-
   if (!container) {
     return;
   }
@@ -218,31 +220,56 @@ function renderProgramme() {
   const filteredProgramme =
     programme
 
+      /* DAY */
       .filter(event =>
         event.day ===
         selectedDay
       )
 
-      .filter(event =>
-  selectedCategory === "Tutti"
-  ||
-  event.categories.includes(selectedCategory)
-)
+      /* CATEGORY */
+      .filter(event => {
 
+        if (
+          selectedCategory ===
+          "Tutti"
+        ) {
+          return true;
+        }
+
+        const eventCategories =
+          getEventCategoryIds(
+            event
+          );
+
+        return eventCategories.includes(
+          selectedCategory
+        );
+
+      })
+
+      /* PLACE */
       .filter(event =>
+
         selectedPlace ===
           "Tutti"
+
         ||
+
         event.placeId ===
           selectedPlace
+
       )
 
+      /* TIME */
       .sort(
         (a, b) =>
+
           convertTimeToMinutes(
             a.time
           )
+
           -
+
           convertTimeToMinutes(
             b.time
           )
@@ -258,10 +285,23 @@ function renderProgramme() {
         );
 
 
-const eventCategories =
-  event.categories
-    .map(categoryId => getCategory(categoryId))
-    .filter(Boolean);
+      const categoryIds =
+        getEventCategoryIds(
+          event
+        );
+
+
+      const eventCategories =
+        categoryIds
+
+          .map(
+            categoryId =>
+              getCategory(
+                categoryId
+              )
+          )
+
+          .filter(Boolean);
 
 
       const eventElement =
@@ -273,6 +313,8 @@ const eventCategories =
       eventElement.className =
         "event";
 
+
+      /* TIME */
 
       let timeDisplay =
         event.time;
@@ -291,7 +333,10 @@ const eventCategories =
       }
 
 
-      let description = "";
+      /* DESCRIPTION */
+
+      let description =
+        "";
 
 
       if (event.description) {
@@ -299,8 +344,31 @@ const eventCategories =
         description = `
 
           <div class="event-description">
-
             ${event.description}
+          </div>
+
+        `;
+
+      }
+
+
+      /* LOCATION */
+
+      let placeDisplay =
+        "";
+
+
+      if (place) {
+
+        placeDisplay = `
+
+          <div class="event-location">
+
+            <span class="location-dot">
+              ●
+            </span>
+
+            ${place.name}
 
           </div>
 
@@ -309,28 +377,20 @@ const eventCategories =
       }
 
 
-      let placeDisplay =
-        "";
+      /* CATEGORIES */
+
+      const categoryDisplay =
+        eventCategories
+
+          .map(
+            category =>
+              category.name
+          )
+
+          .join(" · ");
 
 
-      if (place) {
-
-placeDisplay = `
-
-  <div class="event-location">
-
-    <span class="location-dot">
-      ●
-    </span>
-
-    ${place.name}
-
-  </div>
-
-`;
-
-      }
-
+      /* EVENT HTML */
 
       eventElement.innerHTML = `
 
@@ -344,10 +404,10 @@ placeDisplay = `
         <div class="event-content">
 
           <div class="event-category">
-  ${eventCategories
-    .map(category => category.name)
-    .join(" · ")}
-</div>
+
+            ${categoryDisplay}
+
+          </div>
 
 
           <div class="event-title">
