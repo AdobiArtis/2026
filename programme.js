@@ -41,12 +41,13 @@ const categories = [
 
 
 /* =========================
-   PLACES
-   Replace these with the
-   final places from your map
+   PROGRAMME PLACES
+   Based on AdobiArtis uMap
 ========================= */
 
 const places = [
+
+  /* SPETTACOLI / EVENTI */
 
   {
     id: "P01",
@@ -55,26 +56,69 @@ const places = [
 
   {
     id: "P02",
-    name: "Area Bambini"
+    name: "Giardino Podda"
   },
 
   {
     id: "P03",
-    name: "Piazza San Valentino"
+    name: "L'Incrocio"
   },
 
   {
     id: "P04",
-    name: "Palco principale"
+    name: "Piazza Eleonora d'Arborea"
   },
 
   {
     id: "P05",
-    name: "Area Food & Drinks"
+    name: "Piazza Municipio"
+  },
+
+
+  /* BAMBINI */
+
+  {
+    id: "P06",
+    name: "Cecco Locc - Giostraio"
+  },
+
+
+  /* FOOD */
+
+  {
+    id: "P07",
+    name: "Da Corrado e Francesca"
+  },
+
+  {
+    id: "P08",
+    name: "Punto Ristoro Tandeddu"
+  },
+
+  {
+    id: "P09",
+    name: "Ristorante degli Artisti"
+  },
+
+  {
+    id: "P10",
+    name: "Punto Ristoro Su Stagno"
+  },
+
+
+  /* DRINK */
+
+  {
+    id: "P11",
+    name: "Chiosco degli Artisti"
+  },
+
+  {
+    id: "P12",
+    name: "S'Ambasciada"
   }
 
 ];
-
 
 /* =========================
    PROGRAMME
