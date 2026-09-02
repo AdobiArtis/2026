@@ -465,25 +465,26 @@ document
 
 
         document
-  .querySelectorAll(".day-button")
-  .forEach(button => {
+          .querySelectorAll(
+            ".filter-button"
+          )
+          .forEach(
+            filterButton => {
 
-    button.addEventListener(
-      "click",
-      () => {
+              filterButton
+                .classList
+                .remove(
+                  "active"
+                );
 
-        selectedDay =
-          button.dataset.day;
+            }
+          );
 
-        document
-          .querySelectorAll(".day-button")
-          .forEach(dayButton => {
 
-            dayButton.classList.remove("active");
+        button.classList.add(
+          "active"
+        );
 
-          });
-
-        button.classList.add("active");
 
         renderProgramme();
 
