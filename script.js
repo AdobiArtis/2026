@@ -224,12 +224,10 @@ function renderProgramme() {
       )
 
       .filter(event =>
-        selectedCategory ===
-          "Tutti"
-        ||
-        event.category ===
-          selectedCategory
-      )
+  selectedCategory === "Tutti"
+  ||
+  event.categories.includes(selectedCategory)
+)
 
       .filter(event =>
         selectedPlace ===
@@ -260,10 +258,10 @@ function renderProgramme() {
         );
 
 
-      const category =
-        getCategory(
-          event.category
-        );
+const eventCategories =
+  event.categories
+    .map(categoryId => getCategory(categoryId))
+    .filter(Boolean);
 
 
       const eventElement =
@@ -346,14 +344,10 @@ placeDisplay = `
         <div class="event-content">
 
           <div class="event-category">
-
-            ${
-              category
-                ? category.name
-                : event.category
-            }
-
-          </div>
+  ${eventCategories
+    .map(category => category.name)
+    .join(" · ")}
+</div>
 
 
           <div class="event-title">
