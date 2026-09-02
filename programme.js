@@ -151,7 +151,7 @@ const programme = [
     day: "sabato",
     time: "10:00",
     endTime: "20:00",
-    title: "Artisti all'opera",
+    title: "Claudio Lallai - Scultura Legno",
     category: "AO",
     placeId: "P01",
     description: ""
