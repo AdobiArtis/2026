@@ -127,7 +127,26 @@ const places = [
 const programme = [
 
   /* ---------- SABATO ---------- */
+  {
+    day: "sabato",
+    time: "12:30",
+    endTime: "15:00",
+    title: "Pranzo aperto",
+    category: "FD",
+    placeId: "P09",
+    description: ""
+  },
 
+     {
+    day: "sabato",
+    time: "20:00",
+    endTime: "22:30",
+    title: "Cena aperta",
+    category: "FD",
+    placeId: "P09",
+    description: ""
+  },
+   
   {
     day: "sabato",
     time: "10:00",
@@ -140,11 +159,12 @@ const programme = [
 
   {
     day: "sabato",
-    time: "11:00",
-    endTime: "12:00",
-    title: "Dipingi con noi",
+    time: "19:00",
+    endTime: "20:00",
+    title: "Sergio Carboni - Giocoliere",
     category: "BA",
-    placeId: "P02",
+     category: "SP",
+    placeId: "P04",
     description: ""
   },
 
@@ -211,6 +231,25 @@ const programme = [
 
   /* ---------- DOMENICA ---------- */
 
+     {
+    day: "sabato",
+    time: "12:30",
+    endTime: "15:00",
+    title: "Pranzo aperto",
+    category: "FD",
+    placeId: "P09",
+    description: ""
+  },
+
+     {
+    day: "sabato",
+    time: "20:00",
+    endTime: "22:30",
+    title: "Cena aperta",
+    category: "FD",
+    placeId: "P09",
+    description: ""
+      },  
   {
     day: "domenica",
     time: "10:00",
