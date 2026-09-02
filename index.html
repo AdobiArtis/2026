@@ -2,12 +2,311 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AdobiArtis 2026</title>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>AdobiArtis 2026 – Festa dell'Arte</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>AdobiArtis 2026</h1>
-  <p>Festa dell'Arte – Sadali</p>
+
+<header class="hero">
+
+  <div class="hero-small">
+    SADALI · SARDEGNA
+  </div>
+
+  <h1>ADOBIARTIS</h1>
+
+  <p>Festa dell'Arte 2026</p>
+
+</header>
+
+
+<nav class="navigation">
+
+  <button
+    class="nav-button active"
+    data-section="programma"
+  >
+    PROGRAMMA
+  </button>
+
+  <button
+    class="nav-button"
+    data-section="mappa"
+  >
+    MAPPA
+  </button>
+
+  <button
+    class="nav-button"
+    data-section="info"
+  >
+    INFO
+  </button>
+
+</nav>
+
+
+<main>
+
+  <!-- PROGRAMMA -->
+
+  <section
+    id="programma"
+    class="page-section active-section"
+  >
+
+    <div class="section-intro">
+
+      <h2>Programma</h2>
+
+      <p>
+        Scopri cosa succede durante AdobiArtis.
+      </p>
+
+    </div>
+
+
+    <div class="day-selector">
+
+      <button
+        class="day-button active"
+        data-day="sabato"
+      >
+        SABATO
+      </button>
+
+      <button
+        class="day-button"
+        data-day="domenica"
+      >
+        DOMENICA
+      </button>
+
+    </div>
+
+
+    <div class="filters">
+
+      <button
+        class="filter-button active"
+        data-category="Tutti"
+      >
+        Tutto
+      </button>
+
+      <button
+        class="filter-button"
+        data-category="Arte"
+      >
+        Arte
+      </button>
+
+      <button
+        class="filter-button"
+        data-category="Musica"
+      >
+        Musica
+      </button>
+
+      <button
+        class="filter-button"
+        data-category="Spettacoli"
+      >
+        Spettacoli
+      </button>
+
+      <button
+        class="filter-button"
+        data-category="Bambini"
+      >
+        Bambini
+      </button>
+
+    </div>
+
+
+    <div id="programme-list"></div>
+
+  </section>
+
+
+  <!-- MAPPA -->
+
+  <section
+    id="mappa"
+    class="page-section"
+  >
+
+    <div class="section-intro">
+
+      <h2>Mappa</h2>
+
+      <p>
+        Trova artisti, spettacoli, attività e servizi.
+      </p>
+
+    </div>
+
+
+    <div class="map-filters">
+
+      <button
+        class="map-filter active"
+        data-map-category="Tutti"
+      >
+        Tutto
+      </button>
+
+      <button
+        class="map-filter"
+        data-map-category="Arte"
+      >
+        Arte
+      </button>
+
+      <button
+        class="map-filter"
+        data-map-category="Spettacoli"
+      >
+        Spettacoli
+      </button>
+
+      <button
+        class="map-filter"
+        data-map-category="Bambini"
+      >
+        Bambini
+      </button>
+
+      <button
+        class="map-filter"
+        data-map-category="Food"
+      >
+        Food
+      </button>
+
+      <button
+        class="map-filter"
+        data-map-category="Servizi"
+      >
+        Servizi
+      </button>
+
+    </div>
+
+
+    <div id="map"></div>
+
+  </section>
+
+
+  <!-- INFO -->
+
+  <section
+    id="info"
+    class="page-section"
+  >
+
+    <div class="section-intro">
+
+      <h2>AdobiArtis</h2>
+
+      <p class="intro-big">
+        Arte, musica, creatività e incontri
+        nel centro storico di Sadali.
+      </p>
+
+    </div>
+
+
+    <div class="info-card">
+
+      <h3>Festa dell'Arte</h3>
+
+      <p>
+        AdobiArtis trasforma Sadali in un percorso
+        diffuso tra arte, musica, performance,
+        artigianato e attività per bambini.
+      </p>
+
+    </div>
+
+
+    <div class="info-card">
+
+      <h3>Ingresso</h3>
+
+      <p>
+        Ingresso libero.
+      </p>
+
+    </div>
+
+
+    <div class="info-card">
+
+      <h3>Organizzazione</h3>
+
+      <p>
+        La Compagnia dell'Arte APS
+      </p>
+
+    </div>
+
+
+    <div class="info-card">
+
+      <h3>Contatti</h3>
+
+      <p>
+        Per artisti, espositori, volontari
+        e informazioni sulla manifestazione.
+      </p>
+
+      <a
+        class="contact-button"
+        href="mailto:INSERISCI-LA-TUA-EMAIL"
+      >
+        CONTATTACI
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <strong>ADOBIARTIS 2026</strong>
+
+  <span>
+    La Compagnia dell'Arte APS · Sadali
+  </span>
+
+</footer>
+
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+></script>
+
+<script src="programme.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
