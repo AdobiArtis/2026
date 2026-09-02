@@ -87,12 +87,12 @@ const places = [
 
   {
     id: "P07",
-    name: "Da Corrado e Francesca"
+    name: "Dietro alla Giostra"
   },
 
   {
     id: "P08",
-    name: "Punto Ristoro Tandeddu"
+    name: "Vicino alla Stazione"
   },
 
   {
@@ -115,7 +115,7 @@ const places = [
 
   {
     id: "P12",
-    name: "S'Ambasciada"
+    name: "Mulino Vecchio"
   }
 
 ];
@@ -153,7 +153,7 @@ const programme = [
     endTime: "20:00",
     title: "Claudio Lallai - Scultura Legno",
     category: "AO",
-    placeId: "P01",
+    placeId: "P07",
     description: ""
   },
 
