@@ -702,7 +702,100 @@ main {
 
 }
 
+/* =========================
+   ADOBIARTIS VIDEO
+========================= */
 
+.festival-video {
+  width: 100%;
+
+  margin: 0 0 28px 0;
+
+  background: var(--charcoal);
+
+  border: 1px solid var(--border);
+
+  overflow: hidden;
+}
+
+
+/* VIDEO HEADER */
+
+.video-heading {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 13px 16px;
+
+  color: #C9C9C9;
+
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+
+.video-heading > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+
+.video-dot {
+  display: inline-block;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: var(--teal);
+}
+
+
+/* VIDEO */
+
+.festival-video video {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  max-height: 620px;
+
+  background: #000000;
+
+  object-fit: contain;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+  .festival-video {
+    width: 100%;
+
+    margin:
+      0 0
+      24px 0;
+  }
+
+  .festival-video video {
+    width: 100%;
+    height: auto;
+
+    max-height: 520px;
+  }
+
+}
 /* INFO */
 
 .info-grid {
