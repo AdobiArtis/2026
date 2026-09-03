@@ -81,12 +81,12 @@ const places = [
 
   {
     id: "P06",
-    name: "Giostra"
+    name: "Itinerante"
   },
 
   {
     id: "P07",
-    name: "Dietro alla Giostra"
+    name: "Dietro alla Chiesa "
   },
 
   {
@@ -126,7 +126,18 @@ const programme = [
   /* =========================
      SABATO
   ========================= */
-    {
+    
+       {
+    day: "sabato",
+    time: "18:00",
+    endTime: "19:00",
+    title: "Alì e gli amici di Giuseppe Carta presentano il romanzo La morale di Santander",
+    categories: ["PL"],
+    placeId: "P06",
+    description: ""
+  },
+   
+   {
     day: "sabato",
     time: "18:00",
     endTime: "19:00",
@@ -212,7 +223,7 @@ const programme = [
     endTime: "20:00",
     title: "Giostraio Cecco Locc",
     categories: ["BA"],
-    placeId: "P06",
+    placeId: "P07",
     description: ""
   },
 
@@ -277,7 +288,7 @@ const programme = [
     endTime: "20:00",
     title: "Giostraio Cecco Locc",
     categories: ["BA"],
-    placeId: "P06",
+    placeId: "P07",
     description: ""
   },
 
