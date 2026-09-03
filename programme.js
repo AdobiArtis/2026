@@ -126,7 +126,26 @@ const programme = [
   /* =========================
      SABATO
   ========================= */
+  {
+    day: "sabato",
+    time: "18:00",
+    endTime: "20:00",
+    title: "Rebel Blues Band",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
 
+     {
+    day: "sabato",
+    time: "12:00",
+    endTime: "13:00",
+    title: "Trio musicale di Seulo con Cover Guccini",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
+   
   {
     day: "sabato",
     time: "10:00",
