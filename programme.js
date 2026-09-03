@@ -232,6 +232,16 @@ const programme = [
      DOMENICA
   ========================= */
 
+   {
+    day: "domenica",
+    time: "16:00",
+    endTime: "17:00",
+    title: "Paolo Pittiu - Tooling del Cuoio",
+    categories: ["LA"],
+    placeId: "P12",
+    description: ""
+  },
+   
      {
     day: "domenica",
     time: "15:30",
