@@ -163,7 +163,7 @@ const programme = [
     day: "sabato",
     time: "10:00",
     endTime: "20:00",
-    title: "Claudio Lallai - Scultura Legno",
+    title: "Claudio Lallai e Cesare Chilotti - Scultura Legno",
     categories: ["AO"],
     placeId: "P07",
     description: ""
