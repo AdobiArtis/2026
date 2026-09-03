@@ -130,10 +130,10 @@ const programme = [
        {
     day: "sabato",
     time: "18:00",
-    endTime: "19:00",
-    title: "Alì e gli amici di Giuseppe Carta presentano il romanzo La morale di Santander",
+    endTime: "19:30",
+    title: "Paola Tomasi, armonizzazione sonora: VOCE E SUONI CHE CURANO + Alì e gli amici di Giuseppe Carta presentano il romanzo La morale di Santander",
     categories: ["PL"],
-    placeId: "P06",
+    placeId: "P01",
     description: ""
   },
    
