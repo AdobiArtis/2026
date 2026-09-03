@@ -130,7 +130,7 @@ const programme = [
     day: "sabato",
     time: "18:00",
     endTime: "19:00",
-    title: "Tooling del Cuoio",
+    title: "Paolo Pittiu - Tooling del Cuoio",
     categories: ["LA"],
     placeId: "P12",
     description: ""
