@@ -147,15 +147,7 @@ const programme = [
     description: ""
   },
    
-   {
-    day: "sabato",
-    time: "18:00",
-    endTime: "20:00",
-    title: "Rebel Blues Band",
-    categories: ["MU"],
-    placeId: "P05",
-    description: ""
-  },
+
 
      {
     day: "sabato",
@@ -231,7 +223,16 @@ const programme = [
   /* =========================
      DOMENICA
   ========================= */
-
+   {
+    day: "domenica",
+    time: "18:00",
+    endTime: "20:00",
+    title: "Rebel Blues Band",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
+   
    {
     day: "domenica",
     time: "16:00",
