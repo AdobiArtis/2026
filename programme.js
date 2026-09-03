@@ -81,7 +81,7 @@ const places = [
 
   {
     id: "P06",
-    name: "Cecco Locc - Giostraio"
+    name: "Giostra"
   },
 
   {
@@ -167,7 +167,27 @@ const programme = [
     description: ""
   },
 
+  {
+    day: "sabato",
+    time: "17:00",
+    endTime: "18:00",
+    title: "Lia Servi - lettura racconti",
+    categories: ["PL"],
+    placeId: "P01",
+    description: ""
+  },
 
+     {
+    day: "sabato",
+    time: "10:00",
+    endTime: "20:00",
+    title: "Giostraio Cecco Locc",
+    categories: ["BA"],
+    placeId: "P06",
+    description: ""
+  },
+
+   
   /* =========================
      DOMENICA
   ========================= */
@@ -190,6 +210,27 @@ const programme = [
     categories: ["FD"],
     placeId: "P09",
     description: ""
-  }
+  },
 
+     {
+    day: "domenica",
+    time: "11:00",
+    endTime: "12:00",
+    title: "Lia Servi - lettura racconti",
+    categories: ["PL"],
+    placeId: "P01",
+    description: ""
+  },
+
+        {
+    day: "sabato",
+    time: "10:00",
+    endTime: "20:00",
+    title: "Giostraio Cecco Locc",
+    categories: ["BA"],
+    placeId: "P06",
+    description: ""
+  },
+
+   
 ];
