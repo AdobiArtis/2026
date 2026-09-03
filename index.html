@@ -78,16 +78,21 @@
     href="thumbnail.png"
   >
 
+  <!-- CSS -->
+
   <link
     rel="stylesheet"
-    href="style.css"
+    href="style.css?v=4"
   >
+
 </head>
 
 
 <body>
 
-  <!-- HERO -->
+  <!-- =========================
+       HERO
+  ========================= -->
 
   <header class="hero">
 
@@ -95,7 +100,9 @@
       SADALI · SARDEGNA
     </div>
 
-    <h1>ADOBIARTIS</h1>
+    <h1>
+      ADOBIARTIS
+    </h1>
 
     <div class="hero-line"></div>
 
@@ -110,7 +117,9 @@
   </header>
 
 
-  <!-- NAVIGATION -->
+  <!-- =========================
+       NAVIGATION
+  ========================= -->
 
   <nav class="navigation">
 
@@ -143,7 +152,9 @@
 
   <main>
 
-    <!-- PROGRAMMA -->
+    <!-- =========================
+         PROGRAMMA
+    ========================= -->
 
     <section
       id="programma"
@@ -156,7 +167,9 @@
           ADOBIARTIS 2026
         </div>
 
-        <h2>Programma</h2>
+        <h2>
+          Programma
+        </h2>
 
         <p>
           Arte, musica, performance e creatività
@@ -166,118 +179,155 @@
       </div>
 
 
-      <!-- =========================
-     PROGRAMME CONTROLS
-========================= -->
+      <!-- PROGRAMME CONTROLS -->
 
-<div class="programme-controls">
+      <div class="programme-controls">
 
 
-  <!-- DAY -->
+        <!-- DAY SELECTOR -->
 
-<div class="day-selector">
+        <div class="day-selector">
 
-  <button
-    class="day-button active"
-    data-day="sabato"
-  >
-    SABATO
-    <span class="day-date">26 SETTEMBRE</span>
-  </button>
+          <button
+            class="day-button active"
+            data-day="sabato"
+            type="button"
+          >
+            SABATO
 
-  <button
-    class="day-button"
-    data-day="domenica"
-  >
-    DOMENICA
-    <span class="day-date">27 SETTEMBRE</span>
-  </button>
+            <span class="day-date">
+              26 SETTEMBRE
+            </span>
 
-</div>
+          </button>
 
 
-<div class="filters">
+          <button
+            class="day-button"
+            data-day="domenica"
+            type="button"
+          >
+            DOMENICA
 
-  <button
-    class="filter-button active"
-    data-category="Tutti"
-  >
-    TUTTO
-  </button>
+            <span class="day-date">
+              27 SETTEMBRE
+            </span>
 
-  <button
-    class="filter-button"
-    data-category="MU"
-  >
-    MUSICA
-  </button>
+          </button>
 
-  <button
-    class="filter-button"
-    data-category="PL"
-  >
-    POESIA / LETTURA
-  </button>
-
-  <button
-    class="filter-button"
-    data-category="LA"
-  >
-    LABORATORIO
-  </button>
-
-  <button
-    class="filter-button"
-    data-category="SP"
-  >
-    SPETTACOLO
-  </button>
-
-  <button
-    class="filter-button"
-    data-category="BA"
-  >
-    BAMBINI
-  </button>
-
-  <button
-    class="filter-button"
-    data-category="AO"
-  >
-    ARTISTI ALL'OPERA
-  </button>
-
-  <button
-    class="filter-button"
-    data-category="FD"
-  >
-    FOOD & DRINKS
-  </button>
-
-</div>
+        </div>
 
 
-<div class="place-filter-row">
+        <!-- CATEGORY FILTERS -->
 
-  <label for="place-filter">
-    LUOGO
-  </label>
+        <div class="filters">
 
-  <select id="place-filter">
-    <option value="Tutti">
-      Tutti i luoghi
-    </option>
-  </select>
-
-</div>
+          <button
+            class="filter-button active"
+            data-category="Tutti"
+            type="button"
+          >
+            TUTTO
+          </button>
 
 
-<div id="programme-list"></div>
-  
+          <button
+            class="filter-button"
+            data-category="MU"
+            type="button"
+          >
+            MUSICA
+          </button>
+
+
+          <button
+            class="filter-button"
+            data-category="PL"
+            type="button"
+          >
+            POESIA / LETTURA
+          </button>
+
+
+          <button
+            class="filter-button"
+            data-category="LA"
+            type="button"
+          >
+            LABORATORIO
+          </button>
+
+
+          <button
+            class="filter-button"
+            data-category="SP"
+            type="button"
+          >
+            SPETTACOLO
+          </button>
+
+
+          <button
+            class="filter-button"
+            data-category="BA"
+            type="button"
+          >
+            BAMBINI
+          </button>
+
+
+          <button
+            class="filter-button"
+            data-category="AO"
+            type="button"
+          >
+            ARTISTI ALL'OPERA
+          </button>
+
+
+          <button
+            class="filter-button"
+            data-category="FD"
+            type="button"
+          >
+            FOOD & DRINKS
+          </button>
+
+        </div>
+
+
+        <!-- PLACE FILTER -->
+
+        <div class="place-filter-row">
+
+          <label for="place-filter">
+            LUOGO
+          </label>
+
+
+          <select id="place-filter">
+
+            <option value="Tutti">
+              Tutti i luoghi
+            </option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROGRAMME OUTPUT -->
+
+      <div id="programme-list"></div>
+
     </section>
 
 
-    <!-- MAPPA -->
+    <!-- =========================
+         MAPPA
+    ========================= -->
 
     <section
       id="mappa"
@@ -290,7 +340,9 @@
           ORIENTATI
         </div>
 
-        <h2>Mappa</h2>
+        <h2>
+          Mappa
+        </h2>
 
         <p>
           Trova artisti, spettacoli, attività,
@@ -309,6 +361,7 @@
             <span class="map-dot"></span>
 
             MAPPA INTERATTIVA
+
           </div>
 
           <span>
@@ -334,7 +387,9 @@
     </section>
 
 
-    <!-- INFO -->
+    <!-- =========================
+         INFO
+    ========================= -->
 
     <section
       id="info"
@@ -347,47 +402,60 @@
           LA FESTA DELL'ARTE
         </div>
 
-        <h2>AdobiArtis</h2>
+        <h2>
+          AdobiArtis
+        </h2>
 
         <p class="intro-big">
-          AdobiArtis è un viaggio sensoriale nell’arte tra culture internazionali: 
-          un circuito itinerante che prendere vita tra le strade de Sadili. 
-          Incorniciata dal gorgoglio delle sue abbondanti acque e accompagnata dalle note 
-          dei musicisti lungo il cammino, Sadali si trasformerà in un palcoscenico a cielo aperto: 
-          un’esplosione di talenti, una celebrazione della creatività e dell’esistenza in tutte le loro forme.
+          AdobiArtis è un viaggio sensoriale nell’arte
+          tra culture internazionali: un circuito itinerante
+          che prende vita tra le strade di Sadali.
+          Incorniciata dal gorgoglio delle sue abbondanti acque
+          e accompagnata dalle note dei musicisti lungo il cammino,
+          Sadali si trasformerà in un palcoscenico a cielo aperto:
+          un’esplosione di talenti, una celebrazione della creatività
+          e dell’esistenza in tutte le loro forme.
         </p>
 
       </div>
 
-      <!-- ADOBIARTIS VIDEO -->
 
-<div class="festival-video">
+      <!-- VIDEO -->
 
-  <div class="video-heading">
+      <div class="festival-video">
 
-    <div>
-      <span class="video-dot"></span>
-      ADOBIARTIS IN MOVIMENTO - 2025
-    </div>
+        <div class="video-heading">
 
-  </div>
+          <div>
 
-  <video
-    controls
-    playsinline
-    preload="metadata"
-  >
+            <span class="video-dot"></span>
 
-    <source
-      src="AdobiArtisSummary2025short.mp4"
-      type="video/mp4"
-    >
+            ADOBIARTIS IN MOVIMENTO - 2025
 
-    Il tuo browser non supporta il video.
+          </div>
 
-  </video>
+        </div>
 
-</div>
+
+        <video
+          controls
+          playsinline
+          preload="metadata"
+        >
+
+          <source
+            src="AdobiArtisSummary2025short.mp4"
+            type="video/mp4"
+          >
+
+          Il tuo browser non supporta il video.
+
+        </video>
+
+      </div>
+
+
+      <!-- INFO CARDS -->
 
       <div class="info-grid">
 
@@ -398,11 +466,15 @@
             01
           </div>
 
-          <h3>La Festa</h3>
+          <h3>
+            La Festa
+          </h3>
 
           <p>
-          AdobiArtis porta arte, musica e creatività nelle strade di Sadali, 
-          trasformando il centro storico in un percorso vivo di incontri, esposizioni e performance.
+            AdobiArtis porta arte, musica e creatività
+            nelle strade di Sadali, trasformando il centro storico
+            in un percorso vivo di incontri, esposizioni
+            e performance.
           </p>
 
         </div>
@@ -414,11 +486,14 @@
             02
           </div>
 
-          <h3>Da vivere</h3>
+          <h3>
+            Da vivere
+          </h3>
 
           <p>
-            Mostre, musica dal vivo, spettacoli, artigianato, 
-            attività per bambini, food & drink e tante occasioni per fermarsi, scoprire e partecipare.
+            Mostre, musica dal vivo, spettacoli, artigianato,
+            attività per bambini, food & drink e tante occasioni
+            per fermarsi, scoprire e partecipare.
           </p>
 
         </div>
@@ -430,11 +505,15 @@
             03
           </div>
 
-          <h3>Per tutti</h3>
+          <h3>
+            Per tutti
+          </h3>
 
           <p>
-            L’ingresso è libero e il programma è pensato per adulti, 
-            famiglie e bambini. Vieni per un’ora, resta per tutta la giornata, segui il tuo percorso.
+            L’ingresso è libero e il programma è pensato
+            per adulti, famiglie e bambini.
+            Vieni per un’ora, resta per tutta la giornata,
+            segui il tuo percorso.
           </p>
 
         </div>
@@ -446,17 +525,22 @@
             04
           </div>
 
-          <h3>Chi siamo</h3>
+          <h3>
+            Chi siamo
+          </h3>
 
           <p>
-            AdobiArtis è organizzato da La Compagnia dell’Arte APS, 
-            nata per creare occasioni di cultura, condivisione e partecipazione attraverso l’arte.
+            AdobiArtis è organizzato da La Compagnia dell’Arte APS,
+            nata per creare occasioni di cultura,
+            condivisione e partecipazione attraverso l’arte.
           </p>
 
         </div>
 
       </div>
 
+
+      <!-- CONTACT -->
 
       <div class="contact-panel">
 
@@ -492,59 +576,71 @@
   </main>
 
 
-  <!-- FOOTER -->
+  <!-- =========================
+       FOOTER
+  ========================= -->
 
-<footer>
+  <footer>
 
-  <div class="footer-content">
-
-    <!-- ADOBIARTIS LOGO - LEFT -->
-
-    <div class="footer-logo footer-logo-left">
-      <img
-        src="thumbnail.png"
-        alt="AdobiArtis 2026"
-      >
-    </div>
+    <div class="footer-content">
 
 
-    <!-- CENTER TEXT -->
+      <!-- LEFT LOGO -->
 
-    <div class="footer-center">
+      <div class="footer-logo footer-logo-left">
 
-      <div class="footer-brand">
-        ADOBIARTIS
+        <img
+          src="thumbnail.png"
+          alt="AdobiArtis 2026"
+        >
+
       </div>
 
-      <div class="footer-subtitle">
-        La Festa dell'Arte · Sadali
+
+      <!-- CENTER -->
+
+      <div class="footer-center">
+
+        <div class="footer-brand">
+          ADOBIARTIS
+        </div>
+
+        <div class="footer-subtitle">
+          La Festa dell'Arte · Sadali
+        </div>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-organizer">
+          La Compagnia dell'Arte APS
+        </div>
+
       </div>
 
-      <div class="footer-line"></div>
 
-      <div class="footer-organizer">
-        La Compagnia dell'Arte APS
+      <!-- RIGHT LOGO -->
+
+      <div class="footer-logo footer-logo-right">
+
+        <img
+          src="La_Compagnia_dell_Arte_APS_logo_transparent.png"
+          alt="La Compagnia dell'Arte APS"
+        >
+
       </div>
 
     </div>
 
-
-    <!-- LA COMPAGNIA DELL'ARTE LOGO - RIGHT -->
-
-    <div class="footer-logo footer-logo-right">
-      <img
-        src="La_Compagnia_dell_Arte_APS_logo_transparent.png"
-        alt="La Compagnia dell'Arte APS"
-      >
-    </div>
-
-  </div>
-
-</footer>
+  </footer>
 
 
-<script src="programme.js?v=3"></script>
-<script src="script.js?v=3"></script>
+  <!-- =========================
+       JAVASCRIPT
+  ========================= -->
+
+  <script src="programme.js?v=4"></script>
+  <script src="script.js?v=4"></script>
 
 </body>
+
 </html>
