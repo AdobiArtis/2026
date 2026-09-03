@@ -561,3 +561,5 @@ document
 createPlaceFilter();
 
 renderProgramme();
+
+ }
