@@ -26,22 +26,28 @@ navButtons.forEach(button => {
     const target =
       button.dataset.section;
 
+
     navButtons.forEach(nav => {
       nav.classList.remove("active");
     });
 
+
     button.classList.add("active");
+
 
     sections.forEach(section => {
       section.classList.remove("active-section");
     });
 
+
     const targetSection =
       document.getElementById(target);
+
 
     if (targetSection) {
       targetSection.classList.add("active-section");
     }
+
 
     window.scrollTo({
       top: 0,
@@ -75,21 +81,15 @@ function getCategory(categoryId) {
 }
 
 
-/*
-  Supports BOTH:
-
-  category: "SP"
-
-  and:
-
-  categories: ["SP", "BA"]
+/* SUPPORTS:
+   category: "SP"
+   OR
+   categories: ["SP", "BA"]
 */
 
 function getEventCategoryIds(event) {
 
-  if (
-    Array.isArray(event.categories)
-  ) {
+  if (Array.isArray(event.categories)) {
     return event.categories;
   }
 
@@ -141,20 +141,18 @@ function createPlaceFilter() {
       "place-filter"
     );
 
+
   if (!select) {
     return;
   }
 
 
-  /*
-    Prevent duplicate options
-    if script is reloaded
-  */
-
   select.innerHTML = `
+
     <option value="Tutti">
       Tutti i luoghi
     </option>
+
   `;
 
 
@@ -165,16 +163,14 @@ function createPlaceFilter() {
         "option"
       );
 
+
     option.value =
       place.id;
 
-    /*
-      Visitor sees ONLY
-      the place name
-    */
 
     option.textContent =
       place.name;
+
 
     select.appendChild(
       option
@@ -189,6 +185,7 @@ function createPlaceFilter() {
 
       selectedPlace =
         select.value;
+
 
       renderProgramme();
 
@@ -209,6 +206,7 @@ function renderProgramme() {
       "programme-list"
     );
 
+
   if (!container) {
     return;
   }
@@ -222,26 +220,24 @@ function renderProgramme() {
 
       /* DAY */
       .filter(event =>
-        event.day ===
-        selectedDay
+        event.day === selectedDay
       )
 
       /* CATEGORY */
       .filter(event => {
 
         if (
-          selectedCategory ===
-          "Tutti"
+          selectedCategory === "Tutti"
         ) {
           return true;
         }
 
-        const eventCategories =
-          getEventCategoryIds(
-            event
-          );
 
-        return eventCategories.includes(
+        const eventCategoryIds =
+          getEventCategoryIds(event);
+
+
+        return eventCategoryIds.includes(
           selectedCategory
         );
 
@@ -250,13 +246,11 @@ function renderProgramme() {
       /* PLACE */
       .filter(event =>
 
-        selectedPlace ===
-          "Tutti"
+        selectedPlace === "Tutti"
 
         ||
 
-        event.placeId ===
-          selectedPlace
+        event.placeId === selectedPlace
 
       )
 
@@ -264,182 +258,175 @@ function renderProgramme() {
       .sort(
         (a, b) =>
 
-          convertTimeToMinutes(
-            a.time
-          )
+          convertTimeToMinutes(a.time)
 
           -
 
-          convertTimeToMinutes(
-            b.time
-          )
+          convertTimeToMinutes(b.time)
       );
 
 
-  filteredProgramme.forEach(
-    event => {
-
-      const place =
-        getPlace(
-          event.placeId
-        );
+  filteredProgramme.forEach(event => {
 
 
-      const categoryIds =
-        getEventCategoryIds(
-          event
-        );
+    /* PLACE */
+
+    const place =
+      getPlace(
+        event.placeId
+      );
 
 
-      const eventCategories =
-        categoryIds
+    /* CATEGORIES */
 
-          .map(
-            categoryId =>
-              getCategory(
-                categoryId
-              )
-          )
-
-          .filter(Boolean);
+    const categoryIds =
+      getEventCategoryIds(
+        event
+      );
 
 
-      const eventElement =
-        document.createElement(
-          "div"
-        );
+    const eventCategories =
+      categoryIds
+        .map(categoryId =>
+          getCategory(categoryId)
+        )
+        .filter(Boolean);
 
 
-      eventElement.className =
-        "event";
+    /* CREATE EVENT */
+
+    const eventElement =
+      document.createElement(
+        "div"
+      );
 
 
-      /* TIME */
-
-      let timeDisplay =
-        event.time;
+    eventElement.className =
+      "event";
 
 
-      if (event.endTime) {
+    /* TIME */
 
-        timeDisplay += `
-
-          <span class="event-end-time">
-            ${event.endTime}
-          </span>
-
-        `;
-
-      }
+    let timeDisplay =
+      event.time;
 
 
-      /* DESCRIPTION */
+    if (event.endTime) {
 
-      let description =
-        "";
+      timeDisplay += `
 
+        <span class="event-end-time">
+          ${event.endTime}
+        </span>
 
-      if (event.description) {
+      `;
 
-        description = `
-
-          <div class="event-description">
-            ${event.description}
-          </div>
-
-        `;
-
-      }
+    }
 
 
-      /* LOCATION */
+    /* DESCRIPTION */
 
-      let placeDisplay =
-        "";
-
-
-      if (place) {
-
-        placeDisplay = `
-
-          <div class="event-location">
-
-            <span class="location-dot">
-              ●
-            </span>
-
-            ${place.name}
-
-          </div>
-
-        `;
-
-      }
+    let description =
+      "";
 
 
-      /* CATEGORIES */
+    if (event.description) {
 
-      const categoryDisplay =
-        eventCategories
+      description = `
 
-          .map(
-            category =>
-              category.name
-          )
-
-          .join(" · ");
-
-
-      /* EVENT HTML */
-
-      eventElement.innerHTML = `
-
-        <div class="event-time">
-
-          ${timeDisplay}
-
+        <div class="event-description">
+          ${event.description}
         </div>
 
+      `;
 
-        <div class="event-content">
-
-          <div class="event-category">
-
-            ${categoryDisplay}
-
-          </div>
+    }
 
 
-          <div class="event-title">
+    /* LOCATION */
 
-            ${event.title}
-
-          </div>
-
-
-          ${placeDisplay}
+    let placeDisplay =
+      "";
 
 
-          ${description}
+    if (place) {
+
+      placeDisplay = `
+
+        <div class="event-location">
+
+          <span class="location-dot">
+            ●
+          </span>
+
+          ${place.name}
 
         </div>
 
       `;
 
-
-      container.appendChild(
-        eventElement
-      );
-
     }
-  );
+
+
+    /* CATEGORY DISPLAY */
+
+    const categoryDisplay =
+      eventCategories
+        .map(
+          category =>
+            category.name
+        )
+        .join(" · ");
+
+
+    /* EVENT HTML */
+
+    eventElement.innerHTML = `
+
+      <div class="event-time">
+
+        ${timeDisplay}
+
+      </div>
+
+
+      <div class="event-content">
+
+        <div class="event-category">
+
+          ${categoryDisplay}
+
+        </div>
+
+
+        <div class="event-title">
+
+          ${event.title}
+
+        </div>
+
+
+        ${placeDisplay}
+
+
+        ${description}
+
+      </div>
+
+    `;
+
+
+    container.appendChild(
+      eventElement
+    );
+
+  });
 
 
   /* NO RESULTS */
 
   if (
-    filteredProgramme.length ===
-    0
+    filteredProgramme.length === 0
   ) {
 
     container.innerHTML = `
@@ -561,5 +548,3 @@ document
 createPlaceFilter();
 
 renderProgramme();
-
- }
