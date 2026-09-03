@@ -223,6 +223,17 @@ const programme = [
   /* =========================
      DOMENICA
   ========================= */
+
+      {
+    day: "domenica",
+    time: "19:00",
+    endTime: "20:00",
+    title: "Chiusura Lotteria",
+    categories: ["SP"],
+    placeId: "P11",
+    description: ""
+  },
+   
    {
     day: "domenica",
     time: "18:00",
