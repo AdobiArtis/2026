@@ -223,7 +223,7 @@ const programme = [
   },
 
         {
-    day: "sabato",
+    day: "domenica",
     time: "10:00",
     endTime: "20:00",
     title: "Giostraio Cecco Locc",
