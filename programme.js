@@ -192,6 +192,16 @@ const programme = [
      DOMENICA
   ========================= */
 
+     {
+    day: "domenica",
+    time: "12:30",
+    endTime: "15:00",
+    title: "Valentina Pilia - Flamenco",
+    categories: ["SP"],
+    placeId: "P04",
+    description: ""
+  },
+   
   {
     day: "domenica",
     time: "12:30",
