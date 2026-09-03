@@ -149,8 +149,8 @@ const programme = [
 
   {
     day: "sabato",
-    time: "19:00",
-    endTime: "20:00",
+    time: "20:00",
+    endTime: "21:00",
     title: "Sergio Carboni - Giocoliere",
     categories: ["SP", "BA"],
     placeId: "P04",
