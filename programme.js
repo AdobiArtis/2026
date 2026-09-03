@@ -126,7 +126,17 @@ const programme = [
   /* =========================
      SABATO
   ========================= */
-  {
+    {
+    day: "sabato",
+    time: "18:00",
+    endTime: "19:00",
+    title: "Tooling del Cuoio",
+    categories: ["LA"],
+    placeId: "P12",
+    description: ""
+  },
+   
+   {
     day: "sabato",
     time: "18:00",
     endTime: "20:00",
@@ -213,10 +223,20 @@ const programme = [
 
      {
     day: "domenica",
-    time: "12:30",
-    endTime: "15:00",
+    time: "15:30",
+    endTime: "16:00",
     title: "Valentina Pilia - Flamenco",
     categories: ["SP"],
+    placeId: "P04",
+    description: ""
+  },
+
+     {
+    day: "domenica",
+    time: "11:30",
+    endTime: "12:00",
+    title: "Valentina Pilia - Laboratorio Ritmico",
+    categories: ["BA"],
     placeId: "P04",
     description: ""
   },
