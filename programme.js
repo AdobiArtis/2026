@@ -9,45 +9,50 @@
 ========================= */
 
 const categories = [
+
   {
     id: "MU",
     name: "Musica"
   },
+
   {
     id: "PL",
     name: "Poesia / Lettura"
   },
+
   {
     id: "LA",
     name: "Laboratorio"
   },
+
   {
     id: "SP",
     name: "Spettacolo"
   },
+
   {
     id: "BA",
     name: "Bambini"
   },
+
   {
     id: "AO",
     name: "Artisti all'opera"
   },
+
   {
     id: "FD",
     name: "Food & Drinks"
   }
+
 ];
 
 
 /* =========================
    PROGRAMME PLACES
-   Based on AdobiArtis uMap
 ========================= */
 
 const places = [
-
-  /* SPETTACOLI / EVENTI */
 
   {
     id: "P01",
@@ -74,16 +79,10 @@ const places = [
     name: "Piazza Municipio"
   },
 
-
-  /* BAMBINI */
-
   {
     id: "P06",
     name: "Cecco Locc - Giostraio"
   },
-
-
-  /* FOOD */
 
   {
     id: "P07",
@@ -105,9 +104,6 @@ const places = [
     name: "Punto Ristoro Su Stagno"
   },
 
-
-  /* DRINK */
-
   {
     id: "P11",
     name: "Chiosco degli Artisti"
@@ -120,76 +116,80 @@ const places = [
 
 ];
 
+
 /* =========================
    PROGRAMME
 ========================= */
 
 const programme = [
 
-  /* ---------- SABATO ---------- */
-  {
-    day: "sabato",
-    time: "12:30",
-    endTime: "15:00",
-    title: "Pranzo aperto",
-    category: "FD",
-    placeId: "P09",
-    description: ""
-  },
+  /* =========================
+     SABATO
+  ========================= */
 
-     {
-    day: "sabato",
-    time: "20:00",
-    endTime: "22:30",
-    title: "Cena aperta",
-    category: "FD",
-    placeId: "P09",
-    description: ""
-  },
-   
   {
     day: "sabato",
     time: "10:00",
     endTime: "20:00",
     title: "Claudio Lallai - Scultura Legno",
-    category: "AO",
+    categories: ["AO"],
     placeId: "P07",
     description: ""
   },
 
- {
-  day: "sabato",
-  time: "19:00",
-  endTime: "20:00",
-  title: "Sergio Carboni - Giocoliere",
-  categories: ["SP", "BA"],
-  placeId: "P04",
-  description: ""
-},
-
- 
-
-  /* ---------- DOMENICA ---------- */
-
-     {
-    day: "domenica",
+  {
+    day: "sabato",
     time: "12:30",
     endTime: "15:00",
     title: "Pranzo aperto",
-    category: "FD",
+    categories: ["FD"],
     placeId: "P09",
     description: ""
   },
 
-     {
+  {
+    day: "sabato",
+    time: "19:00",
+    endTime: "20:00",
+    title: "Sergio Carboni - Giocoliere",
+    categories: ["SP", "BA"],
+    placeId: "P04",
+    description: ""
+  },
+
+  {
+    day: "sabato",
+    time: "20:00",
+    endTime: "22:30",
+    title: "Cena aperta",
+    categories: ["FD"],
+    placeId: "P09",
+    description: ""
+  },
+
+
+  /* =========================
+     DOMENICA
+  ========================= */
+
+  {
+    day: "domenica",
+    time: "12:30",
+    endTime: "15:00",
+    title: "Pranzo aperto",
+    categories: ["FD"],
+    placeId: "P09",
+    description: ""
+  },
+
+  {
     day: "domenica",
     time: "20:00",
     endTime: "22:30",
     title: "Cena aperta",
-    category: "FD",
+    categories: ["FD"],
     placeId: "P09",
     description: ""
-      },  
- 
+  }
 
 ];
