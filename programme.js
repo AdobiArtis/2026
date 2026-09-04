@@ -127,6 +127,27 @@ const programme = [
      SABATO
   ========================= */
 
+
+           {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Anna Rita Atzori e Marco Ambu - Pittura di un Quadro con poesie lette",
+    categories: ["AO" , "PL"],
+    placeId: "P12",
+    description: ""
+  },
+        {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Ugo Porceddu - Scultura Pietra",
+    categories: ["AO"],
+    placeId: "P12",
+    description: ""
+  },
+
+   
      {
     day: "sabato",
     time: "11:00",
@@ -243,6 +264,27 @@ const programme = [
      DOMENICA
   ========================= */
 
+
+           {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Anna Rita Atzori e Marco Ambu - Pittura di un Quadro con poesie lette",
+    categories: ["AO" , "PL"],
+    placeId: "P12",
+    description: ""
+  },
+   
+           {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Ugo Porceddu - Scultura Pietra",
+    categories: ["AO"],
+    placeId: "P12",
+    description: ""
+  },
+   
         {
     day: "domenica",
     time: "11:00",
