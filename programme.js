@@ -126,12 +126,21 @@ const programme = [
   /* =========================
      SABATO
   ========================= */
-    
+
+          {
+    day: "sabato",
+    time: "17:30",
+    endTime: "18:00",
+    title: "Paola Tomasi, armonizzazione sonora: VOCE E SUONI CHE CURANO",
+    categories: ["PL"],
+    placeId: "P01",
+    description: ""
+  },
        {
     day: "sabato",
     time: "18:00",
     endTime: "19:30",
-    title: "Paola Tomasi, armonizzazione sonora: VOCE E SUONI CHE CURANO + Alì e gli amici di Giuseppe Carta presentano il romanzo La morale di Santander",
+    title: "Alì e gli amici di Giuseppe Carta presentano il romanzo La morale di Santander",
     categories: ["PL"],
     placeId: "P01",
     description: ""
@@ -201,8 +210,8 @@ const programme = [
 
   {
     day: "sabato",
-    time: "17:00",
-    endTime: "18:00",
+    time: "16:30",
+    endTime: "17:30",
     title: "Lia Servi - lettura racconti",
     categories: ["PL"],
     placeId: "P01",
