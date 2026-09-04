@@ -82,7 +82,7 @@
 
   <link
     rel="stylesheet"
-    href="style.css?v=4"
+    href="style.css?v=5"
   >
 
 </head>
@@ -124,6 +124,14 @@
   <nav class="navigation">
 
     <button
+      class="nav-button active"
+      data-section="info"
+      type="button"
+    >
+      INFO
+    </button>
+
+    <button
       class="nav-button"
       data-section="programma"
       type="button"
@@ -140,17 +148,205 @@
     </button>
 
     <button
-      class="nav-button active"
-      data-section="info"
+      class="nav-button"
+      data-section="sponsor"
       type="button"
     >
-      INFO
+      SPONSOR
     </button>
 
   </nav>
 
 
   <main>
+
+
+    <!-- =========================
+         INFO
+    ========================= -->
+
+    <section
+      id="info"
+      class="page-section active-section"
+    >
+
+      <div class="section-intro">
+
+        <div class="section-label">
+          LA FESTA DELL'ARTE
+        </div>
+
+        <h2>
+          AdobiArtis
+        </h2>
+
+        <p class="intro-big">
+          AdobiArtis è un viaggio sensoriale nell’arte
+          tra culture internazionali: un circuito itinerante
+          che prende vita tra le strade di Sadali.
+          Incorniciata dal gorgoglio delle sue abbondanti acque
+          e accompagnata dalle note dei musicisti lungo il cammino,
+          Sadali si trasformerà in un palcoscenico a cielo aperto:
+          un’esplosione di talenti, una celebrazione della creatività
+          e dell’esistenza in tutte le loro forme.
+        </p>
+
+      </div>
+
+
+      <!-- VIDEO -->
+
+      <div class="festival-video">
+
+        <div class="video-heading">
+
+          <div>
+
+            <span class="video-dot"></span>
+
+            ADOBIARTIS IN MOVIMENTO - 2025
+
+          </div>
+
+        </div>
+
+
+        <video
+          controls
+          playsinline
+          preload="metadata"
+        >
+
+          <source
+            src="AdobiArtisSummary2025short.mp4"
+            type="video/mp4"
+          >
+
+          Il tuo browser non supporta il video.
+
+        </video>
+
+      </div>
+
+
+      <!-- INFO CARDS -->
+
+      <div class="info-grid">
+
+
+        <div class="info-card">
+
+          <div class="info-number">
+            01
+          </div>
+
+          <h3>
+            La Festa
+          </h3>
+
+          <p>
+            AdobiArtis porta arte, musica e creatività
+            nelle strade di Sadali, trasformando il centro storico
+            in un percorso vivo di incontri, esposizioni
+            e performance.
+          </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+          <div class="info-number">
+            02
+          </div>
+
+          <h3>
+            Da vivere
+          </h3>
+
+          <p>
+            Mostre, musica dal vivo, spettacoli, artigianato,
+            attività per bambini, food & drink e tante occasioni
+            per fermarsi, scoprire e partecipare.
+          </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+          <div class="info-number">
+            03
+          </div>
+
+          <h3>
+            Per tutti
+          </h3>
+
+          <p>
+            L’ingresso è libero e il programma è pensato
+            per adulti, famiglie e bambini.
+            Vieni per un’ora, resta per tutta la giornata,
+            segui il tuo percorso.
+          </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+          <div class="info-number">
+            04
+          </div>
+
+          <h3>
+            Chi siamo
+          </h3>
+
+          <p>
+            AdobiArtis è organizzato da La Compagnia dell’Arte APS,
+            nata per creare occasioni di cultura,
+            condivisione e partecipazione attraverso l’arte.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- CONTACT -->
+
+      <div class="contact-panel">
+
+        <div>
+
+          <div class="contact-small">
+            PARTECIPA
+          </div>
+
+          <h3>
+            Artisti · Espositori · Food · Volontari
+          </h3>
+
+          <p>
+            Vuoi partecipare ad AdobiArtis?
+            Contattaci per informazioni.
+          </p>
+
+        </div>
+
+
+        <a
+          class="contact-button"
+          href="mailto:lacompagniadellarteaps@pec.it"
+        >
+          CONTATTACI
+        </a>
+
+      </div>
+
+    </section>
+
 
     <!-- =========================
          PROGRAMMA
@@ -168,7 +364,7 @@
         </div>
 
         <h2>
-          Programma provisiorio
+          Programma provvisorio
         </h2>
 
         <p>
@@ -388,175 +584,328 @@
 
 
     <!-- =========================
-         INFO
+         SPONSOR
     ========================= -->
 
     <section
-      id="info"
-      class="page-section active-section"
+      id="sponsor"
+      class="page-section"
     >
 
       <div class="section-intro">
 
         <div class="section-label">
-          LA FESTA DELL'ARTE
+          GRAZIE A CHI CI SOSTIENE
         </div>
 
         <h2>
-          AdobiArtis
+          Sponsor & Partner
         </h2>
 
-        <p class="intro-big">
-          AdobiArtis è un viaggio sensoriale nell’arte
-          tra culture internazionali: un circuito itinerante
-          che prende vita tra le strade di Sadali.
-          Incorniciata dal gorgoglio delle sue abbondanti acque
-          e accompagnata dalle note dei musicisti lungo il cammino,
-          Sadali si trasformerà in un palcoscenico a cielo aperto:
-          un’esplosione di talenti, una celebrazione della creatività
-          e dell’esistenza in tutte le loro forme.
+        <p>
+          AdobiArtis nasce anche grazie al sostegno
+          di chi crede nell’arte, nella cultura,
+          nella comunità e nel territorio.
         </p>
 
       </div>
 
 
-      <!-- VIDEO -->
+      <!-- PARTNER PRINCIPALI -->
 
-      <div class="festival-video">
+      <div class="sponsor-group">
 
-        <div class="video-heading">
-
-          <div>
-
-            <span class="video-dot"></span>
-
-            ADOBIARTIS IN MOVIMENTO - 2025
-
-          </div>
-
+        <div class="sponsor-group-title">
+          PARTNER PRINCIPALI
         </div>
 
 
-        <video
-          controls
-          playsinline
-          preload="metadata"
-        >
-
-          <source
-            src="AdobiArtisSummary2025short.mp4"
-            type="video/mp4"
-          >
-
-          Il tuo browser non supporta il video.
-
-        </video>
-
-      </div>
+        <div class="sponsor-grid sponsor-grid-main">
 
 
-      <!-- INFO CARDS -->
+          <div class="sponsor-card sponsor-main">
 
-      <div class="info-grid">
+            <div class="sponsor-logo">
 
+              <img
+                src="sponsors/sponsor-main-1.png"
+                alt="Nome Sponsor"
+              >
 
-        <div class="info-card">
+            </div>
 
-          <div class="info-number">
-            01
+            <div class="sponsor-name">
+              Nome Sponsor
+            </div>
+
           </div>
 
-          <h3>
-            La Festa
-          </h3>
 
-          <p>
-            AdobiArtis porta arte, musica e creatività
-            nelle strade di Sadali, trasformando il centro storico
-            in un percorso vivo di incontri, esposizioni
-            e performance.
-          </p>
+          <div class="sponsor-card sponsor-main">
 
-        </div>
+            <div class="sponsor-logo">
 
+              <img
+                src="sponsors/sponsor-main-2.png"
+                alt="Nome Sponsor"
+              >
 
-        <div class="info-card">
+            </div>
 
-          <div class="info-number">
-            02
+            <div class="sponsor-name">
+              Nome Sponsor
+            </div>
+
           </div>
 
-          <h3>
-            Da vivere
-          </h3>
 
-          <p>
-            Mostre, musica dal vivo, spettacoli, artigianato,
-            attività per bambini, food & drink e tante occasioni
-            per fermarsi, scoprire e partecipare.
-          </p>
+          <div class="sponsor-card sponsor-main">
 
-        </div>
+            <div class="sponsor-logo">
 
+              <img
+                src="sponsors/sponsor-main-3.png"
+                alt="Nome Sponsor"
+              >
 
-        <div class="info-card">
+            </div>
 
-          <div class="info-number">
-            03
+            <div class="sponsor-name">
+              Nome Sponsor
+            </div>
+
           </div>
-
-          <h3>
-            Per tutti
-          </h3>
-
-          <p>
-            L’ingresso è libero e il programma è pensato
-            per adulti, famiglie e bambini.
-            Vieni per un’ora, resta per tutta la giornata,
-            segui il tuo percorso.
-          </p>
-
-        </div>
-
-
-        <div class="info-card">
-
-          <div class="info-number">
-            04
-          </div>
-
-          <h3>
-            Chi siamo
-          </h3>
-
-          <p>
-            AdobiArtis è organizzato da La Compagnia dell’Arte APS,
-            nata per creare occasioni di cultura,
-            condivisione e partecipazione attraverso l’arte.
-          </p>
 
         </div>
 
       </div>
 
 
-      <!-- CONTACT -->
+      <!-- ALTRI SPONSOR -->
 
-      <div class="contact-panel">
+      <div class="sponsor-group">
+
+        <div class="sponsor-group-title">
+          CON IL SOSTEGNO DI
+        </div>
+
+
+        <div class="sponsor-grid">
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-1.png"
+                alt="Sponsor 1"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 1
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-2.png"
+                alt="Sponsor 2"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 2
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-3.png"
+                alt="Sponsor 3"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 3
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-4.png"
+                alt="Sponsor 4"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 4
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-5.png"
+                alt="Sponsor 5"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 5
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-6.png"
+                alt="Sponsor 6"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 6
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-7.png"
+                alt="Sponsor 7"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 7
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-8.png"
+                alt="Sponsor 8"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 8
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-9.png"
+                alt="Sponsor 9"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 9
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-10.png"
+                alt="Sponsor 10"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 10
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-11.png"
+                alt="Sponsor 11"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 11
+            </div>
+
+          </div>
+
+
+          <div class="sponsor-card">
+
+            <div class="sponsor-logo">
+              <img
+                src="sponsors/sponsor-12.png"
+                alt="Sponsor 12"
+              >
+            </div>
+
+            <div class="sponsor-name">
+              Sponsor 12
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- SPONSOR CONTACT -->
+
+      <div class="sponsor-contact">
 
         <div>
 
           <div class="contact-small">
-            PARTECIPA
+            SOSTIENI ADOBIARTIS
           </div>
 
           <h3>
-            Artisti · Espositori · Food · Volontari
+            Vuoi diventare Sponsor?
           </h3>
 
           <p>
-            Vuoi partecipare ad AdobiArtis?
-            Contattaci per informazioni.
+            Sostieni la Festa dell'Arte e diventa
+            parte di AdobiArtis 2026.
           </p>
 
         </div>
