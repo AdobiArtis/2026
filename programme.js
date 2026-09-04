@@ -127,6 +127,16 @@ const programme = [
      SABATO
   ========================= */
 
+     {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Cherubino Mungianu e Paolo Mura - Scultura Pietra",
+    categories: ["AO"],
+    placeId: "P08",
+    description: ""
+  },
+   
           {
     day: "sabato",
     time: "17:30",
@@ -170,8 +180,8 @@ const programme = [
    
   {
     day: "sabato",
-    time: "10:00",
-    endTime: "20:00",
+    time: "11:00",
+    endTime: "19:00",
     title: "Claudio Lallai e Cesare Chilotti - Scultura Legno",
     categories: ["AO"],
     placeId: "P07",
@@ -233,6 +243,26 @@ const programme = [
      DOMENICA
   ========================= */
 
+        {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Cherubino Mungianu e Paolo Mura - Scultura Pietra",
+    categories: ["AO"],
+    placeId: "P08",
+    description: ""
+  },
+   
+   {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Claudio Lallai e Cesare Chilotti - Scultura Legno",
+    categories: ["AO"],
+    placeId: "P07",
+    description: ""
+  },
+   
       {
     day: "domenica",
     time: "19:00",
