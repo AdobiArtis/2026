@@ -314,11 +314,21 @@ const programme = [
     placeId: "P11",
     description: ""
   },
+
+      {
+    day: "domenica",
+    time: "12:00",
+    endTime: "23:00",
+    title: "Rebel Blues Band",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
    
    {
     day: "domenica",
-    time: "18:00",
-    endTime: "20:00",
+    time: "15:00",
+    endTime: "16:00",
     title: "Rebel Blues Band",
     categories: ["MU"],
     placeId: "P05",
