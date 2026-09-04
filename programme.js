@@ -182,7 +182,7 @@ const programme = [
     day: "sabato",
     time: "11:00",
     endTime: "19:00",
-    title: "Claudio Lallai e Cesare Chilotti - Scultura Legno",
+    title: "Guido Ghiani, Claudio Lallai e Cesare Chilotti - Scultura Legno",
     categories: ["AO"],
     placeId: "P07",
     description: ""
@@ -257,7 +257,7 @@ const programme = [
     day: "domenica",
     time: "11:00",
     endTime: "19:00",
-    title: "Claudio Lallai e Cesare Chilotti - Scultura Legno",
+    title: "Guido Ghiani, Claudio Lallai e Cesare Chilotti - Scultura Legno",
     categories: ["AO"],
     placeId: "P07",
     description: ""
