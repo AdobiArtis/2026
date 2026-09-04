@@ -20,7 +20,9 @@
 }
 
 
-/* RESET */
+/* =========================
+   RESET
+========================= */
 
 * {
   box-sizing: border-box;
@@ -48,7 +50,9 @@ body {
 }
 
 
-/* HERO */
+/* =========================
+   HERO
+========================= */
 
 .hero {
 
@@ -166,7 +170,9 @@ body {
 }
 
 
-/* NAVIGATION */
+/* =========================
+   NAVIGATION
+========================= */
 
 .navigation {
 
@@ -244,7 +250,9 @@ body {
 }
 
 
-/* PAGE */
+/* =========================
+   PAGE
+========================= */
 
 main {
 
@@ -353,7 +361,9 @@ main {
 }
 
 
-/* DAY SELECTOR */
+/* =========================
+   DAY SELECTOR
+========================= */
 
 .day-selector {
 
@@ -407,20 +417,38 @@ main {
     -1px;
 
 }
+
+
 .day-date {
-  display: block;
 
-  margin-top: 4px;
+  display:
+    block;
 
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 11px;
-  font-weight: 400;
-  font-style: italic;
+  margin-top:
+    4px;
 
-  letter-spacing: 0.5px;
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
 
-  opacity: 0.75;
+  font-size:
+    11px;
+
+  font-weight:
+    400;
+
+  font-style:
+    italic;
+
+  letter-spacing:
+    0.5px;
+
+  opacity:
+    0.75;
+
 }
+
 
 .day-button.active {
 
@@ -433,7 +461,9 @@ main {
 }
 
 
-/* FILTERS */
+/* =========================
+   FILTERS
+========================= */
 
 .filters {
 
@@ -512,7 +542,9 @@ main {
 }
 
 
-/* PROGRAMME */
+/* =========================
+   PROGRAMME
+========================= */
 
 #programme-list {
 
@@ -602,39 +634,62 @@ main {
     var(--muted);
 
 }
+
+
 /* =========================
    PROGRAMME PLACE FILTER
 ========================= */
 
 .place-filter-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-  gap: 20px;
+  display:
+    flex;
 
-  margin-top: 14px;
-  padding: 14px 0 18px 0;
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    20px;
+
+  margin-top:
+    14px;
+
+  padding:
+    14px 0 18px 0;
 
   border-bottom:
     1px solid var(--border);
+
 }
 
 
 .place-filter-row label {
-  font-size: 9px;
-  font-weight: 700;
 
-  letter-spacing: 1.8px;
+  font-size:
+    9px;
 
-  color: var(--teal);
+  font-weight:
+    700;
+
+  letter-spacing:
+    1.8px;
+
+  color:
+    var(--teal);
+
 }
 
 
 .place-filter-row select {
-  appearance: none;
 
-  min-width: 240px;
+  appearance:
+    none;
+
+  min-width:
+    240px;
 
   padding:
     11px 38px
@@ -643,7 +698,8 @@ main {
   border:
     1px solid var(--border);
 
-  border-radius: 0;
+  border-radius:
+    0;
 
   background-color:
     var(--white);
@@ -652,11 +708,16 @@ main {
     var(--charcoal);
 
   font-family:
-    Arial, Helvetica, sans-serif;
+    Arial,
+    Helvetica,
+    sans-serif;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  cursor: pointer;
+  cursor:
+    pointer;
+
 }
 
 
@@ -665,106 +726,123 @@ main {
 ========================= */
 
 .event-end-time {
-  display: block;
 
-  margin-top: 3px;
+  display:
+    block;
 
-  font-size: 10px;
-  font-weight: 400;
+  margin-top:
+    3px;
 
-  color: var(--muted);
+  font-size:
+    10px;
+
+  font-weight:
+    400;
+
+  color:
+    var(--muted);
+
 }
 
 
 .event-location {
-  display: flex;
-  align-items: center;
 
-  gap: 5px;
+  display:
+    flex;
 
-  margin-top: 8px;
+  align-items:
+    center;
 
-  font-size: 11px;
+  gap:
+    5px;
 
-  color: var(--muted);
+  margin-top:
+    8px;
+
+  font-size:
+    11px;
+
+  color:
+    var(--muted);
+
 }
 
 
 .event-location strong {
-  color: var(--charcoal);
 
-  font-size: 10px;
+  color:
+    var(--charcoal);
 
-  letter-spacing: 1px;
+  font-size:
+    10px;
+
+  letter-spacing:
+    1px;
+
 }
 
 
 .location-dot {
-  color: var(--teal);
 
-  font-size: 7px;
+  color:
+    var(--teal);
+
+  font-size:
+    7px;
+
 }
 
 
 .event-description {
-  margin-top: 8px;
 
-  max-width: 550px;
+  margin-top:
+    8px;
+
+  max-width:
+    550px;
 
   font-family:
     Georgia,
     "Times New Roman",
     serif;
 
-  font-size: 12px;
+  font-size:
+    12px;
 
-  line-height: 1.5;
+  line-height:
+    1.5;
 
-  color: var(--muted);
+  color:
+    var(--muted);
+
 }
 
 
 .no-events {
-  padding: 40px 10px;
 
-  text-align: center;
+  padding:
+    40px 10px;
+
+  text-align:
+    center;
 
   font-family:
     Georgia,
     "Times New Roman",
     serif;
 
-  font-style: italic;
+  font-style:
+    italic;
 
-  color: var(--muted);
+  color:
+    var(--muted);
+
 }
 
 
 /* =========================
-   MOBILE PROGRAMME
+   MAP
 ========================= */
-
-@media (max-width: 650px) {
-
-  .place-filter-row {
-    flex-direction: column;
-    align-items: stretch;
-
-    gap: 8px;
-  }
-
-
-  .place-filter-row select {
-    width: 100%;
-
-    min-width: 0;
-
-    font-size: 16px;
-  }
-
-}
-
-/* MAP */
 
 .map-card {
 
@@ -875,101 +953,124 @@ main {
 
 }
 
+
 /* =========================
    ADOBIARTIS VIDEO
 ========================= */
 
 .festival-video {
-  width: 100%;
 
-  margin: 0 0 28px 0;
+  width:
+    100%;
 
-  background: var(--charcoal);
+  margin:
+    0 0 28px 0;
 
-  border: 1px solid var(--border);
+  background:
+    var(--charcoal);
 
-  overflow: hidden;
+  border:
+    1px solid
+    var(--border);
+
+  overflow:
+    hidden;
+
 }
 
 
-/* VIDEO HEADER */
-
 .video-heading {
-  display: flex;
 
-  justify-content: space-between;
-  align-items: center;
+  display:
+    flex;
 
-  gap: 15px;
+  justify-content:
+    space-between;
 
-  padding: 13px 16px;
+  align-items:
+    center;
 
-  color: #C9C9C9;
+  gap:
+    15px;
 
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
+  padding:
+    13px 16px;
+
+  color:
+    #C9C9C9;
+
+  font-size:
+    9px;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    1.5px;
+
 }
 
 
 .video-heading > div {
-  display: flex;
 
-  align-items: center;
+  display:
+    flex;
 
-  gap: 8px;
+  align-items:
+    center;
+
+  gap:
+    8px;
+
 }
 
 
 .video-dot {
-  display: inline-block;
 
-  width: 8px;
-  height: 8px;
+  display:
+    inline-block;
 
-  border-radius: 50%;
+  width:
+    8px;
 
-  background: var(--teal);
+  height:
+    8px;
+
+  border-radius:
+    50%;
+
+  background:
+    var(--teal);
+
 }
 
-
-/* VIDEO */
 
 .festival-video video {
-  display: block;
 
-  width: 100%;
-  height: auto;
+  display:
+    block;
 
-  max-height: 620px;
+  width:
+    100%;
 
-  background: #000000;
+  height:
+    auto;
 
-  object-fit: contain;
-}
+  max-height:
+    620px;
 
+  background:
+    #000000;
 
-/* MOBILE */
-
-@media (max-width: 650px) {
-
-  .festival-video {
-    width: 100%;
-
-    margin:
-      0 0
-      24px 0;
-  }
-
-  .festival-video video {
-    width: 100%;
-    height: auto;
-
-    max-height: 520px;
-  }
+  object-fit:
+    contain;
 
 }
-/* INFO */
+
+
+/* =========================
+   INFO
+========================= */
 
 .info-grid {
 
@@ -1073,7 +1174,9 @@ main {
 }
 
 
-/* CONTACT */
+/* =========================
+   CONTACT
+========================= */
 
 .contact-panel {
 
@@ -1195,7 +1298,292 @@ main {
 }
 
 
-/* FOOTER */
+/* =========================
+   SPONSOR
+========================= */
+
+.sponsor-group {
+
+  margin-top:
+    34px;
+
+}
+
+
+.sponsor-group-title {
+
+  padding-bottom:
+    10px;
+
+  margin-bottom:
+    14px;
+
+  border-bottom:
+    1px solid var(--border);
+
+  color:
+    var(--teal);
+
+  font-size:
+    9px;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    2px;
+
+}
+
+
+/* SPONSOR GRID */
+
+.sponsor-grid {
+
+  display:
+    grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap:
+    10px;
+
+}
+
+
+.sponsor-grid-main {
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap:
+    14px;
+
+}
+
+
+/* SPONSOR CARD */
+
+.sponsor-card {
+
+  min-width:
+    0;
+
+  min-height:
+    125px;
+
+  padding:
+    14px 10px 11px;
+
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.55
+    );
+
+  border:
+    1px solid var(--border);
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+
+}
+
+
+.sponsor-card:hover {
+
+  background:
+    var(--white);
+
+  transform:
+    translateY(-2px);
+
+}
+
+
+.sponsor-main {
+
+  min-height:
+    160px;
+
+  background:
+    var(--white);
+
+}
+
+
+/* SPONSOR LOGO */
+
+.sponsor-logo {
+
+  width:
+    100%;
+
+  height:
+    72px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+}
+
+
+.sponsor-main .sponsor-logo {
+
+  height:
+    100px;
+
+}
+
+
+.sponsor-logo img {
+
+  display:
+    block;
+
+  width:
+    auto;
+
+  height:
+    auto;
+
+  max-width:
+    88%;
+
+  max-height:
+    65px;
+
+  object-fit:
+    contain;
+
+}
+
+
+.sponsor-main .sponsor-logo img {
+
+  max-height:
+    92px;
+
+}
+
+
+/* SPONSOR NAME */
+
+.sponsor-name {
+
+  margin-top:
+    9px;
+
+  text-align:
+    center;
+
+  color:
+    var(--charcoal);
+
+  font-size:
+    10px;
+
+  font-weight:
+    700;
+
+  line-height:
+    1.3;
+
+  letter-spacing:
+    0.5px;
+
+}
+
+
+/* SPONSOR CONTACT */
+
+.sponsor-contact {
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    25px;
+
+  margin-top:
+    36px;
+
+  padding:
+    28px;
+
+  background:
+    var(--charcoal);
+
+  color:
+    var(--white);
+
+}
+
+
+.sponsor-contact h3 {
+
+  margin:
+    7px 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    23px;
+
+  font-weight:
+    400;
+
+}
+
+
+.sponsor-contact p {
+
+  margin:
+    0;
+
+  color:
+    #CBCBCB;
+
+  line-height:
+    1.5;
+
+}
+
+
+/* =========================
+   FOOTER
+========================= */
 
 footer {
 
@@ -1212,6 +1600,56 @@ footer {
     var(--white);
 
 }
+
+
+.footer-content {
+
+  max-width:
+    960px;
+
+  margin:
+    0 auto;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    25px;
+
+}
+
+
+.footer-center {
+
+  flex:
+    1;
+
+}
+
+
+.footer-logo {
+
+  flex:
+    0 0 110px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+}
+
+
 .footer-brand {
 
   font-size:
@@ -1276,32 +1714,54 @@ footer {
   color:
     #999999;
 
+}
+
+
+.footer-logo-left img {
+
+  max-width:
+    100px;
+
+  max-height:
+    75px;
 
 }
-.footer-logo-left img {
-  max-width: 100px;
-  max-height: 75px;
-}
+
 
 .footer-logo-right img {
-  max-width: 90px;
-  max-height: 75px;
+
+  max-width:
+    90px;
+
+  max-height:
+    75px;
+
 }
 
-/* MOBILE */
 
-@media (
-  max-width: 650px
-) {
-.footer-logo-left img {
-  max-width: 58px;
-  max-height: 50px;
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 800px) {
+
+  .sponsor-grid {
+
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+
+  }
+
 }
 
-.footer-logo-right img {
-  max-width: 58px;
-  max-height: 50px;
-}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+
   .page-section {
 
     padding:
@@ -1328,6 +1788,68 @@ footer {
   }
 
 
+  /* NAVIGATION */
+
+  .nav-button {
+
+    min-height:
+      54px;
+
+    padding:
+      0 5px;
+
+    font-size:
+      9px;
+
+    letter-spacing:
+      0.8px;
+
+  }
+
+
+  /* PROGRAMME */
+
+  .place-filter-row {
+
+    flex-direction:
+      column;
+
+    align-items:
+      stretch;
+
+    gap:
+      8px;
+
+  }
+
+
+  .place-filter-row select {
+
+    width:
+      100%;
+
+    min-width:
+      0;
+
+    font-size:
+      16px;
+
+  }
+
+
+  .event {
+
+    grid-template-columns:
+      62px 1fr;
+
+    gap:
+      12px;
+
+  }
+
+
+  /* MAP */
+
   .umap-wrapper {
 
     height:
@@ -1335,6 +1857,35 @@ footer {
 
   }
 
+
+  /* VIDEO */
+
+  .festival-video {
+
+    width:
+      100%;
+
+    margin:
+      0 0 24px 0;
+
+  }
+
+
+  .festival-video video {
+
+    width:
+      100%;
+
+    height:
+      auto;
+
+    max-height:
+      520px;
+
+  }
+
+
+  /* INFO */
 
   .info-grid {
 
@@ -1371,12 +1922,158 @@ footer {
   }
 
 
-  .event {
+  /* SPONSOR */
+
+  .sponsor-grid,
+  .sponsor-grid-main {
 
     grid-template-columns:
-      62px 1fr;
+      repeat(2, minmax(0, 1fr));
 
     gap:
+      8px;
+
+  }
+
+
+  .sponsor-card {
+
+    min-height:
+      105px;
+
+    padding:
+      10px 6px 8px;
+
+  }
+
+
+  .sponsor-main {
+
+    min-height:
+      125px;
+
+  }
+
+
+  .sponsor-logo {
+
+    height:
+      58px;
+
+  }
+
+
+  .sponsor-main .sponsor-logo {
+
+    height:
+      75px;
+
+  }
+
+
+  .sponsor-logo img {
+
+    max-width:
+      90%;
+
+    max-height:
+      52px;
+
+  }
+
+
+  .sponsor-main .sponsor-logo img {
+
+    max-height:
+      70px;
+
+  }
+
+
+  .sponsor-name {
+
+    margin-top:
+      6px;
+
+    font-size:
+      9px;
+
+  }
+
+
+  .sponsor-contact {
+
+    flex-direction:
+      column;
+
+    align-items:
+      flex-start;
+
+  }
+
+
+  .sponsor-contact .contact-button {
+
+    width:
+      100%;
+
+  }
+
+
+  /* FOOTER */
+
+  .footer-content {
+
+    gap:
+      10px;
+
+  }
+
+
+  .footer-logo {
+
+    flex:
+      0 0 60px;
+
+  }
+
+
+  .footer-logo-left img {
+
+    max-width:
+      58px;
+
+    max-height:
+      50px;
+
+  }
+
+
+  .footer-logo-right img {
+
+    max-width:
+      58px;
+
+    max-height:
+      50px;
+
+  }
+
+
+  .footer-brand {
+
+    font-size:
+      16px;
+
+    letter-spacing:
+      2px;
+
+  }
+
+
+  .footer-subtitle {
+
+    font-size:
       12px;
 
   }
