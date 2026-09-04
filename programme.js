@@ -318,7 +318,7 @@ const programme = [
       {
     day: "domenica",
     time: "12:00",
-    endTime: "23:00",
+    endTime: "13:00",
     title: "Rebel Blues Band",
     categories: ["MU"],
     placeId: "P05",
