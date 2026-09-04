@@ -1,5 +1,7 @@
 :root {
 
+  --orange: #E57C32;
+
   --charcoal: #282828;
   --charcoal-dark: #1F1F1F;
 
@@ -57,7 +59,7 @@ body {
 .hero {
 
   background:
-    var(--charcoal);
+    var(--orange);
 
   color:
     var(--white);
@@ -84,7 +86,7 @@ body {
     600;
 
   color:
-    var(--teal-light);
+    rgba(255, 255, 255, 0.82);
 
   margin-bottom:
     14px;
@@ -125,7 +127,7 @@ body {
     3px;
 
   background:
-    var(--teal);
+    var(--white);
 
   margin:
     19px auto
@@ -165,7 +167,7 @@ body {
     5px;
 
   color:
-    #BDBDBD;
+    rgba(255, 255, 255, 0.75);
 
 }
 
@@ -637,7 +639,7 @@ main {
 
 
 /* =========================
-   PROGRAMME PLACE FILTER
+   PLACE FILTER
 ========================= */
 
 .place-filter-row {
@@ -955,7 +957,7 @@ main {
 
 
 /* =========================
-   ADOBIARTIS VIDEO
+   VIDEO
 ========================= */
 
 .festival-video {
@@ -1178,7 +1180,8 @@ main {
    CONTACT
 ========================= */
 
-.contact-panel {
+.contact-panel,
+.sponsor-contact {
 
   display:
     flex;
@@ -1224,7 +1227,8 @@ main {
 }
 
 
-.contact-panel h3 {
+.contact-panel h3,
+.sponsor-contact h3 {
 
   margin:
     7px 0;
@@ -1243,7 +1247,8 @@ main {
 }
 
 
-.contact-panel p {
+.contact-panel p,
+.sponsor-contact p {
 
   margin:
     0;
@@ -1305,7 +1310,7 @@ main {
 .sponsor-group {
 
   margin-top:
-    34px;
+    36px;
 
 }
 
@@ -1336,6 +1341,31 @@ main {
 }
 
 
+.sponsor-group-description {
+
+  margin:
+    -3px 0 16px 0;
+
+  max-width:
+    600px;
+
+  color:
+    var(--muted);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    13px;
+
+  line-height:
+    1.5;
+
+}
+
+
 /* SPONSOR GRID */
 
 .sponsor-grid {
@@ -1359,6 +1389,14 @@ main {
 
   gap:
     14px;
+
+}
+
+
+.collaborator-grid {
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
 
 }
 
@@ -1428,7 +1466,25 @@ main {
 }
 
 
-/* SPONSOR LOGO */
+/* COLLABORATOR CARDS */
+
+.collaborator-card {
+
+  background:
+    var(--teal-pale);
+
+}
+
+
+.collaborator-card:hover {
+
+  background:
+    var(--white);
+
+}
+
+
+/* LOGOS */
 
 .sponsor-logo {
 
@@ -1517,66 +1573,10 @@ main {
 }
 
 
-/* SPONSOR CONTACT */
-
 .sponsor-contact {
 
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    space-between;
-
-  gap:
-    25px;
-
   margin-top:
-    36px;
-
-  padding:
-    28px;
-
-  background:
-    var(--charcoal);
-
-  color:
-    var(--white);
-
-}
-
-
-.sponsor-contact h3 {
-
-  margin:
-    7px 0;
-
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
-  font-size:
-    23px;
-
-  font-weight:
-    400;
-
-}
-
-
-.sponsor-contact p {
-
-  margin:
-    0;
-
-  color:
-    #CBCBCB;
-
-  line-height:
-    1.5;
+    38px;
 
 }
 
@@ -1745,7 +1745,8 @@ footer {
 
 @media (max-width: 800px) {
 
-  .sponsor-grid {
+  .sponsor-grid,
+  .collaborator-grid {
 
     grid-template-columns:
       repeat(3, minmax(0, 1fr));
@@ -1770,6 +1771,8 @@ footer {
 
   }
 
+
+  /* HERO */
 
   .hero {
 
@@ -1796,13 +1799,13 @@ footer {
       54px;
 
     padding:
-      0 5px;
+      0 4px;
 
     font-size:
       9px;
 
     letter-spacing:
-      0.8px;
+      0.7px;
 
   }
 
@@ -1903,7 +1906,10 @@ footer {
   }
 
 
-  .contact-panel {
+  /* CONTACT */
+
+  .contact-panel,
+  .sponsor-contact {
 
     flex-direction:
       column;
@@ -1922,10 +1928,11 @@ footer {
   }
 
 
-  /* SPONSOR */
+  /* SPONSORS */
 
   .sponsor-grid,
-  .sponsor-grid-main {
+  .sponsor-grid-main,
+  .collaborator-grid {
 
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
@@ -1997,25 +2004,6 @@ footer {
 
     font-size:
       9px;
-
-  }
-
-
-  .sponsor-contact {
-
-    flex-direction:
-      column;
-
-    align-items:
-      flex-start;
-
-  }
-
-
-  .sponsor-contact .contact-button {
-
-    width:
-      100%;
 
   }
 
