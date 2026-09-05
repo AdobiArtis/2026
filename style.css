@@ -27,29 +27,39 @@
 ========================= */
 
 * {
-  box-sizing: border-box;
+
+  box-sizing:
+    border-box;
+
 }
 
 
 html {
-  scroll-behavior: smooth;
+
+  scroll-behavior:
+    smooth;
+
 }
 
 
 body {
 
-  margin: 0;
+  margin:
+    0;
 
   font-family:
     Arial,
     Helvetica,
     sans-serif;
 
-  background: var(--paper);
+  background:
+    var(--paper);
 
-  color: var(--text);
+  color:
+    var(--text);
 
 }
+
 
 
 /* =========================
@@ -68,8 +78,7 @@ body {
     center;
 
   padding:
-    48px 20px
-    42px 20px;
+    48px 20px 42px;
 
 }
 
@@ -86,7 +95,12 @@ body {
     600;
 
   color:
-    rgba(255, 255, 255, 0.82);
+    rgba(
+      255,
+      255,
+      255,
+      0.82
+    );
 
   margin-bottom:
     14px;
@@ -130,8 +144,7 @@ body {
     var(--white);
 
   margin:
-    19px auto
-    16px auto;
+    19px auto 16px;
 
 }
 
@@ -158,7 +171,7 @@ body {
 .hero-year {
 
   margin:
-    8px 0 0 0;
+    8px 0 0;
 
   font-size:
     11px;
@@ -167,9 +180,15 @@ body {
     5px;
 
   color:
-    rgba(255, 255, 255, 0.75);
+    rgba(
+      255,
+      255,
+      255,
+      0.75
+    );
 
 }
+
 
 
 /* =========================
@@ -252,6 +271,7 @@ body {
 }
 
 
+
 /* =========================
    PAGE
 ========================= */
@@ -273,8 +293,7 @@ main {
     none;
 
   padding:
-    42px 20px
-    70px 20px;
+    42px 20px 70px;
 
 }
 
@@ -321,7 +340,7 @@ main {
 .section-intro h2 {
 
   margin:
-    0 0 10px 0;
+    0 0 10px;
 
   font-family:
     Georgia,
@@ -361,6 +380,7 @@ main {
     18px;
 
 }
+
 
 
 /* =========================
@@ -463,6 +483,7 @@ main {
 }
 
 
+
 /* =========================
    FILTERS
 ========================= */
@@ -479,7 +500,7 @@ main {
     auto;
 
   padding:
-    0 0 18px 0;
+    0 0 18px;
 
   scrollbar-width:
     none;
@@ -544,6 +565,7 @@ main {
 }
 
 
+
 /* =========================
    PROGRAMME
 ========================= */
@@ -585,9 +607,6 @@ main {
   font-weight:
     700;
 
-  color:
-    var(--charcoal);
-
 }
 
 
@@ -614,7 +633,7 @@ main {
 .event-title {
 
   margin:
-    5px 0 7px 0;
+    5px 0 7px;
 
   font-family:
     Georgia,
@@ -623,126 +642,6 @@ main {
 
   font-size:
     21px;
-
-}
-
-
-.event-location {
-
-  font-size:
-    12px;
-
-  color:
-    var(--muted);
-
-}
-
-
-/* =========================
-   PLACE FILTER
-========================= */
-
-.place-filter-row {
-
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    space-between;
-
-  gap:
-    20px;
-
-  margin-top:
-    14px;
-
-  padding:
-    14px 0 18px 0;
-
-  border-bottom:
-    1px solid var(--border);
-
-}
-
-
-.place-filter-row label {
-
-  font-size:
-    9px;
-
-  font-weight:
-    700;
-
-  letter-spacing:
-    1.8px;
-
-  color:
-    var(--teal);
-
-}
-
-
-.place-filter-row select {
-
-  appearance:
-    none;
-
-  min-width:
-    240px;
-
-  padding:
-    11px 38px
-    11px 14px;
-
-  border:
-    1px solid var(--border);
-
-  border-radius:
-    0;
-
-  background-color:
-    var(--white);
-
-  color:
-    var(--charcoal);
-
-  font-family:
-    Arial,
-    Helvetica,
-    sans-serif;
-
-  font-size:
-    12px;
-
-  cursor:
-    pointer;
-
-}
-
-
-/* =========================
-   EVENT DETAILS
-========================= */
-
-.event-end-time {
-
-  display:
-    block;
-
-  margin-top:
-    3px;
-
-  font-size:
-    10px;
-
-  font-weight:
-    400;
-
-  color:
-    var(--muted);
 
 }
 
@@ -820,6 +719,23 @@ main {
 }
 
 
+.event-end-time {
+
+  display:
+    block;
+
+  margin-top:
+    3px;
+
+  font-size:
+    10px;
+
+  color:
+    var(--muted);
+
+}
+
+
 .no-events {
 
   padding:
@@ -840,6 +756,83 @@ main {
     var(--muted);
 
 }
+
+
+
+/* =========================
+   PLACE FILTER
+========================= */
+
+.place-filter-row {
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    20px;
+
+  margin-top:
+    14px;
+
+  padding:
+    14px 0 18px;
+
+  border-bottom:
+    1px solid
+    var(--border);
+
+}
+
+
+.place-filter-row label {
+
+  font-size:
+    9px;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    1.8px;
+
+  color:
+    var(--teal);
+
+}
+
+
+.place-filter-row select {
+
+  appearance:
+    none;
+
+  min-width:
+    240px;
+
+  padding:
+    11px 38px 11px 14px;
+
+  border:
+    1px solid
+    var(--border);
+
+  background:
+    var(--white);
+
+  color:
+    var(--charcoal);
+
+  font-size:
+    12px;
+
+}
+
 
 
 /* =========================
@@ -868,9 +861,6 @@ main {
 
   align-items:
     center;
-
-  gap:
-    16px;
 
   padding:
     13px 16px;
@@ -933,9 +923,6 @@ main {
   height:
     560px;
 
-  overflow:
-    hidden;
-
 }
 
 
@@ -950,10 +937,8 @@ main {
   border:
     0;
 
-  display:
-    block;
-
 }
+
 
 
 /* =========================
@@ -965,8 +950,8 @@ main {
   width:
     100%;
 
-  margin:
-    0 0 28px 0;
+  margin-bottom:
+    28px;
 
   background:
     var(--charcoal);
@@ -982,18 +967,6 @@ main {
 
 
 .video-heading {
-
-  display:
-    flex;
-
-  justify-content:
-    space-between;
-
-  align-items:
-    center;
-
-  gap:
-    15px;
 
   padding:
     13px 16px;
@@ -1029,9 +1002,6 @@ main {
 
 .video-dot {
 
-  display:
-    inline-block;
-
   width:
     8px;
 
@@ -1055,19 +1025,17 @@ main {
   width:
     100%;
 
-  height:
-    auto;
-
   max-height:
     620px;
 
   background:
-    #000000;
+    #000;
 
   object-fit:
     contain;
 
 }
+
 
 
 /* =========================
@@ -1097,9 +1065,6 @@ main {
 
 
 .info-card {
-
-  min-height:
-    190px;
 
   padding:
     24px;
@@ -1146,7 +1111,7 @@ main {
 .info-card h3 {
 
   margin:
-    0 0 10px 0;
+    0 0 10px;
 
   font-family:
     Georgia,
@@ -1176,6 +1141,7 @@ main {
 }
 
 
+
 /* =========================
    CONTACT
 ========================= */
@@ -1196,7 +1162,7 @@ main {
     25px;
 
   margin-top:
-    26px;
+    28px;
 
   padding:
     28px;
@@ -1303,14 +1269,15 @@ main {
 }
 
 
+
 /* =========================
-   SPONSOR
+   SPONSOR GROUPS
 ========================= */
 
 .sponsor-group {
 
   margin-top:
-    36px;
+    38px;
 
 }
 
@@ -1324,7 +1291,8 @@ main {
     14px;
 
   border-bottom:
-    1px solid var(--border);
+    1px solid
+    var(--border);
 
   color:
     var(--teal);
@@ -1341,40 +1309,15 @@ main {
 }
 
 
-.sponsor-group-description {
 
-  margin:
-    -3px 0 16px 0;
-
-  max-width:
-    600px;
-
-  color:
-    var(--muted);
-
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
-  font-size:
-    13px;
-
-  line-height:
-    1.5;
-
-}
-
-
-/* SPONSOR GRID */
+/* =========================
+   SPONSOR GRIDS
+========================= */
 
 .sponsor-grid {
 
   display:
     grid;
-
-  grid-template-columns:
-    repeat(4, minmax(0, 1fr));
 
   gap:
     10px;
@@ -1385,10 +1328,10 @@ main {
 .sponsor-grid-main {
 
   grid-template-columns:
-    repeat(2, minmax(0, 1fr));
-
-  gap:
-    14px;
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
 
 }
 
@@ -1396,12 +1339,51 @@ main {
 .collaborator-grid {
 
   grid-template-columns:
-    repeat(4, minmax(0, 1fr));
+    repeat(
+      4,
+      minmax(0, 1fr)
+    );
 
 }
 
 
-/* SPONSOR CARD */
+.sponsor-grid-principal {
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+}
+
+
+.sponsor-grid-standard {
+
+  grid-template-columns:
+    repeat(
+      4,
+      minmax(0, 1fr)
+    );
+
+}
+
+
+.sponsor-grid-supporters {
+
+  grid-template-columns:
+    repeat(
+      5,
+      minmax(0, 1fr)
+    );
+
+}
+
+
+
+/* =========================
+   SPONSOR CARDS
+========================= */
 
 .sponsor-card {
 
@@ -1409,10 +1391,10 @@ main {
     0;
 
   min-height:
-    125px;
+    120px;
 
   padding:
-    14px 10px 11px;
+    12px 9px;
 
   display:
     flex;
@@ -1420,10 +1402,10 @@ main {
   flex-direction:
     column;
 
-  align-items:
+  justify-content:
     center;
 
-  justify-content:
+  align-items:
     center;
 
   background:
@@ -1431,34 +1413,22 @@ main {
       255,
       255,
       255,
-      0.55
+      0.6
     );
 
   border:
-    1px solid var(--border);
-
-  transition:
-    background 0.2s ease,
-    transform 0.2s ease;
+    1px solid
+    var(--border);
 
 }
 
 
-.sponsor-card:hover {
-
-  background:
-    var(--white);
-
-  transform:
-    translateY(-2px);
-
-}
-
+/* MAIN */
 
 .sponsor-main {
 
   min-height:
-    160px;
+    175px;
 
   background:
     var(--white);
@@ -1466,9 +1436,12 @@ main {
 }
 
 
-/* COLLABORATOR CARDS */
+/* COLLABORATORS */
 
 .collaborator-card {
+
+  min-height:
+    125px;
 
   background:
     var(--teal-pale);
@@ -1476,7 +1449,12 @@ main {
 }
 
 
-.collaborator-card:hover {
+/* PRINCIPAL */
+
+.sponsor-principal {
+
+  min-height:
+    145px;
 
   background:
     var(--white);
@@ -1484,7 +1462,20 @@ main {
 }
 
 
-/* LOGOS */
+/* SUPPORTERS */
+
+.sponsor-supporter {
+
+  min-height:
+    95px;
+
+}
+
+
+
+/* =========================
+   SPONSOR LOGOS
+========================= */
 
 .sponsor-logo {
 
@@ -1492,7 +1483,7 @@ main {
     100%;
 
   height:
-    72px;
+    68px;
 
   display:
     flex;
@@ -1502,14 +1493,6 @@ main {
 
   justify-content:
     center;
-
-}
-
-
-.sponsor-main .sponsor-logo {
-
-  height:
-    100px;
 
 }
 
@@ -1529,7 +1512,7 @@ main {
     88%;
 
   max-height:
-    65px;
+    60px;
 
   object-fit:
     contain;
@@ -1537,20 +1520,69 @@ main {
 }
 
 
-.sponsor-main .sponsor-logo img {
+/* MAIN */
 
-  max-height:
-    92px;
+.sponsor-main .sponsor-logo {
+
+  height:
+    115px;
 
 }
 
 
-/* SPONSOR NAME */
+.sponsor-main .sponsor-logo img {
+
+  max-height:
+    105px;
+
+}
+
+
+/* PRINCIPAL */
+
+.sponsor-principal .sponsor-logo {
+
+  height:
+    88px;
+
+}
+
+
+.sponsor-principal .sponsor-logo img {
+
+  max-height:
+    80px;
+
+}
+
+
+/* SUPPORTERS */
+
+.sponsor-supporter .sponsor-logo {
+
+  height:
+    48px;
+
+}
+
+
+.sponsor-supporter .sponsor-logo img {
+
+  max-height:
+    42px;
+
+}
+
+
+
+/* =========================
+   SPONSOR NAMES
+========================= */
 
 .sponsor-name {
 
   margin-top:
-    9px;
+    8px;
 
   text-align:
     center;
@@ -1567,18 +1599,32 @@ main {
   line-height:
     1.3;
 
-  letter-spacing:
-    0.5px;
+}
+
+
+.sponsor-main .sponsor-name {
+
+  font-size:
+    12px;
 
 }
 
 
-.sponsor-contact {
+.sponsor-principal .sponsor-name {
 
-  margin-top:
-    38px;
+  font-size:
+    11px;
 
 }
+
+
+.sponsor-supporter .sponsor-name {
+
+  font-size:
+    8px;
+
+}
+
 
 
 /* =========================
@@ -1593,11 +1639,11 @@ footer {
   background:
     var(--charcoal-dark);
 
-  text-align:
-    center;
-
   color:
     var(--white);
+
+  text-align:
+    center;
 
 }
 
@@ -1739,21 +1785,37 @@ footer {
 }
 
 
+
 /* =========================
    TABLET
 ========================= */
 
 @media (max-width: 800px) {
 
-  .sponsor-grid,
-  .collaborator-grid {
+  .collaborator-grid,
+  .sponsor-grid-standard {
 
     grid-template-columns:
-      repeat(3, minmax(0, 1fr));
+      repeat(
+        3,
+        minmax(0, 1fr)
+      );
+
+  }
+
+
+  .sponsor-grid-supporters {
+
+    grid-template-columns:
+      repeat(
+        4,
+        minmax(0, 1fr)
+      );
 
   }
 
 }
+
 
 
 /* =========================
@@ -1762,23 +1824,18 @@ footer {
 
 @media (max-width: 650px) {
 
-
   .page-section {
 
     padding:
-      34px 16px
-      55px 16px;
+      34px 16px 55px;
 
   }
 
 
-  /* HERO */
-
   .hero {
 
     padding:
-      40px 15px
-      35px 15px;
+      40px 15px 35px;
 
   }
 
@@ -1790,8 +1847,6 @@ footer {
 
   }
 
-
-  /* NAVIGATION */
 
   .nav-button {
 
@@ -1809,8 +1864,6 @@ footer {
 
   }
 
-
-  /* PROGRAMME */
 
   .place-filter-row {
 
@@ -1851,8 +1904,6 @@ footer {
   }
 
 
-  /* MAP */
-
   .umap-wrapper {
 
     height:
@@ -1861,35 +1912,6 @@ footer {
   }
 
 
-  /* VIDEO */
-
-  .festival-video {
-
-    width:
-      100%;
-
-    margin:
-      0 0 24px 0;
-
-  }
-
-
-  .festival-video video {
-
-    width:
-      100%;
-
-    height:
-      auto;
-
-    max-height:
-      520px;
-
-  }
-
-
-  /* INFO */
-
   .info-grid {
 
     grid-template-columns:
@@ -1897,16 +1919,6 @@ footer {
 
   }
 
-
-  .info-card {
-
-    min-height:
-      auto;
-
-  }
-
-
-  /* CONTACT */
 
   .contact-panel,
   .sponsor-contact {
@@ -1930,26 +1942,27 @@ footer {
 
   /* SPONSORS */
 
-  .sponsor-grid,
   .sponsor-grid-main,
-  .collaborator-grid {
+  .collaborator-grid,
+  .sponsor-grid-principal,
+  .sponsor-grid-standard {
 
     grid-template-columns:
-      repeat(2, minmax(0, 1fr));
-
-    gap:
-      8px;
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
 
   }
 
 
-  .sponsor-card {
+  .sponsor-grid-supporters {
 
-    min-height:
-      105px;
-
-    padding:
-      10px 6px 8px;
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      );
 
   }
 
@@ -1957,15 +1970,7 @@ footer {
   .sponsor-main {
 
     min-height:
-      125px;
-
-  }
-
-
-  .sponsor-logo {
-
-    height:
-      58px;
+      135px;
 
   }
 
@@ -1973,18 +1978,7 @@ footer {
   .sponsor-main .sponsor-logo {
 
     height:
-      75px;
-
-  }
-
-
-  .sponsor-logo img {
-
-    max-width:
-      90%;
-
-    max-height:
-      52px;
+      82px;
 
   }
 
@@ -1992,18 +1986,66 @@ footer {
   .sponsor-main .sponsor-logo img {
 
     max-height:
-      70px;
+      75px;
 
   }
 
 
-  .sponsor-name {
+  .sponsor-principal {
 
-    margin-top:
-      6px;
+    min-height:
+      115px;
+
+  }
+
+
+  .sponsor-principal .sponsor-logo {
+
+    height:
+      64px;
+
+  }
+
+
+  .sponsor-principal .sponsor-logo img {
+
+    max-height:
+      58px;
+
+  }
+
+
+  .sponsor-supporter {
+
+    min-height:
+      82px;
+
+    padding:
+      7px 4px;
+
+  }
+
+
+  .sponsor-supporter .sponsor-logo {
+
+    height:
+      38px;
+
+  }
+
+
+  .sponsor-supporter .sponsor-logo img {
+
+    max-height:
+      34px;
+
+  }
+
+
+  .sponsor-supporter .sponsor-name {
 
     font-size:
-      9px;
+      7px;
 
   }
 
@@ -2026,17 +2068,7 @@ footer {
   }
 
 
-  .footer-logo-left img {
-
-    max-width:
-      58px;
-
-    max-height:
-      50px;
-
-  }
-
-
+  .footer-logo-left img,
   .footer-logo-right img {
 
     max-width:
@@ -2055,14 +2087,6 @@ footer {
 
     letter-spacing:
       2px;
-
-  }
-
-
-  .footer-subtitle {
-
-    font-size:
-      12px;
 
   }
 
