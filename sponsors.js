@@ -15,13 +15,14 @@ const sponsorsData = {
 
     {
       name: "Comune di Sadali",
-      logo: "sponsors/sponsor-main-1.png"
+      logo: "sponsors/sponsor-main-comune.png"
     },
 
     {
-      name: "Andrea Laconi",
-      logo: "sponsors/sponsor-main-2.png"
-    }
+      name: "La Compagnia dell'Arte APS",
+      logo: "sponsors/sponsor-main-cda.png"
+    },
+
 
   ],
 
@@ -33,15 +34,26 @@ const sponsorsData = {
 
   collaborators: [
 
-    {
-      name: "Protezione Civile Sadali",
-      logo: "sponsors/collaboratore-1.png"
+     {
+      name: "Gruppo Culturale Alessandra Sorcinelli",
+      logo: "sponsors/collaboratore-sorcinelli.png"
     },
 
-    {
+   {
       name: "S'Urzu e su Pimperimponi",
-      logo: "sponsors/collaboratore-2.png"
+      logo: "sponsors/collaboratore-surzu.png"
     },
+
+         {
+      name: "Studio Olistico Seulo",
+      logo: "sponsors/collaboratore-studioolistico.png"
+    },
+     
+     {
+      name: "Protezione Civile Sadali",
+      logo: "sponsors/collaboratore-protezionecivile.png"
+    },
+
 
     {
       name: "Associazione Culturale Sadali Antiga",
@@ -51,17 +63,8 @@ const sponsorsData = {
     {
       name: "San Valentino Sadali",
       logo: "sponsors/collaboratore-4.png"
-    },
-
-    {
-      name: "Gruppo Culturale Alessandra Sorcinelli",
-      logo: "sponsors/collaboratore-5.png"
-    },
-
-    {
-      name: "Studio Olistico Seulo",
-      logo: "sponsors/collaboratore-6.png"
     }
+
 
   ],
 
@@ -73,19 +76,9 @@ const sponsorsData = {
 
   principal: [
 
-              {
-      name: "Kòru Agri Risto Pizzeria",
-      logo: "sponsors/sponsor-2.png"
-    },
-     
-    {
-      name: "Farmacia Elena Fenu",
-      logo: "sponsors/sponsor-1.png"
-    },
-
          {
-      name: "Amelia Market F.lli Mura",
-      logo: "sponsors/sponsor-4.png"
+      name: "Andrea Laconi",
+      logo: "sponsors/sponsor-main-andrealobina.png"
     }
 
   ],
@@ -98,9 +91,19 @@ const sponsorsData = {
 
   standard: [
 
+              {
+      name: "Kòru Agri Risto Pizzeria",
+      logo: "sponsors/sponsor-koru.png"
+    },
+     
     {
-      name: "S'Ambasciada Sarda",
-      logo: "sponsors/sponsor-3.png"
+      name: "Farmacia Elena Fenu",
+      logo: "sponsors/sponsor-farmaciafenu.png"
+    },
+
+         {
+      name: "Amelia Market F.lli Mura",
+      logo: "sponsors/sponsor-ameliamarket.png"
     }
 
   ],
@@ -113,7 +116,21 @@ const sponsorsData = {
 
   supporters: [
 
+    {
+      name: "S'Ambasciada Sarda",
+      logo: "sponsors/sponsor-sambasciada.png"
+    },
 
+         {
+      name: "Fragus e Saboris",
+      logo: "sponsors/sponsor-fragus.png"
+    },
+
+         {
+      name: "Matta Raffaela Alimenti",
+      logo: "sponsors/sponsor-matta.png"
+    },
+     
 
   ]
 
