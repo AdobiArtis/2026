@@ -73,9 +73,19 @@ const sponsorsData = {
 
   principal: [
 
+              {
+      name: "Kòru Agri Risto Pizzeria",
+      logo: "sponsors/sponsor-2.png"
+    },
+     
     {
       name: "Farmacia Elena Fenu",
       logo: "sponsors/sponsor-1.png"
+    },
+
+         {
+      name: "Amelia Market F.lli Mura",
+      logo: "sponsors/sponsor-4.png"
     }
 
   ],
@@ -87,11 +97,6 @@ const sponsorsData = {
   ========================= */
 
   standard: [
-
-    {
-      name: "Kòru Agri Risto Pizzeria",
-      logo: "sponsors/sponsor-2.png"
-    },
 
     {
       name: "S'Ambasciada Sarda",
@@ -108,10 +113,7 @@ const sponsorsData = {
 
   supporters: [
 
-    {
-      name: "Amelia Market F.lli Mura",
-      logo: "sponsors/sponsor-4.png"
-    }
+
 
   ]
 
