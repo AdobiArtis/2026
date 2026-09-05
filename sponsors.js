@@ -104,6 +104,11 @@ const sponsorsData = {
          {
       name: "Amelia Market F.lli Mura",
       logo: "sponsors/sponsor-ameliamarket.png"
+    },
+
+              {
+      name: "Bar Ristorante Da Corrado e Francesca",
+      logo: "sponsors/sponsor-corrado.png"
     }
 
   ],
@@ -130,7 +135,16 @@ const sponsorsData = {
       name: "Matta Raffaela Alimenti",
       logo: "sponsors/sponsor-matta.png"
     },
-     
+
+              {
+      name: "Pescheria Il Molo",
+      logo: "sponsors/sponsor-pescheria.png"
+    },
+
+              {
+      name: "Al Bar di Su",
+      logo: "sponsors/sponsor-albardisu.png"
+    },
 
   ]
 
