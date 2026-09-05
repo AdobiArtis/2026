@@ -20,7 +20,7 @@ const sponsorsData = {
 
     {
       name: "La Compagnia dell'Arte APS",
-      logo: "sponsors/sponsor-main-cda.png"
+      logo: "sponsors/sponsor-main-CdA.png"
     },
 
 
@@ -57,12 +57,12 @@ const sponsorsData = {
 
     {
       name: "Associazione Culturale Sadali Antiga",
-      logo: "sponsors/collaboratore-3.png"
+      logo: "sponsors/collaboratore-sadaliantiga.png"
     },
 
     {
       name: "San Valentino Sadali",
-      logo: "sponsors/collaboratore-4.png"
+      logo: "sponsors/collaboratore-sanvalentino.png"
     }
 
 
@@ -78,7 +78,7 @@ const sponsorsData = {
 
          {
       name: "Andrea Laconi",
-      logo: "sponsors/sponsor-main-andrealobina.png"
+      logo: "sponsors/sponsor-main-andraLaconi.png"
     }
 
   ],
