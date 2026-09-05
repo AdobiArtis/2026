@@ -1696,7 +1696,7 @@ footer {
 }
 
 
-/* TOP LOGO */
+/* TOP LOGO - ADOBIARTIS */
 
 .footer-logo-left img {
 
@@ -1710,10 +1710,10 @@ footer {
     auto;
 
   max-width:
-    110px;
+    85px;
 
   max-height:
-    85px;
+    68px;
 
   object-fit:
     contain;
@@ -1790,7 +1790,7 @@ footer {
 }
 
 
-/* BOTTOM LOGO */
+/* BOTTOM LOGO - LA COMPAGNIA DELL'ARTE */
 
 .footer-logo-right img {
 
@@ -1804,7 +1804,7 @@ footer {
     auto;
 
   max-width:
-    95px;
+    100px;
 
   max-height:
     80px;
@@ -1970,7 +1970,9 @@ footer {
   }
 
 
-  /* SPONSORS */
+  /* =========================
+     MOBILE SPONSORS
+  ========================= */
 
   .sponsor-grid-main,
   .collaborator-grid,
@@ -2080,7 +2082,9 @@ footer {
   }
 
 
-  /* FOOTER */
+  /* =========================
+     MOBILE FOOTER
+  ========================= */
 
   footer {
 
@@ -2098,24 +2102,28 @@ footer {
   }
 
 
+  /* TOP LOGO */
+
   .footer-logo-left img {
 
     max-width:
-      90px;
+      72px;
 
     max-height:
-      70px;
+      58px;
 
   }
 
 
+  /* BOTTOM LOGO */
+
   .footer-logo-right img {
 
     max-width:
-      80px;
+      85px;
 
     max-height:
-      65px;
+      68px;
 
   }
 
