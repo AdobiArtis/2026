@@ -41,6 +41,7 @@ body {
     sans-serif;
 
   background: var(--paper);
+
   color: var(--text);
 }
 
@@ -51,6 +52,7 @@ body {
 
 .hero {
   background: var(--orange);
+
   color: var(--white);
 
   text-align: center;
@@ -66,26 +68,29 @@ body {
 
   letter-spacing: 4px;
 
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255,255,255,0.82);
 }
 
 .hero h1 {
   margin: 0;
 
-  font-size: clamp(42px, 11vw, 72px);
+  font-size: clamp(42px,11vw,72px);
+
   line-height: 0.95;
 
   letter-spacing: 5px;
+
   font-weight: 700;
 }
 
 .hero-line {
   width: 54px;
+
   height: 3px;
 
-  margin: 19px auto 16px;
-
   background: var(--white);
+
+  margin: 19px auto 16px;
 }
 
 .hero-subtitle {
@@ -97,6 +102,7 @@ body {
     serif;
 
   font-style: italic;
+
   font-size: 20px;
 }
 
@@ -104,9 +110,10 @@ body {
   margin: 8px 0 0;
 
   font-size: 11px;
+
   letter-spacing: 5px;
 
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255,255,255,0.75);
 }
 
 
@@ -118,10 +125,12 @@ body {
   display: flex;
 
   position: sticky;
+
   top: 0;
+
   z-index: 1000;
 
-  background: rgba(255, 255, 255, 0.97);
+  background: rgba(255,255,255,0.97);
 
   border-bottom: 1px solid var(--border);
 }
@@ -132,11 +141,13 @@ body {
   min-height: 58px;
 
   border: 0;
+
   border-bottom: 3px solid transparent;
 
   background: transparent;
 
   font-size: 11px;
+
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -180,14 +191,15 @@ main {
 }
 
 .section-label {
-  margin-bottom: 8px;
-
   color: var(--teal);
 
   font-size: 10px;
-  font-weight: 700;
 
   letter-spacing: 2.5px;
+
+  font-weight: 700;
+
+  margin-bottom: 8px;
 }
 
 .section-intro h2 {
@@ -198,7 +210,8 @@ main {
     "Times New Roman",
     serif;
 
-  font-size: clamp(34px, 7vw, 46px);
+  font-size: clamp(34px,7vw,46px);
+
   font-weight: 400;
 }
 
@@ -224,29 +237,31 @@ main {
 
   gap: 26px;
 
-  margin-bottom: 18px;
-
   border-bottom: 1px solid var(--border);
+
+  margin-bottom: 18px;
 }
 
 .day-button {
-  margin-bottom: -1px;
-
-  padding: 13px 0;
-
   border: 0;
-  border-bottom: 3px solid transparent;
 
   background: transparent;
 
+  padding: 13px 0;
+
   font-size: 12px;
-  font-weight: 700;
 
   letter-spacing: 1.5px;
+
+  font-weight: 700;
 
   color: var(--muted);
 
   cursor: pointer;
+
+  border-bottom: 3px solid transparent;
+
+  margin-bottom: -1px;
 }
 
 .day-date {
@@ -260,7 +275,9 @@ main {
     serif;
 
   font-size: 11px;
+
   font-weight: 400;
+
   font-style: italic;
 
   letter-spacing: 0.5px;
@@ -301,9 +318,10 @@ main {
   padding: 9px 15px;
 
   border-radius: 999px;
+
   border: 1px solid var(--border);
 
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255,255,255,0.6);
 
   color: var(--charcoal);
 
@@ -343,18 +361,20 @@ main {
 
 .event-time {
   font-size: 18px;
+
   font-weight: 700;
 }
 
 .event-category {
-  color: var(--teal);
-
   font-size: 9px;
-  font-weight: 700;
 
   letter-spacing: 1.6px;
 
   text-transform: uppercase;
+
+  color: var(--teal);
+
+  font-weight: 700;
 }
 
 .event-title {
@@ -397,9 +417,9 @@ main {
 }
 
 .event-description {
-  max-width: 550px;
-
   margin-top: 8px;
+
+  max-width: 550px;
 
   font-family:
     Georgia,
@@ -447,6 +467,7 @@ main {
   display: flex;
 
   align-items: center;
+
   justify-content: space-between;
 
   gap: 20px;
@@ -459,12 +480,13 @@ main {
 }
 
 .place-filter-row label {
-  color: var(--teal);
-
   font-size: 9px;
+
   font-weight: 700;
 
   letter-spacing: 1.8px;
+
+  color: var(--teal);
 }
 
 .place-filter-row select {
@@ -497,19 +519,21 @@ main {
 .map-heading {
   display: flex;
 
-  align-items: center;
   justify-content: space-between;
+
+  align-items: center;
 
   padding: 13px 16px;
 
-  border-bottom: 1px solid var(--border);
+  font-size: 10px;
+
+  letter-spacing: 1.5px;
+
+  font-weight: 700;
 
   color: var(--muted);
 
-  font-size: 10px;
-  font-weight: 700;
-
-  letter-spacing: 1.5px;
+  border-bottom: 1px solid var(--border);
 }
 
 .map-heading > div {
@@ -522,6 +546,7 @@ main {
 
 .map-dot {
   width: 9px;
+
   height: 9px;
 
   border-radius: 50%;
@@ -531,11 +556,13 @@ main {
 
 .umap-wrapper {
   width: 100%;
+
   height: 560px;
 }
 
 .umap-wrapper iframe {
   width: 100%;
+
   height: 100%;
 
   border: 0;
@@ -551,11 +578,11 @@ main {
 
   margin-bottom: 28px;
 
-  overflow: hidden;
-
   background: var(--charcoal);
 
   border: 1px solid var(--border);
+
+  overflow: hidden;
 }
 
 .video-heading {
@@ -564,6 +591,7 @@ main {
   color: #C9C9C9;
 
   font-size: 9px;
+
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -579,6 +607,7 @@ main {
 
 .video-dot {
   width: 8px;
+
   height: 8px;
 
   border-radius: 50%;
@@ -590,6 +619,7 @@ main {
   display: block;
 
   width: 100%;
+
   max-height: 620px;
 
   background: #000;
@@ -605,30 +635,33 @@ main {
 .info-grid {
   display: grid;
 
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2,minmax(0,1fr));
 
   border-top: 1px solid var(--border);
+
   border-left: 1px solid var(--border);
 }
 
 .info-card {
   padding: 24px;
 
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255,255,255,0.55);
 
   border-right: 1px solid var(--border);
+
   border-bottom: 1px solid var(--border);
 }
 
 .info-number {
-  margin-bottom: 28px;
-
   color: var(--teal);
 
   font-size: 10px;
+
   font-weight: 700;
 
   letter-spacing: 1.5px;
+
+  margin-bottom: 28px;
 }
 
 .info-card h3 {
@@ -640,6 +673,7 @@ main {
     serif;
 
   font-size: 22px;
+
   font-weight: 400;
 }
 
@@ -661,6 +695,7 @@ main {
   display: flex;
 
   align-items: center;
+
   justify-content: space-between;
 
   gap: 25px;
@@ -678,9 +713,10 @@ main {
   color: var(--teal-light);
 
   font-size: 9px;
-  font-weight: 700;
 
   letter-spacing: 2px;
+
+  font-weight: 700;
 }
 
 .contact-panel h3,
@@ -693,6 +729,7 @@ main {
     serif;
 
   font-size: 23px;
+
   font-weight: 400;
 }
 
@@ -711,6 +748,7 @@ main {
   display: inline-flex;
 
   align-items: center;
+
   justify-content: center;
 
   min-height: 46px;
@@ -724,6 +762,7 @@ main {
   text-decoration: none;
 
   font-size: 10px;
+
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -731,7 +770,7 @@ main {
 
 
 /* =========================
-   SPONSOR GROUPS
+   SPONSORS
 ========================= */
 
 .sponsor-group {
@@ -739,24 +778,20 @@ main {
 }
 
 .sponsor-group-title {
-  margin-bottom: 14px;
-
   padding-bottom: 10px;
+
+  margin-bottom: 14px;
 
   border-bottom: 1px solid var(--border);
 
   color: var(--teal);
 
   font-size: 9px;
+
   font-weight: 700;
 
   letter-spacing: 2px;
 }
-
-
-/* =========================
-   SPONSOR GRIDS
-========================= */
 
 .sponsor-grid {
   display: grid;
@@ -764,53 +799,41 @@ main {
   gap: 10px;
 }
 
-
-/* PARTNER PRINCIPALI
-   2 PER ROW */
-
 .sponsor-grid-main {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2,minmax(0,1fr));
 }
-
-
-/* COLLABORATORI
-   4 PER ROW */
 
 .collaborator-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4,minmax(0,1fr));
 }
 
 
-/* SPONSOR PRINCIPALI
-   3 PER ROW */
+/* 3 SPONSOR PRINCIPALI */
 
 .sponsor-grid-principal {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3,minmax(0,1fr));
 }
 
 
-/* SPONSOR
-   4 PER ROW */
+/* 4 SPONSOR */
 
 .sponsor-grid-standard {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4,minmax(0,1fr));
 }
 
 
-/* SOSTENITORI
-   5 PER ROW */
+/* 5 SOSTENITORI */
 
 .sponsor-grid-supporters {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(5,minmax(0,1fr));
 }
 
 
-/* =========================
-   SPONSOR CARDS
-========================= */
+/* SPONSOR CARDS */
 
 .sponsor-card {
   min-width: 0;
+
   min-height: 120px;
 
   padding: 12px 9px;
@@ -819,26 +842,14 @@ main {
 
   flex-direction: column;
 
-  align-items: center;
   justify-content: center;
 
-  background: rgba(255, 255, 255, 0.6);
+  align-items: center;
+
+  background: rgba(255,255,255,0.6);
 
   border: 1px solid var(--border);
-
-  transition:
-    transform 0.2s ease,
-    background 0.2s ease;
 }
-
-.sponsor-card:hover {
-  transform: translateY(-2px);
-
-  background: var(--white);
-}
-
-
-/* PARTNER PRINCIPALI */
 
 .sponsor-main {
   min-height: 175px;
@@ -846,21 +857,11 @@ main {
   background: var(--white);
 }
 
-
-/* COLLABORATORI */
-
 .collaborator-card {
   min-height: 125px;
 
   background: var(--teal-pale);
 }
-
-.collaborator-card:hover {
-  background: var(--white);
-}
-
-
-/* SPONSOR PRINCIPALI */
 
 .sponsor-principal {
   min-height: 145px;
@@ -868,32 +869,22 @@ main {
   background: var(--white);
 }
 
-
-/* SPONSOR STANDARD */
-
-.sponsor-standard {
-  min-height: 120px;
-}
-
-
-/* SOSTENITORI */
-
 .sponsor-supporter {
   min-height: 95px;
 }
 
 
-/* =========================
-   SPONSOR LOGOS
-========================= */
+/* SPONSOR LOGOS */
 
 .sponsor-logo {
   width: 100%;
+
   height: 68px;
 
   display: flex;
 
   align-items: center;
+
   justify-content: center;
 }
 
@@ -901,78 +892,42 @@ main {
   display: block;
 
   width: auto;
+
   height: auto;
 
   max-width: 88%;
+
   max-height: 60px;
 
   object-fit: contain;
 }
-
-
-/* PARTNER PRINCIPALI LOGOS */
 
 .sponsor-main .sponsor-logo {
   height: 115px;
 }
 
 .sponsor-main .sponsor-logo img {
-  max-width: 90%;
   max-height: 105px;
 }
-
-
-/* COLLABORATOR LOGOS */
-
-.collaborator-card .sponsor-logo {
-  height: 68px;
-}
-
-.collaborator-card .sponsor-logo img {
-  max-width: 86%;
-  max-height: 60px;
-}
-
-
-/* SPONSOR PRINCIPALI LOGOS */
 
 .sponsor-principal .sponsor-logo {
   height: 88px;
 }
 
 .sponsor-principal .sponsor-logo img {
-  max-width: 88%;
   max-height: 80px;
 }
-
-
-/* STANDARD SPONSOR LOGOS */
-
-.sponsor-standard .sponsor-logo {
-  height: 68px;
-}
-
-.sponsor-standard .sponsor-logo img {
-  max-width: 86%;
-  max-height: 60px;
-}
-
-
-/* SOSTENITORI LOGOS */
 
 .sponsor-supporter .sponsor-logo {
   height: 48px;
 }
 
 .sponsor-supporter .sponsor-logo img {
-  max-width: 84%;
   max-height: 42px;
 }
 
 
-/* =========================
-   SPONSOR NAMES
-========================= */
+/* SPONSOR NAMES */
 
 .sponsor-name {
   margin-top: 8px;
@@ -982,6 +937,7 @@ main {
   color: var(--charcoal);
 
   font-size: 10px;
+
   font-weight: 700;
 
   line-height: 1.3;
@@ -1024,6 +980,7 @@ footer {
   flex-direction: column;
 
   align-items: center;
+
   justify-content: center;
 
   gap: 18px;
@@ -1037,29 +994,33 @@ footer {
   display: flex;
 
   align-items: center;
+
   justify-content: center;
 }
 
 
-/* TOP LOGO - ADOBIARTIS */
+/* TOP ADOBIARTIS LOGO */
 
 .footer-logo-left img {
   display: block;
 
   width: auto;
+
   height: auto;
 
   max-width: 85px;
+
   max-height: 68px;
 
   object-fit: contain;
 }
 
 
-/* CENTER TEXT */
+/* FOOTER BRAND */
 
 .footer-brand {
   font-size: 20px;
+
   font-weight: 700;
 
   letter-spacing: 3px;
@@ -1082,11 +1043,12 @@ footer {
 
 .footer-line {
   width: 36px;
+
   height: 2px;
 
-  margin: 17px auto;
-
   background: var(--teal);
+
+  margin: 17px auto;
 }
 
 .footer-organizer {
@@ -1098,18 +1060,133 @@ footer {
 }
 
 
-/* BOTTOM LOGO - LA COMPAGNIA DELL'ARTE */
+/* LOWER ASSOCIATION LOGO */
 
 .footer-logo-right img {
   display: block;
 
   width: auto;
+
   height: auto;
 
   max-width: 100px;
+
   max-height: 80px;
 
   object-fit: contain;
+}
+
+
+/* LEGAL INFORMATION */
+
+.footer-legal {
+  width: 100%;
+
+  max-width: 620px;
+
+  margin-top: 6px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(255,255,255,0.12);
+
+  color: #8D8D8D;
+
+  font-size: 9px;
+
+  line-height: 1.8;
+
+  letter-spacing: 0.25px;
+}
+
+.footer-legal a {
+  color: #AAAAAA;
+
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  color: var(--teal-light);
+}
+
+.footer-legal-links {
+  margin-top: 8px;
+}
+
+.footer-legal-links a {
+  color: var(--teal-light);
+
+  font-weight: 700;
+
+  letter-spacing: 0.7px;
+}
+
+
+/* =========================
+   PRIVACY PAGE
+========================= */
+
+.legal-page {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  padding: 48px 20px 70px;
+}
+
+.legal-page h1 {
+  margin: 0 0 12px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(34px,7vw,48px);
+
+  font-weight: 400;
+}
+
+.legal-page h2 {
+  margin: 35px 0 10px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 22px;
+
+  font-weight: 400;
+}
+
+.legal-page p,
+.legal-page li {
+  color: var(--muted);
+
+  line-height: 1.7;
+
+  font-size: 14px;
+}
+
+.legal-page a {
+  color: var(--teal);
+}
+
+.legal-back {
+  display: inline-block;
+
+  margin-bottom: 28px;
+
+  color: var(--teal);
+
+  text-decoration: none;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
 }
 
 
@@ -1119,31 +1196,13 @@ footer {
 
 @media (max-width: 800px) {
 
-  /* Collaborators: 3 */
-
-  .collaborator-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-
-  /* Sponsor principali: still 3 */
-
-  .sponsor-grid-principal {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-
-  /* Sponsor: 3 */
-
+  .collaborator-grid,
   .sponsor-grid-standard {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3,minmax(0,1fr));
   }
-
-
-  /* Sostenitori: 4 */
 
   .sponsor-grid-supporters {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4,minmax(0,1fr));
   }
 
 }
@@ -1159,9 +1218,6 @@ footer {
     padding: 34px 16px 55px;
   }
 
-
-  /* HERO */
-
   .hero {
     padding: 40px 15px 35px;
   }
@@ -1169,9 +1225,6 @@ footer {
   .hero h1 {
     letter-spacing: 3px;
   }
-
-
-  /* NAVIGATION */
 
   .nav-button {
     min-height: 54px;
@@ -1183,9 +1236,6 @@ footer {
     letter-spacing: 0.7px;
   }
 
-
-  /* PLACE FILTER */
-
   .place-filter-row {
     flex-direction: column;
 
@@ -1196,13 +1246,11 @@ footer {
 
   .place-filter-row select {
     width: 100%;
+
     min-width: 0;
 
     font-size: 16px;
   }
-
-
-  /* PROGRAMME */
 
   .event {
     grid-template-columns: 62px 1fr;
@@ -1210,22 +1258,13 @@ footer {
     gap: 12px;
   }
 
-
-  /* MAP */
-
   .umap-wrapper {
     height: 510px;
   }
 
-
-  /* INFO */
-
   .info-grid {
     grid-template-columns: 1fr;
   }
-
-
-  /* CONTACT */
 
   .contact-panel,
   .sponsor-contact {
@@ -1239,52 +1278,18 @@ footer {
   }
 
 
-  /* =========================
-     MOBILE SPONSORS
-  ========================= */
+  /* SPONSORS MOBILE */
 
-
-  /* MAIN PARTNERS
-     2 PER ROW */
-
-  .sponsor-grid-main {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-
-  /* COLLABORATORS
-     2 PER ROW */
-
-  .collaborator-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-
-  /* SPONSOR PRINCIPALI
-     2 PER ROW */
-
-  .sponsor-grid-principal {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-
-  /* SPONSOR
-     2 PER ROW */
-
+  .sponsor-grid-main,
+  .collaborator-grid,
+  .sponsor-grid-principal,
   .sponsor-grid-standard {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2,minmax(0,1fr));
   }
-
-
-  /* SOSTENITORI
-     3 PER ROW */
 
   .sponsor-grid-supporters {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3,minmax(0,1fr));
   }
-
-
-  /* MAIN PARTNER SIZE */
 
   .sponsor-main {
     min-height: 135px;
@@ -1298,24 +1303,6 @@ footer {
     max-height: 75px;
   }
 
-
-  /* COLLABORATOR SIZE */
-
-  .collaborator-card {
-    min-height: 110px;
-  }
-
-  .collaborator-card .sponsor-logo {
-    height: 58px;
-  }
-
-  .collaborator-card .sponsor-logo img {
-    max-height: 52px;
-  }
-
-
-  /* PRINCIPAL SPONSOR SIZE */
-
   .sponsor-principal {
     min-height: 115px;
   }
@@ -1327,24 +1314,6 @@ footer {
   .sponsor-principal .sponsor-logo img {
     max-height: 58px;
   }
-
-
-  /* STANDARD SPONSOR SIZE */
-
-  .sponsor-standard {
-    min-height: 100px;
-  }
-
-  .sponsor-standard .sponsor-logo {
-    height: 54px;
-  }
-
-  .sponsor-standard .sponsor-logo img {
-    max-height: 48px;
-  }
-
-
-  /* SUPPORTER SIZE */
 
   .sponsor-supporter {
     min-height: 82px;
@@ -1365,9 +1334,7 @@ footer {
   }
 
 
-  /* =========================
-     MOBILE FOOTER
-  ========================= */
+  /* FOOTER MOBILE */
 
   footer {
     padding: 32px 16px;
@@ -1377,22 +1344,17 @@ footer {
     gap: 14px;
   }
 
-
-  /* TOP LOGO */
-
   .footer-logo-left img {
     max-width: 72px;
+
     max-height: 58px;
   }
 
-
-  /* BOTTOM LOGO */
-
   .footer-logo-right img {
     max-width: 85px;
+
     max-height: 68px;
   }
-
 
   .footer-brand {
     font-size: 16px;
@@ -1402,6 +1364,16 @@ footer {
 
   .footer-subtitle {
     font-size: 12px;
+  }
+
+  .footer-legal {
+    font-size: 8px;
+
+    line-height: 1.7;
+  }
+
+  .legal-page {
+    padding: 35px 18px 55px;
   }
 
 }
