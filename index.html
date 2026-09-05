@@ -18,9 +18,7 @@
   >
 
 
-  <!-- =========================
-       SOCIAL MEDIA
-  ========================= -->
+  <!-- SOCIAL MEDIA -->
 
   <meta
     property="og:title"
@@ -89,7 +87,7 @@
 
   <link
     rel="stylesheet"
-    href="style.css?v=7"
+    href="style.css?v=8"
   >
 
 </head>
@@ -140,7 +138,6 @@
       INFO
     </button>
 
-
     <button
       class="nav-button"
       data-section="programma"
@@ -149,7 +146,6 @@
       PROGRAMMA
     </button>
 
-
     <button
       class="nav-button"
       data-section="mappa"
@@ -157,7 +153,6 @@
     >
       MAPPA
     </button>
-
 
     <button
       class="nav-button"
@@ -207,10 +202,7 @@
       </div>
 
 
-
-      <!-- =========================
-           VIDEO
-      ========================= -->
+      <!-- VIDEO -->
 
       <div class="festival-video">
 
@@ -245,15 +237,10 @@
       </div>
 
 
-
-      <!-- =========================
-           INFO CARDS
-      ========================= -->
+      <!-- INFO CARDS -->
 
       <div class="info-grid">
 
-
-        <!-- 01 -->
 
         <div class="info-card">
 
@@ -275,9 +262,6 @@
         </div>
 
 
-
-        <!-- 02 -->
-
         <div class="info-card">
 
           <div class="info-number">
@@ -296,9 +280,6 @@
 
         </div>
 
-
-
-        <!-- 03 -->
 
         <div class="info-card">
 
@@ -319,9 +300,6 @@
 
         </div>
 
-
-
-        <!-- 04 -->
 
         <div class="info-card">
 
@@ -344,10 +322,7 @@
       </div>
 
 
-
-      <!-- =========================
-           CONTACT
-      ========================= -->
+      <!-- CONTACT -->
 
       <div class="contact-panel">
 
@@ -409,13 +384,8 @@
       </div>
 
 
-
-      <!-- PROGRAMME CONTROLS -->
-
       <div class="programme-controls">
 
-
-        <!-- DAY SELECTOR -->
 
         <div class="day-selector">
 
@@ -424,7 +394,6 @@
             data-day="sabato"
             type="button"
           >
-
             SABATO
 
             <span class="day-date">
@@ -439,7 +408,6 @@
             data-day="domenica"
             type="button"
           >
-
             DOMENICA
 
             <span class="day-date">
@@ -451,11 +419,7 @@
         </div>
 
 
-
-        <!-- CATEGORY FILTERS -->
-
         <div class="filters">
-
 
           <button
             class="filter-button active"
@@ -465,7 +429,6 @@
             TUTTO
           </button>
 
-
           <button
             class="filter-button"
             data-category="MU"
@@ -473,7 +436,6 @@
           >
             MUSICA
           </button>
-
 
           <button
             class="filter-button"
@@ -483,7 +445,6 @@
             POESIA / LETTURA
           </button>
 
-
           <button
             class="filter-button"
             data-category="LA"
@@ -491,7 +452,6 @@
           >
             LABORATORIO
           </button>
-
 
           <button
             class="filter-button"
@@ -501,7 +461,6 @@
             SPETTACOLO
           </button>
 
-
           <button
             class="filter-button"
             data-category="BA"
@@ -510,7 +469,6 @@
             BAMBINI
           </button>
 
-
           <button
             class="filter-button"
             data-category="AO"
@@ -518,7 +476,6 @@
           >
             ARTISTI ALL'OPERA
           </button>
-
 
           <button
             class="filter-button"
@@ -531,15 +488,11 @@
         </div>
 
 
-
-        <!-- PLACE FILTER -->
-
         <div class="place-filter-row">
 
           <label for="place-filter">
             LUOGO
           </label>
-
 
           <select id="place-filter">
 
@@ -553,9 +506,6 @@
 
       </div>
 
-
-
-      <!-- PROGRAMME OUTPUT -->
 
       <div id="programme-list"></div>
 
@@ -588,7 +538,6 @@
         </p>
 
       </div>
-
 
 
       <div class="map-card">
@@ -636,9 +585,6 @@
       class="page-section"
     >
 
-
-      <!-- INTRO -->
-
       <div class="section-intro">
 
         <div class="section-label">
@@ -658,71 +604,23 @@
       </div>
 
 
+      <!-- PARTNER PRINCIPALI -->
 
-      <!-- =========================
-           PARTNER PRINCIPALI
-      ========================= -->
-
-      <div class="sponsor-group">
+      <div class="sponsor-group sponsor-group-main">
 
         <div class="sponsor-group-title">
           PARTNER PRINCIPALI
         </div>
 
-
-        <div class="sponsor-grid sponsor-grid-main">
-
-
-          <!-- COMUNE DI SADALI -->
-
-          <div class="sponsor-card sponsor-main">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/sponsor-main-1.png"
-                alt="Comune di Sadali"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Comune di Sadali
-            </div>
-
-          </div>
-
-
-
-          <!-- ANDREA LACONI -->
-
-          <div class="sponsor-card sponsor-main">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/sponsor-main-2.png"
-                alt="Andrea Laconi"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Andrea Laconi
-            </div>
-
-          </div>
-
-
-        </div>
+        <div
+          id="main-sponsors"
+          class="sponsor-grid sponsor-grid-main"
+        ></div>
 
       </div>
 
 
-
-      <!-- =========================
-           COLLABORATORI
-      ========================= -->
+      <!-- COLLABORATORI -->
 
       <div class="sponsor-group">
 
@@ -730,252 +628,63 @@
           COLLABORATORI
         </div>
 
-        <p class="sponsor-group-description">
-          Associazioni, realtà culturali e organizzazioni
-          che collaborano alla realizzazione di AdobiArtis.
-        </p>
-
-
-        <div class="sponsor-grid collaborator-grid">
-
-
-          <!-- PROTEZIONE CIVILE -->
-
-          <div class="sponsor-card collaborator-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/collaboratore-1.png"
-                alt="Protezione Civile Sadali"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Protezione Civile Sadali
-            </div>
-
-          </div>
-
-
-
-          <!-- S'URZU E SU PIMPERIMPONI -->
-
-          <div class="sponsor-card collaborator-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/collaboratore-2.png"
-                alt="S'Urzu e su Pimperimponi"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              S'Urzu e su Pimperimponi
-            </div>
-
-          </div>
-
-
-
-          <!-- SADALI ANTIGA -->
-
-          <div class="sponsor-card collaborator-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/collaboratore-3.png"
-                alt="Associazione Culturale Sadali Antiga"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Associazione Culturale Sadali Antiga
-            </div>
-
-          </div>
-
-
-
-          <!-- SAN VALENTINO -->
-
-          <div class="sponsor-card collaborator-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/collaboratore-4.png"
-                alt="San Valentino Sadali"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              San Valentino Sadali
-            </div>
-
-          </div>
-
-
-
-          <!-- ALESSANDRA SORCINELLI -->
-
-          <div class="sponsor-card collaborator-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/collaboratore-5.png"
-                alt="Gruppo Culturale Alessandra Sorcinelli"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Gruppo Culturale Alessandra Sorcinelli
-            </div>
-
-          </div>
-
-
-
-          <!-- STUDIO OLISTICO -->
-
-          <div class="sponsor-card collaborator-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/collaboratore-6.png"
-                alt="Studio Olistico Seulo"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Studio Olistico Seulo
-            </div>
-
-          </div>
-
-
-        </div>
+        <div
+          id="collaborators"
+          class="sponsor-grid collaborator-grid"
+        ></div>
 
       </div>
 
 
-
-      <!-- =========================
-           SPONSOR
-      ========================= -->
+      <!-- SPONSOR PRINCIPALI -->
 
       <div class="sponsor-group">
 
         <div class="sponsor-group-title">
-          CON IL SOSTEGNO DI
+          SPONSOR PRINCIPALI
         </div>
 
-
-        <div class="sponsor-grid">
-
-
-          <!-- FARMACIA ELENA FENU -->
-
-          <div class="sponsor-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/sponsor-1.png"
-                alt="Farmacia Elena Fenu"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Farmacia Elena Fenu
-            </div>
-
-          </div>
-
-
-
-          <!-- KORU -->
-
-          <div class="sponsor-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/sponsor-2.png"
-                alt="Kòru Agri Risto Pizzeria"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Kòru Agri Risto Pizzeria
-            </div>
-
-          </div>
-
-
-
-          <!-- S'AMBASCIADA SARDA -->
-
-          <div class="sponsor-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/sponsor-3.png"
-                alt="S'Ambasciada Sarda"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              S'Ambasciada Sarda
-            </div>
-
-          </div>
-
-
-
-          <!-- AMELIA MARKET -->
-
-          <div class="sponsor-card">
-
-            <div class="sponsor-logo">
-
-              <img
-                src="sponsors/sponsor-4.png"
-                alt="Amelia Market F.lli Mura"
-              >
-
-            </div>
-
-            <div class="sponsor-name">
-              Amelia Market F.lli Mura
-            </div>
-
-          </div>
-
-
-        </div>
+        <div
+          id="sponsors-principal"
+          class="sponsor-grid sponsor-grid-principal"
+        ></div>
 
       </div>
 
 
+      <!-- SPONSOR -->
 
-      <!-- =========================
-           SPONSOR CONTACT
-      ========================= -->
+      <div class="sponsor-group">
+
+        <div class="sponsor-group-title">
+          SPONSOR
+        </div>
+
+        <div
+          id="sponsors-standard"
+          class="sponsor-grid sponsor-grid-standard"
+        ></div>
+
+      </div>
+
+
+      <!-- SOSTENITORI -->
+
+      <div class="sponsor-group">
+
+        <div class="sponsor-group-title">
+          SOSTENITORI
+        </div>
+
+        <div
+          id="sponsors-supporters"
+          class="sponsor-grid sponsor-grid-supporters"
+        ></div>
+
+      </div>
+
+
+      <!-- CONTACT -->
 
       <div class="sponsor-contact">
 
@@ -986,12 +695,12 @@
           </div>
 
           <h3>
-            Vuoi diventare Sponsor?
+            Vuoi sostenere AdobiArtis?
           </h3>
 
           <p>
-            Sostieni la Festa dell'Arte
-            e diventa parte di AdobiArtis 2026.
+            Diventa parte della Festa dell'Arte
+            e sostieni AdobiArtis 2026.
           </p>
 
         </div>
@@ -1006,9 +715,7 @@
 
       </div>
 
-
     </section>
-
 
   </main>
 
@@ -1023,8 +730,6 @@
     <div class="footer-content">
 
 
-      <!-- LEFT LOGO -->
-
       <div class="footer-logo footer-logo-left">
 
         <img
@@ -1034,9 +739,6 @@
 
       </div>
 
-
-
-      <!-- CENTER -->
 
       <div class="footer-center">
 
@@ -1057,9 +759,6 @@
       </div>
 
 
-
-      <!-- RIGHT LOGO -->
-
       <div class="footer-logo footer-logo-right">
 
         <img
@@ -1069,18 +768,17 @@
 
       </div>
 
-
     </div>
 
   </footer>
 
 
 
-  <!-- =========================
-       JAVASCRIPT
-  ========================= -->
+  <!-- JAVASCRIPT -->
 
   <script src="programme.js?v=4"></script>
+
+  <script src="sponsors.js?v=1"></script>
 
   <script src="script.js?v=4"></script>
 
