@@ -799,37 +799,45 @@ main {
   gap: 10px;
 }
 
+
+/* MAIN PARTNERS */
+
 .sponsor-grid-main {
   grid-template-columns: repeat(2,minmax(0,1fr));
 }
+
+
+/* COLLABORATORS */
 
 .collaborator-grid {
   grid-template-columns: repeat(4,minmax(0,1fr));
 }
 
 
-/* 3 SPONSOR PRINCIPALI */
+/* SPONSOR PRINCIPALI - 3 */
 
 .sponsor-grid-principal {
   grid-template-columns: repeat(3,minmax(0,1fr));
 }
 
 
-/* 4 SPONSOR */
+/* SPONSOR - 4 */
 
 .sponsor-grid-standard {
   grid-template-columns: repeat(4,minmax(0,1fr));
 }
 
 
-/* 5 SOSTENITORI */
+/* SOSTENITORI - 5 */
 
 .sponsor-grid-supporters {
   grid-template-columns: repeat(5,minmax(0,1fr));
 }
 
 
-/* SPONSOR CARDS */
+/* =========================
+   SPONSOR CARDS
+========================= */
 
 .sponsor-card {
   min-width: 0;
@@ -874,7 +882,9 @@ main {
 }
 
 
-/* SPONSOR LOGOS */
+/* =========================
+   SPONSOR LOGOS
+========================= */
 
 .sponsor-logo {
   width: 100%;
@@ -927,7 +937,9 @@ main {
 }
 
 
-/* SPONSOR NAMES */
+/* =========================
+   SPONSOR NAMES
+========================= */
 
 .sponsor-name {
   margin-top: 8px;
@@ -961,7 +973,7 @@ main {
 ========================= */
 
 footer {
-  padding: 38px 20px;
+  padding: 30px 20px 18px;
 
   background: var(--charcoal-dark);
 
@@ -983,7 +995,7 @@ footer {
 
   justify-content: center;
 
-  gap: 18px;
+  gap: 12px;
 }
 
 .footer-center {
@@ -1008,9 +1020,9 @@ footer {
 
   height: auto;
 
-  max-width: 85px;
+  max-width: 76px;
 
-  max-height: 68px;
+  max-height: 58px;
 
   object-fit: contain;
 }
@@ -1019,7 +1031,7 @@ footer {
 /* FOOTER BRAND */
 
 .footer-brand {
-  font-size: 20px;
+  font-size: 18px;
 
   font-weight: 700;
 
@@ -1027,7 +1039,7 @@ footer {
 }
 
 .footer-subtitle {
-  margin-top: 5px;
+  margin-top: 4px;
 
   font-family:
     Georgia,
@@ -1036,23 +1048,23 @@ footer {
 
   font-style: italic;
 
-  font-size: 14px;
+  font-size: 13px;
 
   color: #C9C9C9;
 }
 
 .footer-line {
-  width: 36px;
+  width: 34px;
 
   height: 2px;
 
   background: var(--teal);
 
-  margin: 17px auto;
+  margin: 12px auto;
 }
 
 .footer-organizer {
-  font-size: 10px;
+  font-size: 9px;
 
   letter-spacing: 1px;
 
@@ -1069,38 +1081,46 @@ footer {
 
   height: auto;
 
-  max-width: 100px;
+  max-width: 88px;
 
-  max-height: 80px;
+  max-height: 68px;
 
   object-fit: contain;
 }
 
 
-/* LEGAL INFORMATION */
+/* =========================
+   SMALL LEGAL FOOTER
+========================= */
 
 .footer-legal {
   width: 100%;
 
-  max-width: 620px;
+  max-width: 520px;
 
-  margin-top: 6px;
+  margin-top: 2px;
 
-  padding-top: 20px;
+  padding-top: 10px;
 
-  border-top: 1px solid rgba(255,255,255,0.12);
+  border-top: 1px solid rgba(255,255,255,0.08);
 
-  color: #8D8D8D;
+  color: #777777;
 
-  font-size: 9px;
+  font-size: 7px;
 
-  line-height: 1.8;
+  line-height: 1.45;
 
-  letter-spacing: 0.25px;
+  letter-spacing: 0.15px;
+
+  text-align: center;
+}
+
+.footer-legal div {
+  margin: 0;
 }
 
 .footer-legal a {
-  color: #AAAAAA;
+  color: #8C8C8C;
 
   text-decoration: none;
 }
@@ -1110,15 +1130,15 @@ footer {
 }
 
 .footer-legal-links {
-  margin-top: 8px;
+  margin-top: 3px;
 }
 
 .footer-legal-links a {
-  color: var(--teal-light);
+  color: #8C8C8C;
 
-  font-weight: 700;
+  font-weight: 400;
 
-  letter-spacing: 0.7px;
+  letter-spacing: 0.2px;
 }
 
 
@@ -1278,7 +1298,9 @@ footer {
   }
 
 
-  /* SPONSORS MOBILE */
+  /* =========================
+     MOBILE SPONSORS
+  ========================= */
 
   .sponsor-grid-main,
   .collaborator-grid,
@@ -1334,26 +1356,28 @@ footer {
   }
 
 
-  /* FOOTER MOBILE */
+  /* =========================
+     MOBILE FOOTER
+  ========================= */
 
   footer {
-    padding: 32px 16px;
+    padding: 26px 16px 14px;
   }
 
   .footer-content {
-    gap: 14px;
+    gap: 10px;
   }
 
   .footer-logo-left img {
-    max-width: 72px;
+    max-width: 66px;
 
-    max-height: 58px;
+    max-height: 50px;
   }
 
   .footer-logo-right img {
-    max-width: 85px;
+    max-width: 78px;
 
-    max-height: 68px;
+    max-height: 60px;
   }
 
   .footer-brand {
@@ -1366,11 +1390,26 @@ footer {
     font-size: 12px;
   }
 
-  .footer-legal {
-    font-size: 8px;
-
-    line-height: 1.7;
+  .footer-line {
+    margin: 10px auto;
   }
+
+  .footer-organizer {
+    font-size: 8px;
+  }
+
+  .footer-legal {
+    max-width: 320px;
+
+    padding-top: 8px;
+
+    font-size: 6.5px;
+
+    line-height: 1.4;
+  }
+
+
+  /* PRIVACY PAGE MOBILE */
 
   .legal-page {
     padding: 35px 18px 55px;
