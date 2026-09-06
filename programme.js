@@ -207,14 +207,24 @@ const programme = [
     placeId: "P05",
     description: ""
   },
+
+  {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Guido Ghiani - Scultura Legno",
+    categories: ["AO"],
+    placeId: "P07",
+    description: ""
+  },
    
   {
     day: "sabato",
     time: "11:00",
     endTime: "19:00",
-    title: "Guido Ghiani, Claudio Lallai e Cesare Chilotti - Scultura Legno",
+    title: "Cesare Chilotti - Scultura Legno",
     categories: ["AO"],
-    placeId: "P07",
+    placeId: "P02",
     description: ""
   },
 
@@ -304,13 +314,23 @@ const programme = [
     description: ""
   },
    
-   {
+ {
     day: "domenica",
     time: "11:00",
     endTime: "19:00",
-    title: "Guido Ghiani, Claudio Lallai e Cesare Chilotti - Scultura Legno",
+    title: "Guido Ghiani - Scultura Legno",
     categories: ["AO"],
     placeId: "P07",
+    description: ""
+  },
+   
+  {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Cesare Chilotti - Scultura Legno",
+    categories: ["AO"],
+    placeId: "P02",
     description: ""
   },
    
