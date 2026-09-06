@@ -298,6 +298,26 @@ const programme = [
      DOMENICA
   ========================= */
 
+
+                    {
+    day: "domenica",
+    time: "11:00",
+    endTime: "12:00",
+    title: "Davide Brai - Laboratorio Trampolino",
+    categories: ["BA"],
+    placeId: "P04",
+    description: ""
+  },
+
+                    {
+    day: "domenica",
+    time: "17:00",
+    endTime: "18:00",
+    title: "Davide Brai - Spettacolo di Trampolino",
+    categories: ["SP"],
+    placeId: "P04",
+    description: ""
+  },
                  {
     day: "domenica",
     time: "17:00",
