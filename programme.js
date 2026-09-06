@@ -112,6 +112,11 @@ const places = [
   {
     id: "P12",
     name: "Mulino Vecchio"
+  },
+
+     {
+    id: "P13",
+    name: "Fragus e Saboris"
   }
 
 ];
@@ -128,6 +133,16 @@ const programme = [
   ========================= */
 
 
+                 {
+    day: "sabato",
+    time: "17:00",
+    endTime: "18:00",
+    title: "Degustazione Erboristica",
+    categories: ["FD"],
+    placeId: "P13",
+    description: ""
+  },
+   
               {
     day: "sabato",
     time: "22:00",
@@ -283,7 +298,16 @@ const programme = [
      DOMENICA
   ========================= */
 
-
+                 {
+    day: "domenica",
+    time: "17:00",
+    endTime: "18:00",
+    title: "Degustazione Erboristica",
+    categories: ["FD"],
+    placeId: "P13",
+    description: ""
+  },
+   
            {
     day: "domenica",
     time: "11:00",
