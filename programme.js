@@ -301,8 +301,8 @@ const programme = [
 
                     {
     day: "domenica",
-    time: "11:00",
-    endTime: "12:00",
+    time: "10:00",
+    endTime: "11:00",
     title: "Davide Brai - Laboratorio Trampolino",
     categories: ["BA"],
     placeId: "P04",
