@@ -262,7 +262,7 @@ const programme = [
     day: "sabato",
     time: "16:30",
     endTime: "17:30",
-    title: "Lia Servi - lettura racconti",
+    title: "Lia Servi e Lorena Carta - lettura racconti",
     categories: ["PL"],
     placeId: "P01",
     description: ""
@@ -272,7 +272,7 @@ const programme = [
     day: "sabato",
     time: "10:00",
     endTime: "20:00",
-    title: "Giostraio Cecco Locc",
+    title: "Giostraio Checco Locci",
     categories: ["BA"],
     placeId: "P07",
     description: ""
@@ -418,7 +418,7 @@ const programme = [
     day: "domenica",
     time: "11:00",
     endTime: "12:00",
-    title: "Lia Servi - lettura racconti",
+    title: "Lia Servi e Lorena Carta - lettura racconti",
     categories: ["PL"],
     placeId: "P01",
     description: ""
@@ -427,8 +427,8 @@ const programme = [
         {
     day: "domenica",
     time: "10:00",
-    endTime: "20:00",
-    title: "Giostraio Cecco Locc",
+    endTime: "19:00",
+    title: "Giostraio Checco Locci",
     categories: ["BA"],
     placeId: "P07",
     description: ""
