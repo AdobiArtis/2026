@@ -128,6 +128,15 @@ const programme = [
   ========================= */
 
 
+              {
+    day: "sabato",
+    time: "22:00",
+    endTime: "23:00",
+    title: "Red Moon Diamond - Jam session ognuno col proprio strumento",
+    categories: ["MU"],
+    placeId: "P04",
+    description: ""
+  },
            {
     day: "sabato",
     time: "11:00",
