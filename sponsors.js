@@ -79,8 +79,12 @@ const sponsorsData = {
          {
       name: "Andrea Laconi",
       logo: "sponsors/sponsor-main-andraLaconi.png"
-    }
+    },
 
+            {
+      name: "I Nostri Eroi Segreti",
+      logo: "sponsors/sponsor-main-eroi.png"
+    }
   ],
 
 
