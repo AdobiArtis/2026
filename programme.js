@@ -137,7 +137,7 @@ const programme = [
     day: "sabato",
     time: "19:00",
     endTime: "20:00",
-    title: "Il Cinghiale Bianco - Funambolo",
+    title: "Sirboni abriu - Cinghiale bianco (Funambolo) - Collettivo idealista",
     categories: ["SP"],
     placeId: "P02",
     description: ""
@@ -321,7 +321,7 @@ const programme = [
        day: "domenica",
     time: "18:00",
     endTime: "19:00",
-    title: "Concerto Giulia e Gruppo",
+    title: "Cantu et contu - Collettivo Bardunfule",
     categories: ["MU"],
     placeId: "P04",
     description: ""
@@ -331,7 +331,7 @@ const programme = [
        day: "domenica",
     time: "09:00",
     endTime: "10:00",
-    title: "Il Cinghiale Bianco - Funambolo",
+    title: "Sirboni abriu - Cinghiale bianco (Funambolo) - Collettivo idealista",
     categories: ["SP"],
     placeId: "P02",
     description: ""
