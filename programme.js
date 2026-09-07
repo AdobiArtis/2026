@@ -133,6 +133,16 @@ const programme = [
   ========================= */
 
 
+                    {
+    day: "sabato",
+    time: "19:00",
+    endTime: "20:00",
+    title: "Il Cinghiale Bianco - Funambolo",
+    categories: ["SP"],
+    placeId: "P02",
+    description: ""
+  },
+   
                  {
     day: "sabato",
     time: "17:00",
@@ -298,6 +308,34 @@ const programme = [
      DOMENICA
   ========================= */
 
+       {
+       day: "domenica",
+    time: "08:00",
+    endTime: "09:00",
+    title: "Funambolo - vuoi provare?",
+    categories: ["BA"],
+    placeId: "P02",
+    description: ""
+  },
+    {
+       day: "domenica",
+    time: "18:00",
+    endTime: "19:00",
+    title: "Concerto Giulia e Gruppo",
+    categories: ["MU"],
+    placeId: "P04",
+    description: ""
+  },
+   
+    {
+       day: "domenica",
+    time: "09:00",
+    endTime: "10:00",
+    title: "Il Cinghiale Bianco - Funambolo",
+    categories: ["SP"],
+    placeId: "P02",
+    description: ""
+  },
 
                     {
     day: "domenica",
