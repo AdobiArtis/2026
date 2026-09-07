@@ -339,8 +339,8 @@ const programme = [
    
                           {
     day: "domenica",
-    time: "09:00",
-    endTime: "10:00",
+    time: "11:00",
+    endTime: "11:30",
     title: "Civo Lerie - storie a manovella",
     categories: ["SP", "BA"],
     placeId: "P04",
