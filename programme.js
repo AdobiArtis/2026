@@ -133,6 +133,16 @@ const programme = [
   ========================= */
 
 
+                       {
+    day: "sabato",
+    time: "17:00",
+    endTime: "18:00",
+    title: "Civo Lerie - Su oe cun sos corros de atalzu",
+    categories: ["SP", "BA"],
+    placeId: "P04",
+    description: ""
+  },
+
                     {
     day: "sabato",
     time: "19:00",
@@ -308,6 +318,25 @@ const programme = [
      DOMENICA
   ========================= */
 
+                          {
+    day: "domenica",
+    time: "09:00",
+    endTime: "10:00",
+    title: "Civo Lerie - storie a manovella",
+    categories: ["SP", "BA"],
+    placeId: "P04",
+    description: ""
+  },
+                          {
+    day: "domenica",
+    time: "16:00",
+    endTime: "17:00",
+    title: "Civo Lerie - Su oe cun sos corros de atalzu",
+    categories: ["SP", "BA"],
+    placeId: "P04",
+    description: ""
+  },
+   
        {
        day: "domenica",
     time: "08:00",
