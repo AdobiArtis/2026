@@ -132,6 +132,15 @@ const programme = [
      SABATO
   ========================= */
 
+                          {
+    day: "sabato",
+    time: "15:30",
+    endTime: "17:00",
+    title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
+    categories: ["LA"],
+    placeId: "P04",
+    description: ""
+  },
 
                        {
     day: "sabato",
@@ -318,6 +327,16 @@ const programme = [
      DOMENICA
   ========================= */
 
+                             {
+    day: "domenica",
+    time: "16:30",
+    endTime: "18:00",
+    title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
+    categories: ["LA"],
+    placeId: "P04",
+    description: ""
+  },
+   
                           {
     day: "domenica",
     time: "09:00",
