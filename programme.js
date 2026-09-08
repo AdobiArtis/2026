@@ -189,7 +189,7 @@ const programme = [
     endTime: "22:30",
     title: "Whjtey",
     categories: ["MU"],
-    placeId: "P04",
+    placeId: "P05",
     description: ""
   },
               {
@@ -198,7 +198,7 @@ const programme = [
     endTime: "00:00",
     title: "Red Moon Diamond - Musica rock retro psichedelico con tratti prog",
     categories: ["MU"],
-    placeId: "P04",
+    placeId: "P05",
     description: ""
   },
            {
@@ -236,7 +236,7 @@ const programme = [
     time: "17:30",
     endTime: "18:00",
     title: "Paola Tomasi, armonizzazione sonora: VOCE E SUONI CHE CURANO",
-    categories: ["LA"],
+    categories: ["LA", "PL"],
     placeId: "P01",
     description: ""
   },
@@ -354,7 +354,7 @@ const programme = [
     endTime: "16:30",
     title: "Rebel Blues Band",
     categories: ["MU"],
-    placeId: "P04",
+    placeId: "P05",
     description: ""
   },
                              {
