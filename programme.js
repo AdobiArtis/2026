@@ -187,7 +187,7 @@ const programme = [
     day: "sabato",
     time: "22:00",
     endTime: "23:00",
-    title: "Red Moon Diamond",
+    title: "Red Moon Diamond - Musica rock retro psichedelico con tratti prog",
     categories: ["MU"],
     placeId: "P04",
     description: ""
@@ -487,25 +487,6 @@ const programme = [
     description: ""
   },
 
-      {
-    day: "domenica",
-    time: "12:00",
-    endTime: "13:00",
-    title: "Rebel Blues Band",
-    categories: ["MU"],
-    placeId: "P05",
-    description: ""
-  },
-   
-   {
-    day: "domenica",
-    time: "15:00",
-    endTime: "16:00",
-    title: "Rebel Blues Band",
-    categories: ["MU"],
-    placeId: "P05",
-    description: ""
-  },
    
    {
     day: "domenica",
