@@ -365,15 +365,7 @@ const programme = [
     placeId: "P02",
     description: ""
   },
-    {
-       day: "domenica",
-    time: "18:00",
-    endTime: "19:00",
-    title: "Cantu et contu - Collettivo Bardunfule",
-    categories: ["MU"],
-    placeId: "P04",
-    description: ""
-  },
+
    
     {
        day: "domenica",
