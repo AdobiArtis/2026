@@ -132,11 +132,22 @@ const programme = [
      SABATO
   ========================= */
 
-                          {
+       
+{
+    day: "sabato",
+    time: "16:00",
+    endTime: "16:30",
+    title: "Irene Marceddu",
+    categories: ["PL"],
+    placeId: "P01",
+    description: ""
+  },
+
+{
     day: "sabato",
     time: "15:30",
     endTime: "17:00",
-    title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
+    title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo",
     categories: ["LA"],
     placeId: "P04",
     description: ""
@@ -176,7 +187,7 @@ const programme = [
     day: "sabato",
     time: "22:00",
     endTime: "23:00",
-    title: "Red Moon Diamond - Jam session ognuno col proprio strumento",
+    title: "Red Moon Diamond",
     categories: ["MU"],
     placeId: "P04",
     description: ""
@@ -216,7 +227,7 @@ const programme = [
     time: "17:30",
     endTime: "18:00",
     title: "Paola Tomasi, armonizzazione sonora: VOCE E SUONI CHE CURANO",
-    categories: ["PL"],
+    categories: ["LA"],
     placeId: "P01",
     description: ""
   },
@@ -224,7 +235,7 @@ const programme = [
     day: "sabato",
     time: "18:00",
     endTime: "19:30",
-    title: "Alì e gli amici di Giuseppe Carta presentano il romanzo La morale di Santander",
+    title: "Alì e gli amici di Giuseppe Carta presentano il romanzo 'La morale di Santander'",
     categories: ["PL"],
     placeId: "P01",
     description: ""
@@ -327,6 +338,16 @@ const programme = [
      DOMENICA
   ========================= */
 
+
+                 {
+    day: "domenica",
+    time: "15:30",
+    endTime: "16:30",
+    title: "Rebel Blues Band",
+    categories: ["MU"],
+    placeId: "P04",
+    description: ""
+  },
                              {
     day: "domenica",
     time: "16:30",
