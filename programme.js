@@ -182,11 +182,20 @@ const programme = [
     placeId: "P13",
     description: ""
   },
-   
+
+                 {
+    day: "sabato",
+    time: "21:30",
+    endTime: "22:30",
+    title: "Whjtey",
+    categories: ["MU"],
+    placeId: "P04",
+    description: ""
+  },
               {
     day: "sabato",
-    time: "22:00",
-    endTime: "23:00",
+    time: "22:30",
+    endTime: "00:00",
     title: "Red Moon Diamond - Musica rock retro psichedelico con tratti prog",
     categories: ["MU"],
     placeId: "P04",
@@ -402,7 +411,7 @@ const programme = [
     day: "domenica",
     time: "10:00",
     endTime: "11:00",
-    title: "Davide Brai - Laboratorio Trampolino",
+    title: "Davide Brai - Laboratorio Bambini",
     categories: ["BA"],
     placeId: "P04",
     description: ""
@@ -412,7 +421,7 @@ const programme = [
     day: "domenica",
     time: "17:00",
     endTime: "18:00",
-    title: "Davide Brai - Spettacolo di Trampolino",
+    title: "Davide Brai - Spettacolo di Trampoli",
     categories: ["SP"],
     placeId: "P04",
     description: ""
