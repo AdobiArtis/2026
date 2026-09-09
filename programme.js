@@ -388,8 +388,8 @@ const programme = [
    
        {
        day: "domenica",
-    time: "08:00",
-    endTime: "09:00",
+    time: "09:00",
+    endTime: "10:00",
     title: "Funambolo - vuoi provare?",
     categories: ["BA"],
     placeId: "P02",
@@ -399,8 +399,8 @@ const programme = [
    
     {
        day: "domenica",
-    time: "09:00",
-    endTime: "10:00",
+    time: "10:00",
+    endTime: "11:00",
     title: "Sirboni abriu - Cinghiale bianco (Funambolo) - Collettivo idealista",
     categories: ["SP"],
     placeId: "P02",
