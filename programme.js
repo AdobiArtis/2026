@@ -137,7 +137,7 @@ const programme = [
     day: "sabato",
     time: "16:00",
     endTime: "16:30",
-    title: "Irene Marceddu",
+    title: "Irene Marceddu - Spazio per le Poesie",
     categories: ["PL"],
     placeId: "P01",
     description: ""
