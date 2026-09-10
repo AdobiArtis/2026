@@ -497,7 +497,7 @@ const programme = [
    
       {
     day: "domenica",
-    time: "19:00",
+    time: "19:30",
     endTime: "20:00",
     title: "Chiusura Lotteria",
     categories: ["SP"],
