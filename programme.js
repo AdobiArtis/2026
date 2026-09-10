@@ -347,7 +347,16 @@ const programme = [
      DOMENICA
   ========================= */
 
-
+                 {
+    day: "domenica",
+    time: "18:00",
+    endTime: "19:00",
+    title: "Tradizione in Cammino: Quadri di Abiti Tradizionali a cura dell'Associazione Sàdili Antiga",
+    categories: ["SP"],
+    placeId: "P04",
+    description: "Un percorso guidato alla scoperta dei tessuti, delle forme e della storia dell'abbigliamento tradizionale."
+  },
+   
                  {
     day: "domenica",
     time: "15:30",
