@@ -132,6 +132,15 @@ const programme = [
      SABATO
   ========================= */
 
+                    {
+    day: "sababto",
+    time: "19:00",
+    endTime: "20:30",
+    title: "Stefano Lusso - musica e cover",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
        
 {
     day: "sabato",
