@@ -353,15 +353,24 @@ const programme = [
     endTime: "19:00",
     title: "Tradizione in Cammino: Quadri di Abiti Tradizionali a cura dell'Associazione Sàdili Antiga",
     categories: ["SP"],
-    placeId: "P04",
+    placeId: "P01",
     description: "Un percorso guidato alla scoperta dei tessuti, delle forme e della storia dell'abbigliamento tradizionale."
   },
-   
+
+                    {
+    day: "domenica",
+    time: "12:00",
+    endTime: "13:00",
+    title: "Two in Blues",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
                  {
     day: "domenica",
-    time: "15:30",
-    endTime: "16:30",
-    title: "Rebel Blues Band",
+    time: "15:00",
+    endTime: "16:00",
+    title: "Two in Blues",
     categories: ["MU"],
     placeId: "P05",
     description: ""
@@ -371,7 +380,7 @@ const programme = [
     time: "16:30",
     endTime: "18:00",
     title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
-    categories: ["LA"],
+    categories: ["LA" , "BA"],
     placeId: "P04",
     description: ""
   },
@@ -400,7 +409,7 @@ const programme = [
     time: "09:00",
     endTime: "10:00",
     title: "Funambolo - vuoi provare?",
-    categories: ["BA"],
+    categories: ["LA" , "BA"],
     placeId: "P02",
     description: ""
   },
@@ -430,7 +439,7 @@ const programme = [
     day: "domenica",
     time: "17:00",
     endTime: "18:00",
-    title: "Davide Brai - Spettacolo di Trampoli",
+    title: "Davide Brai - Spettacolo su Trampoli",
     categories: ["SP"],
     placeId: "P04",
     description: ""
