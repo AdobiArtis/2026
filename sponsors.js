@@ -34,6 +34,8 @@ const sponsorsData = {
 
   collaborators: [
 
+
+     
      {
       name: "Gruppo Culturale Alessandra Sorcinelli",
       logo: "sponsors/collaboratore-sorcinelli.png"
@@ -63,6 +65,26 @@ const sponsorsData = {
     {
       name: "San Valentino Sadali",
       logo: "sponsors/collaboratore-sanvalentino.png"
+    }, 
+
+                    {
+      name: "Proloco Sadali",
+      logo: "sponsors/collaboratore-proloco.png"
+    },
+
+               {
+      name: "Ecomuseo delle Acque della Barbaggia",
+      logo: "sponsors/collaboratore-ecomuseo.png"
+    },
+     
+          {
+      name: "Fioricultura",
+      logo: "sponsors/collaboratore_fioricultura.png"
+    },
+
+          {
+      name: "Le Case del Folletto",
+      logo: "sponsors/collaboratore-folletto.png"
     }
 
 
@@ -149,6 +171,11 @@ const sponsorsData = {
       name: "Al Bar di Su",
       logo: "sponsors/sponsor-albardisu.png"
     },
+
+                   {
+      name: "Coop Su Scontu",
+      logo: "sponsors/sponsor_suscontu.png"
+    }
 
   ]
 
