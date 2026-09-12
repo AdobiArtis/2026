@@ -133,7 +133,7 @@ const programme = [
   ========================= */
 
                        {
-    day: "sababto",
+    day: "sabato",
     time: "18:00",
     endTime: "19:00",
     title: "L'Arte del Combattimento",
@@ -143,7 +143,7 @@ const programme = [
   },
    
                     {
-    day: "sababto",
+    day: "sabato",
     time: "20:00",
     endTime: "21:30",
     title: "Stefano Lusso - musica e cover",
