@@ -355,6 +355,17 @@ const programme = [
      DOMENICA
   ========================= */
 
+   
+   
+           {
+    day: "domenica",
+    time: "20:00",
+    endTime: "20:30",
+    title: "Qua Terna c'inquina. È un omaggio alla rivolta degli ulivi di Selargius",
+    categories: ["SP"],
+    placeId: "P01",
+    description: "Simone Olla, Sandro Ullasci, Stefano Manca"
+  },
 
         {
     day: "domenica",
