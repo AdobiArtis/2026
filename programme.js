@@ -132,6 +132,25 @@ const programme = [
      SABATO
   ========================= */
 
+ {
+       day: "sabato",
+    time: "11:00",
+    endTime: "13:00",
+    title: "Mauro Marci - trattamenti Olistici",
+    categories: ["LA"],
+    placeId: "P05",
+    description: ""
+  },
+
+    {
+       day: "sabato",
+    time: "14:30",
+    endTime: "19:30",
+    title: "Mauro Marci - trattamenti Olistici",
+    categories: ["LA"],
+    placeId: "P05",
+    description: ""
+  },
                        {
     day: "sabato",
     time: "18:00",
@@ -355,7 +374,25 @@ const programme = [
      DOMENICA
   ========================= */
 
-   
+    {
+       day: "domenica",
+    time: "10:00",
+    endTime: "13:00",
+    title: "Mauro Marci - trattamenti Olistici",
+    categories: ["LA"],
+    placeId: "P05",
+    description: ""
+  },
+
+    {
+       day: "domenica",
+    time: "14:30",
+    endTime: "17:30",
+    title: "Mauro Marci - trattamenti Olistici",
+    categories: ["LA"],
+    placeId: "P05",
+    description: ""
+  },
    
            {
     day: "domenica",
