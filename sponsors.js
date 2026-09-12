@@ -84,7 +84,7 @@ const sponsorsData = {
 
           {
       name: "Le Case del Folletto",
-      logo: "sponsors/collaboratore-folletto.png"
+      logo: "sponsors/collaboratore_folletto.png"
     }
 
 
