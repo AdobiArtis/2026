@@ -146,9 +146,9 @@ const programme = [
     day: "sabato",
     time: "20:00",
     endTime: "21:30",
-    title: "Max - musica",
+    title: "Stefano Lusso - musica e cover nei vicoli di Sadali",
     categories: ["MU"],
-    placeId: "P04",
+    placeId: "P06",
     description: ""
   },
        
