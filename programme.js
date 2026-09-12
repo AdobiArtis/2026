@@ -146,7 +146,7 @@ const programme = [
     day: "sabato",
     time: "20:00",
     endTime: "21:30",
-    title: "Stefano Lusso - musica e cover",
+    title: "Max - musica",
     categories: ["MU"],
     placeId: "P04",
     description: ""
