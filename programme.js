@@ -132,6 +132,16 @@ const programme = [
      SABATO
   ========================= */
 
+                       {
+    day: "sababto",
+    time: "18:00",
+    endTime: "19:00",
+    title: "L'Arte del Combattimento",
+    categories: ["SP"],
+    placeId: "P02",
+    description: ""
+  },
+   
                     {
     day: "sababto",
     time: "19:00",
@@ -270,17 +280,6 @@ const programme = [
   },
    
 
-
-     {
-    day: "sabato",
-    time: "12:00",
-    endTime: "13:00",
-    title: "Trio musicale di Seulo con Cover Guccini",
-    categories: ["MU"],
-    placeId: "P05",
-    description: ""
-  },
-
   {
     day: "sabato",
     time: "11:00",
@@ -356,6 +355,17 @@ const programme = [
      DOMENICA
   ========================= */
 
+
+        {
+    day: "domenica",
+    time: "11:00",
+    endTime: "12:00",
+    title: "Trio musicale di Seulo con Cover Guccini",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
+   
                  {
     day: "domenica",
     time: "18:00",
@@ -375,6 +385,17 @@ const programme = [
     placeId: "P05",
     description: ""
   },
+
+                       {
+    day: "domenica",
+    time: "13:00",
+    endTime: "15:00",
+    title: "Alessio Lilliu - Ferratura di Taki",
+    categories: ["SP", "AO"],
+    placeId: "P02",
+    description: ""
+  },
+   
                  {
     day: "domenica",
     time: "15:00",
@@ -517,7 +538,7 @@ const programme = [
     day: "domenica",
     time: "19:30",
     endTime: "20:00",
-    title: "Chiusura Lotteria",
+    title: "Chiusura della Lotteria dell'Arte von Alberto Farris",
     categories: ["SP"],
     placeId: "P11",
     description: ""
@@ -576,8 +597,8 @@ const programme = [
 
      {
     day: "domenica",
-    time: "11:00",
-    endTime: "12:00",
+    time: "17:00",
+    endTime: "18:00",
     title: "Lia Servi e Lorena Carta - lettura racconti",
     categories: ["PL"],
     placeId: "P01",
