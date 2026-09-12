@@ -198,7 +198,7 @@ const programme = [
     endTime: "22:30",
     title: "Whjtey",
     categories: ["MU"],
-    placeId: "P05",
+    placeId: "P04",
     description: ""
   },
               {
@@ -207,7 +207,7 @@ const programme = [
     endTime: "00:00",
     title: "Red Moon Diamond - Musica rock retro psichedelico con tratti prog",
     categories: ["MU"],
-    placeId: "P05",
+    placeId: "P04",
     description: ""
   },
            {
