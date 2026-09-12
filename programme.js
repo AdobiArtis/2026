@@ -276,7 +276,7 @@ const programme = [
     title: "Paolo Pittiu - Tooling del Cuoio",
     categories: ["LA"],
     placeId: "P12",
-    description: ""
+    description: "Borse in pellami pregiati con inserti in cuoio ispirati alla cultura nuragica. Gioielli realizzati con la tecnica dello sbalzo, ispirati ai simboli della cultura nuragica"
   },
    
 
@@ -563,7 +563,7 @@ const programme = [
     title: "Paolo Pittiu - Tooling del Cuoio",
     categories: ["LA"],
     placeId: "P12",
-    description: ""
+    description: "Borse in pellami pregiati con inserti in cuoio ispirati alla cultura nuragica. Gioielli realizzati con la tecnica dello sbalzo, ispirati ai simboli della cultura nuragica"
   },
    
      {
