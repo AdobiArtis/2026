@@ -144,11 +144,11 @@ const programme = [
    
                     {
     day: "sababto",
-    time: "19:00",
-    endTime: "20:30",
+    time: "20:00",
+    endTime: "21:30",
     title: "Stefano Lusso - musica e cover",
     categories: ["MU"],
-    placeId: "P05",
+    placeId: "P04",
     description: ""
   },
        
@@ -316,7 +316,7 @@ const programme = [
     endTime: "21:00",
     title: "Sergio Carboni - Giocoliere",
     categories: ["SP", "BA"],
-    placeId: "P04",
+    placeId: "P02",
     description: ""
   },
 
