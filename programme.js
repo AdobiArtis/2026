@@ -139,7 +139,7 @@ const programme = [
     title: "Mauro Marci - trattamenti Olistici",
     categories: ["LA"],
     placeId: "P05",
-    description: ""
+    description: "Reiki Pranoterapia bioenergetica applicata Massaggi Misti"
   },
 
     {
@@ -149,7 +149,7 @@ const programme = [
     title: "Mauro Marci - trattamenti Olistici",
     categories: ["LA"],
     placeId: "P05",
-    description: ""
+    description: "Reiki Pranoterapia bioenergetica applicata Massaggi Misti"
   },
                        {
     day: "sabato",
@@ -381,7 +381,7 @@ const programme = [
     title: "Mauro Marci - trattamenti Olistici",
     categories: ["LA"],
     placeId: "P05",
-    description: ""
+    description: "Reiki Pranoterapia bioenergetica applicata Massaggi Misti"
   },
 
     {
@@ -391,7 +391,7 @@ const programme = [
     title: "Mauro Marci - trattamenti Olistici",
     categories: ["LA"],
     placeId: "P05",
-    description: ""
+    description: "Reiki Pranoterapia bioenergetica applicata Massaggi Misti"
   },
    
            {
