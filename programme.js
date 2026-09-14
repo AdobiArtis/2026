@@ -177,7 +177,7 @@ const programme = [
     endTime: "17:00",
     title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo",
     categories: ["LA"],
-    placeId: "P04",
+    placeId: "P02",
     description: ""
   },
 
@@ -390,7 +390,7 @@ const programme = [
     endTime: "20:30",
     title: "Qua Terna c'inquina. È un omaggio alla rivolta degli ulivi di Selargius",
     categories: ["SP"],
-    placeId: "P01",
+    placeId: "P04",
     description: "Simone Olla, Sandro Ullasci, Stefano Manca"
   },
 
@@ -449,7 +449,7 @@ const programme = [
     endTime: "18:00",
     title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
     categories: ["LA" , "BA"],
-    placeId: "P04",
+    placeId: "P02",
     description: ""
   },
    
@@ -499,7 +499,7 @@ const programme = [
     endTime: "11:00",
     title: "Davide Brai - Laboratorio Bambini",
     categories: ["BA"],
-    placeId: "P04",
+    placeId: "P06",
     description: ""
   },
 
@@ -509,7 +509,7 @@ const programme = [
     endTime: "18:00",
     title: "Davide Brai - Spettacolo su Trampoli",
     categories: ["SP"],
-    placeId: "P04",
+    placeId: "P06",
     description: ""
   },
                  {
