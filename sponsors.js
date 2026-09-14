@@ -118,7 +118,7 @@ const sponsorsData = {
                       {
       name: "Sa Mesa Ristorante",
       logo: "sponsors/sponsor-main-samesa.png"
-    }
+    },
                  {
       name: "Autocarozzeria Pilia",
       logo: "sponsors/sponsor-main-pilia.png"
