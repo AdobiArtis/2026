@@ -82,6 +82,11 @@ const sponsorsData = {
       logo: "sponsors/collaboratore_fioricultura.png"
     },
 
+               {
+      name: "F.lli Carcangiu",
+      logo: "sponsors/sponsor-carcangiu.png"
+    },
+
           {
       name: "Le Case del Folletto",
       logo: "sponsors/collaboratore_folletto.png"
@@ -106,6 +111,17 @@ const sponsorsData = {
             {
       name: "I Nostri Eroi Segreti",
       logo: "sponsors/sponsor-main-eroi.png"
+    },
+
+     
+
+                      {
+      name: "Sa Mesa Ristorante",
+      logo: "sponsors/sponsor-main-samesa.png"
+    }
+                 {
+      name: "Autocarozzeria Pilia",
+      logo: "sponsors/sponsor-main-pilia.png"
     }
   ],
 
