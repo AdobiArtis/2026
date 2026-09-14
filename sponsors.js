@@ -188,7 +188,7 @@ const sponsorsData = {
 
 
   /* =========================
-     SOSTENITORI
+      
   ========================= */
 
   supporters: [
