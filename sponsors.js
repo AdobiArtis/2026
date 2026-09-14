@@ -103,7 +103,12 @@ const sponsorsData = {
 
   principal: [
 
-         {
+                              {
+      name: "Sa Mesa Ristorante",
+      logo: "sponsors/sponsor-main-samesa.png"
+    },
+     
+     {
       name: "Andrea Laconi",
       logo: "sponsors/sponsor-main-andraLaconi.png"
     },
@@ -113,27 +118,12 @@ const sponsorsData = {
       logo: "sponsors/sponsor-main-eroi.png"
     },
 
-     
-
                       {
-      name: "Sa Mesa Ristorante",
-      logo: "sponsors/sponsor-main-samesa.png"
-    },
-                 {
       name: "Autocarozzeria Pilia",
       logo: "sponsors/sponsor-main-pilia.png"
-    }
-  ],
+    },
 
-
-
-  /* =========================
-     SPONSOR
-  ========================= */
-
-  standard: [
-
-              {
+                   {
       name: "Kòru Agri Risto Pizzeria",
       logo: "sponsors/sponsor-koru.png"
     },
@@ -151,17 +141,17 @@ const sponsorsData = {
               {
       name: "Bar Ristorante Da Corrado e Francesca",
       logo: "sponsors/sponsor-corrado.png"
-    }
+    },     
 
   ],
 
 
 
   /* =========================
-     SOSTENITORI
+     SPONSOR
   ========================= */
 
-  supporters: [
+  standard: [
 
     {
       name: "S'Ambasciada Sarda",
@@ -191,7 +181,20 @@ const sponsorsData = {
                    {
       name: "Coop Su Scontu",
       logo: "sponsors/sponsor_suscontu.png"
-    }
+            }
+
+  ],
+
+
+
+  /* =========================
+     SOSTENITORI
+  ========================= */
+
+  supporters: [
+
+
+ 
 
   ]
 
