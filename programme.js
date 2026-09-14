@@ -65,11 +65,6 @@ const places = [
   },
 
   {
-    id: "P03",
-    name: "L'Incrocio"
-  },
-
-  {
     id: "P04",
     name: "Piazza Eleonora d'Arborea"
   },
@@ -97,11 +92,6 @@ const places = [
   {
     id: "P09",
     name: "Ristorante degli Artisti"
-  },
-
-  {
-    id: "P10",
-    name: "Punto Ristoro Su Stagno"
   },
 
   {
