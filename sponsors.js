@@ -19,8 +19,8 @@ const sponsorsData = {
     },
 
     {
-      name: "La Compagnia dell'Arte APS",
-      logo: "sponsors/sponsor-main-CdA.png"
+      name: "Le Vie di Tokyo",
+      logo: "sponsors/sponsor-main-tokyo.png"
     },
 
 
@@ -143,6 +143,26 @@ const sponsorsData = {
       logo: "sponsors/sponsor-corrado.png"
     },     
 
+                   {
+      name: "Su Coili Agriturismo",
+      logo: "sponsors/sponsor-coili.png"
+    }, 
+
+                   {
+      name: "Olga Danese Gioielleria",
+      logo: "sponsors/sponsor-olga.png"
+    }, 
+
+                   {
+      name: "La Bottega Barbacina",
+      logo: "sponsors/sponsor-cristiana.png"
+    }, 
+
+                        {
+      name: "EPICENTRO",
+      logo: "sponsors/sponsor-epicentro.png"
+    }, 
+     
   ],
 
 
