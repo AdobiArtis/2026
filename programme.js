@@ -122,6 +122,17 @@ const programme = [
      SABATO
   ========================= */
 
+
+    {
+       day: "sabato",
+    time: "19:30",
+    endTime: "20:30",
+    title: "Maria Luciani – Dalla Mitteleuropa alla Spagna - concerto per chitarra classica",
+    categories: ["MU"],
+    placeId: "P01",
+    description: "Un viaggio musicale da Mertz al cante jondo spagnolo di Torroba, Albéniz e Mompou."
+  },
+   
  {
        day: "sabato",
     time: "11:00",
