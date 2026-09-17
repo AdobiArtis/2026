@@ -71,12 +71,12 @@ const places = [
 
   {
     id: "P05",
-    name: "Piazza Municipio"
+    name: "Davanti alla Chiesa/Cascata"
   },
 
   {
     id: "P06",
-    name: "Itinerante"
+    name: "Itineranti"
   },
 
   {
@@ -87,16 +87,6 @@ const places = [
   {
     id: "P08",
     name: "Vicino alla Stazione"
-  },
-
-  {
-    id: "P09",
-    name: "Ristorante degli Artisti"
-  },
-
-  {
-    id: "P11",
-    name: "Chiosco degli Artisti"
   },
 
   {
@@ -159,7 +149,7 @@ const programme = [
     title: "L'Arte del Combattimento",
     categories: ["SP"],
     placeId: "P02",
-    description: ""
+    description: "Un viaggio tra tempi e continenti"
   },
    
                     {
@@ -226,7 +216,7 @@ const programme = [
     day: "sabato",
     time: "21:30",
     endTime: "22:30",
-    title: "Whjtey",
+    title: "Concerto: Whjtey",
     categories: ["MU"],
     placeId: "P04",
     description: ""
@@ -235,10 +225,10 @@ const programme = [
     day: "sabato",
     time: "22:30",
     endTime: "00:00",
-    title: "Red Moon Diamond - Musica rock retro psichedelico con tratti prog",
+    title: "Concerto: Red Moon Diamond",
     categories: ["MU"],
     placeId: "P04",
-    description: ""
+    description: "Musica rock retro psichedelico con tratti prog"
   },
            {
     day: "sabato",
@@ -283,7 +273,7 @@ const programme = [
     day: "sabato",
     time: "18:00",
     endTime: "19:30",
-    title: "Alì e gli amici di Giuseppe Carta presentano il romanzo 'La morale di Santander'",
+    title: "'La morale di Santander' con Ali e gli amici dell'autore'",
     categories: ["PL"],
     placeId: "P01",
     description: ""
@@ -324,9 +314,9 @@ const programme = [
     day: "sabato",
     time: "12:30",
     endTime: "15:00",
-    title: "Pranzo aperto",
+    title: "Pranzo aperto - Buon Apetito",
     categories: ["FD"],
-    placeId: "P09",
+    placeId: "P05",
     description: ""
   },
 
@@ -336,7 +326,7 @@ const programme = [
     endTime: "21:00",
     title: "Sergio Carboni - Giocoliere",
     categories: ["SP", "BA"],
-    placeId: "P02",
+    placeId: "P06",
     description: ""
   },
 
@@ -344,9 +334,9 @@ const programme = [
     day: "sabato",
     time: "20:00",
     endTime: "22:30",
-    title: "Cena aperta",
+    title: "Cena aperta - Buon Apetito",
     categories: ["FD"],
-    placeId: "P09",
+    placeId: "P05",
     description: ""
   },
 
@@ -407,7 +397,7 @@ const programme = [
 
         {
     day: "domenica",
-    time: "11:00",
+    time: "10:30",
     endTime: "12:00",
     title: "Trio musicale di Seulo con Cover Guccini",
     categories: ["MU"],
@@ -508,9 +498,9 @@ const programme = [
     day: "domenica",
     time: "10:00",
     endTime: "11:00",
-    title: "Davide Brai - Laboratorio Bambini",
+    title: "Davide Brai - Giochi con i piu piccoli",
     categories: ["BA"],
-    placeId: "P06",
+    placeId: "P04",
     description: ""
   },
 
@@ -520,7 +510,7 @@ const programme = [
     endTime: "18:00",
     title: "Davide Brai - Spettacolo su Trampoli",
     categories: ["SP"],
-    placeId: "P06",
+    placeId: "P04",
     description: ""
   },
                  {
@@ -587,9 +577,9 @@ const programme = [
     day: "domenica",
     time: "19:30",
     endTime: "20:00",
-    title: "Chiusura della Lotteria dell'Arte von Alberto Farris",
+    title: "Chiusura della Lotteria dell'Arte - con Alberto Farris",
     categories: ["SP"],
-    placeId: "P11",
+    placeId: "P04",
     description: ""
   },
 
@@ -628,9 +618,9 @@ const programme = [
     day: "domenica",
     time: "12:30",
     endTime: "15:00",
-    title: "Pranzo aperto",
+    title: "Pranzo aperto - Buon Apetito",
     categories: ["FD"],
-    placeId: "P09",
+    placeId: "P05",
     description: ""
   },
 
@@ -638,9 +628,9 @@ const programme = [
     day: "domenica",
     time: "20:00",
     endTime: "22:30",
-    title: "Cena aperta",
+    title: "Cena aperta - Buon Apetito",
     categories: ["FD"],
-    placeId: "P09",
+    placeId: "P05",
     description: ""
   },
 
