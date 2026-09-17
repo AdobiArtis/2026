@@ -113,6 +113,16 @@ const programme = [
   ========================= */
 
 
+       {
+       day: "sabato",
+    time: "23:30",
+    endTime: "01:30",
+    title: "DJ Set con Daniele",
+    categories: ["MU"],
+    placeId: "P04",
+    description: ""
+  },
+   
     {
        day: "sabato",
     time: "19:30",
@@ -177,7 +187,7 @@ const programme = [
     time: "15:30",
     endTime: "17:00",
     title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo",
-    categories: ["LA"],
+    categories: ["LA" , "MU"],
     placeId: "P02",
     description: ""
   },
@@ -360,11 +370,31 @@ const programme = [
     description: ""
   },
 
+          {
+       day: "sabato",
+    time: "12:00",
+    endTime: "13:30",
+    title: "Concerto: Gianni Fresu e Amici",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
+
    
   /* =========================
      DOMENICA
   ========================= */
 
+       {
+       day: "domenica",
+    time: "12:00",
+    endTime: "13:30",
+    title: "Concerto: Gianni Fresu e Amici",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
+   
     {
        day: "domenica",
     time: "10:00",
@@ -390,7 +420,7 @@ const programme = [
     time: "20:00",
     endTime: "20:30",
     title: "Qua Terna c'inquina. È un omaggio alla rivolta degli ulivi di Selargius",
-    categories: ["SP"],
+    categories: ["SP","MU"],
     placeId: "P04",
     description: "Simone Olla, Sandro Ullasci, Stefano Manca"
   },
@@ -449,7 +479,7 @@ const programme = [
     time: "16:30",
     endTime: "18:00",
     title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
-    categories: ["LA" , "BA"],
+    categories: ["LA" , "BA", "MU"],
     placeId: "P02",
     description: ""
   },
