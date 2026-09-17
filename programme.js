@@ -166,7 +166,7 @@ const programme = [
     day: "sabato",
     time: "21:00",
     endTime: "22:30",
-    title: "Stefano Lusso - musica e cover nei vicoli di Sadali",
+    title: "Stefano Lusso - Musica e Cover nei Vicoli di Sadali",
     categories: ["MU"],
     placeId: "P06",
     description: ""
@@ -186,7 +186,7 @@ const programme = [
     day: "sabato",
     time: "15:30",
     endTime: "17:00",
-    title: "Vincenzo Mazza - Laboratorio di percussioni africane",
+    title: "Vincenzo Mazza - Laboratorio di Percussioni Africane",
     categories: ["LA" , "MU" , "BA"],
     placeId: "P02",
     description: "Strumenti forniti, se hai un djembe portalo."
@@ -206,10 +206,10 @@ const programme = [
     day: "sabato",
     time: "19:00",
     endTime: "20:00",
-    title: "Sirboni abriu - Cinghiale bianco (Funambolo) - Collettivo idealista",
+    title: "Sirboni abriu - Cinghiale bianco (Funambolo)",
     categories: ["SP"],
     placeId: "P02",
-    description: ""
+    description: "Collettivo idealista"
   },
    
                  {
@@ -283,7 +283,7 @@ const programme = [
     day: "sabato",
     time: "18:00",
     endTime: "19:30",
-    title: "'La morale di Santander' con Ali e gli amici dell'autore'",
+    title: "'La morale di Santander' con Ali e gli Amici dell'Autore'",
     categories: ["PL"],
     placeId: "P01",
     description: ""
@@ -324,7 +324,7 @@ const programme = [
     day: "sabato",
     time: "12:30",
     endTime: "15:00",
-    title: "Pranzo aperto - Buon Apetito",
+    title: "Pranzo al Ristorante degli Artisti - Buon Apetito",
     categories: ["FD"],
     placeId: "P05",
     description: ""
@@ -344,7 +344,7 @@ const programme = [
     day: "sabato",
     time: "20:00",
     endTime: "22:30",
-    title: "Cena aperta - Buon Apetito",
+    title: "Cena al Ristorante degli Artisti - Buon Apetito",
     categories: ["FD"],
     placeId: "P05",
     description: ""
@@ -488,7 +488,7 @@ const programme = [
     day: "domenica",
     time: "11:00",
     endTime: "11:30",
-    title: "Civo Lerie - storie a manovella",
+    title: "Civo Lerie - Storie a Manovella",
     categories: ["SP", "BA"],
     placeId: "P04",
     description: ""
@@ -518,10 +518,10 @@ const programme = [
        day: "domenica",
     time: "10:00",
     endTime: "11:00",
-    title: "Sirboni abriu - Cinghiale bianco (Funambolo) - Collettivo idealista",
+    title: "Sirboni abriu - Cinghiale bianco (Funambolo)",
     categories: ["SP"],
     placeId: "P02",
-    description: ""
+    description: "Collettivo idealista"
   },
 
                     {
@@ -648,7 +648,7 @@ const programme = [
     day: "domenica",
     time: "12:30",
     endTime: "15:00",
-    title: "Pranzo aperto - Buon Apetito",
+    title: "Pranzo al Ristorante degli Artisti - Buon Apetito",
     categories: ["FD"],
     placeId: "P05",
     description: ""
@@ -658,7 +658,7 @@ const programme = [
     day: "domenica",
     time: "20:00",
     endTime: "22:30",
-    title: "Cena aperta - Buon Apetito",
+    title: "Cena al Ristorante degli Artisti - Buon Apetito",
     categories: ["FD"],
     placeId: "P05",
     description: ""
