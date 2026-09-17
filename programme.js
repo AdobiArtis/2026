@@ -164,8 +164,8 @@ const programme = [
    
                     {
     day: "sabato",
-    time: "20:00",
-    endTime: "21:30",
+    time: "21:00",
+    endTime: "22:30",
     title: "Stefano Lusso - musica e cover nei vicoli di Sadali",
     categories: ["MU"],
     placeId: "P06",
@@ -186,10 +186,10 @@ const programme = [
     day: "sabato",
     time: "15:30",
     endTime: "17:00",
-    title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo",
-    categories: ["LA" , "MU"],
+    title: "Vincenzo Mazza - Laboratorio di percussioni africane",
+    categories: ["LA" , "MU" , "BA"],
     placeId: "P02",
-    description: ""
+    description: "Strumenti forniti, se hai un djembe portalo."
   },
 
                        {
@@ -336,7 +336,7 @@ const programme = [
     endTime: "21:00",
     title: "Sergio Carboni - Giocoliere",
     categories: ["SP", "BA"],
-    placeId: "P06",
+    placeId: "P05",
     description: ""
   },
 
@@ -362,7 +362,7 @@ const programme = [
 
      {
     day: "sabato",
-    time: "10:00",
+    time: "11:00",
     endTime: "20:00",
     title: "Giostraio Checco Locci",
     categories: ["BA"],
@@ -478,10 +478,10 @@ const programme = [
     day: "domenica",
     time: "16:30",
     endTime: "18:00",
-    title: "Vincenzo Mazza - Laboratorio di percussioni africane: Strumenti forniti, se hai un djembe portalo.",
+    title: "Vincenzo Mazza - Laboratorio di percussioni africane",
     categories: ["LA" , "BA", "MU"],
     placeId: "P02",
-    description: ""
+    description: "Strumenti forniti, se hai un djembe portalo."
   },
    
                           {
