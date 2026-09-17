@@ -374,7 +374,7 @@ const programme = [
        day: "sabato",
     time: "12:00",
     endTime: "13:30",
-    title: "Concerto: Gianni Fresu e Amici",
+    title: "Concerto: Gianni Fresu e Band",
     categories: ["MU"],
     placeId: "P05",
     description: ""
@@ -387,9 +387,9 @@ const programme = [
 
        {
        day: "domenica",
-    time: "12:00",
-    endTime: "13:30",
-    title: "Concerto: Gianni Fresu e Amici",
+    time: "12:30",
+    endTime: "14:00",
+    title: "Concerto: Gianni Fresu e Band",
     categories: ["MU"],
     placeId: "P05",
     description: ""
@@ -427,8 +427,8 @@ const programme = [
 
         {
     day: "domenica",
-    time: "10:30",
-    endTime: "12:00",
+    time: "11:00",
+    endTime: "12:30",
     title: "Trio musicale di Seulo con Cover Guccini",
     categories: ["MU"],
     placeId: "P05",
@@ -459,7 +459,7 @@ const programme = [
     day: "domenica",
     time: "13:00",
     endTime: "15:00",
-    title: "Alessio Lilliu - Ferratura di Taki",
+    title: "Alessio Lilliu - Ferratura del cavallo Taki",
     categories: ["SP", "AO"],
     placeId: "P02",
     description: ""
@@ -538,7 +538,7 @@ const programme = [
     day: "domenica",
     time: "17:00",
     endTime: "18:00",
-    title: "Davide Brai - Spettacolo su Trampoli",
+    title: "Davide Brai - Spettacolo sui Trampoli",
     categories: ["SP"],
     placeId: "P04",
     description: ""
