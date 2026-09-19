@@ -438,7 +438,7 @@ const programme = [
     title: "Concerto: Tappeti Lebowsky snc",
     categories: ["MU"],
     placeId: "P05",
-    description: ""
+    description: "Musica popolare"
   },
 
    
@@ -502,7 +502,7 @@ const programme = [
     title: "Concerto: Tappeti Lebowsky snc",
     categories: ["MU"],
     placeId: "P05",
-    description: ""
+    description: "Musica popolare"
   },
    
     {
