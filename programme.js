@@ -117,7 +117,44 @@ const programme = [
      SABATO
   ========================= */
 
+                 {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Antonio Aracu    - Scultore",
+    categories: ["AO"],
+    placeId: "P02",
+    description: ""
+  },
+   
+              {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Ferruccio  Ferru - Scultore",
+    categories: ["AO"],
+    placeId: "P02",
+    description: ""
+  },
+           {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Antonello Pilittu - Scultore",
+    categories: ["AO"],
+    placeId: "P05",
+    description: ""
+  },
 
+        {
+    day: "sabato",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Franco Carcangiu - Arti Varie",
+    categories: ["AO"],
+    placeId: "P02",
+    description: ""
+  },
      {
     day: "sabato",
     time: "14:30",
@@ -400,10 +437,50 @@ const programme = [
      DOMENICA
   ========================= */
 
+   
+                 {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Antonio Aracu    - Scultore",
+    categories: ["AO"],
+    placeId: "P02",
+    description: ""
+  },
+   
+              {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Ferruccio  Ferru - Scultore",
+    categories: ["AO"],
+    placeId: "P02",
+    description: ""
+  },
+           {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Antonello Pilittu - Scultore",
+    categories: ["AO"],
+    placeId: "P05",
+    description: ""
+  },
+
+        {
+    day: "domenica",
+    time: "11:00",
+    endTime: "19:00",
+    title: "Franco Carcangiu - Arti Varie",
+    categories: ["AO"],
+    placeId: "P02",
+    description: ""
+  },
+   
        {
        day: "domenica",
-    time: "12:00",
-    endTime: "13:30",
+    time: "12:30",
+    endTime: "14:00",
     title: "Concerto: Tappeti Lebowsky snc",
     categories: ["MU"],
     placeId: "P05",
