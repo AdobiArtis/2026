@@ -466,6 +466,15 @@ const programme = [
      DOMENICA
   ========================= */
 
+   {
+    day: "domenica",
+    time: "16:30",
+    endTime: "17:00",
+    title: "Irene Marceddu - Spazio della Poesia",
+    categories: ["PL"],
+    placeId: "P01",
+    description: ""
+  },
                        {
     day: "domenica",
     time: "11:00",
@@ -611,7 +620,7 @@ const programme = [
     endTime: "19:30",
     title: "Two in Blues",
     categories: ["MU"],
-    placeId: "P05",
+    placeId: "P04",
     description: ""
   },
                              {
