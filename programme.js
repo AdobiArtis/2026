@@ -117,11 +117,20 @@ const programme = [
      SABATO
   ========================= */
 
+                    {
+    day: "sabato",
+    time: "14:30",
+    endTime: "15:30",
+    title: "Max - Musicista",
+    categories: ["MU"],
+    placeId: "P05",
+    description: ""
+  },
                  {
     day: "sabato",
     time: "11:00",
     endTime: "19:00",
-    title: "Antonio Aracu    - Scultore",
+    title: "Antonio Aracu - Scultore",
     categories: ["AO"],
     placeId: "P02",
     description: ""
@@ -437,6 +446,15 @@ const programme = [
      DOMENICA
   ========================= */
 
+                       {
+    day: "domenica",
+    time: "15:00",
+    endTime: "16:00",
+    title: "Max - Musicista",
+    categories: ["MU"],
+    placeId: "P04",
+    description: ""
+  },
    
                  {
     day: "domenica",
