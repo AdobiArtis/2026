@@ -595,16 +595,6 @@ const programme = [
     description: "Un percorso guidato alla scoperta dei tessuti, delle forme e della storia dell'abbigliamento tradizionale."
   },
 
-                    {
-    day: "domenica",
-    time: "12:00",
-    endTime: "13:00",
-    title: "Two in Blues",
-    categories: ["MU"],
-    placeId: "P05",
-    description: ""
-  },
-
                        {
     day: "domenica",
     time: "13:00",
@@ -617,8 +607,8 @@ const programme = [
    
                  {
     day: "domenica",
-    time: "15:00",
-    endTime: "16:00",
+    time: "17:00",
+    endTime: "19:30",
     title: "Two in Blues",
     categories: ["MU"],
     placeId: "P05",
