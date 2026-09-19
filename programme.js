@@ -685,8 +685,8 @@ const programme = [
 
                     {
     day: "domenica",
-    time: "17:00",
-    endTime: "18:00",
+    time: "19:30",
+    endTime: "20:00",
     title: "Davide Brai - Spettacolo sui Trampoli",
     categories: ["SP"],
     placeId: "P04",
