@@ -89,6 +89,11 @@ const places = [
     name: "Vicino alla Stazione"
   },
 
+     {
+    id: "P11",
+    name: "Lungo il Persorso"
+  },
+
   {
     id: "P12",
     name: "Mulino Vecchio"
@@ -112,6 +117,16 @@ const programme = [
      SABATO
   ========================= */
 
+
+     {
+    day: "sabato",
+    time: "14:30",
+    endTime: "15:30",
+    title: "Valentina Pilia - Laboratorio Ritmico",
+    categories: ["BA" , "LA"],
+    placeId: "P04",
+    description: ""
+  },
 
        {
        day: "sabato",
@@ -159,7 +174,7 @@ const programme = [
     title: "L'Arte del Combattimento",
     categories: ["SP"],
     placeId: "P02",
-    description: "Un viaggio tra tempi e continenti"
+    description: "Un viaggio tra Epoche e Continenti"
   },
    
                     {
@@ -195,11 +210,11 @@ const programme = [
                        {
     day: "sabato",
     time: "17:00",
-    endTime: "18:00",
+    endTime: "17:30",
     title: "Civo Lerie - Su oe cun sos corros de atalzu",
     categories: ["SP", "BA"],
     placeId: "P04",
-    description: ""
+    description: "racconto di una antica paristoria thiesina, che parla della Mamma dei Venti, di una maledizione, di un bue dalle corna d' acciaio e due sorelle chiamate a rompere l' incanto. Dialoghi in logudorese"
   },
 
                     {
@@ -304,7 +319,7 @@ const programme = [
     day: "sabato",
     time: "11:00",
     endTime: "19:00",
-    title: "Guido Ghiani - Scultura Legno",
+    title: "Cesare Chilotti e Guido Ghiani - Scultura Legno",
     categories: ["AO"],
     placeId: "P07",
     description: ""
@@ -372,9 +387,9 @@ const programme = [
 
           {
        day: "sabato",
-    time: "12:00",
-    endTime: "13:30",
-    title: "Concerto: Gianni Fresu e Band",
+    time: "15:30",
+    endTime: "17:00",
+    title: "Concerto: Tappeti Lebowsky snc",
     categories: ["MU"],
     placeId: "P05",
     description: ""
@@ -387,9 +402,9 @@ const programme = [
 
        {
        day: "domenica",
-    time: "12:30",
-    endTime: "14:00",
-    title: "Concerto: Gianni Fresu e Band",
+    time: "12:00",
+    endTime: "13:30",
+    title: "Concerto: Tappeti Lebowsky snc",
     categories: ["MU"],
     placeId: "P05",
     description: ""
@@ -491,16 +506,16 @@ const programme = [
     title: "Civo Lerie - Storie a Manovella",
     categories: ["SP", "BA"],
     placeId: "P04",
-    description: ""
+    description: "spettacolo di raccontastorie con un teatrino a manovella ispirato al kamishibai giapponese"
   },
                           {
     day: "domenica",
     time: "16:00",
-    endTime: "17:00",
+    endTime: "16:30",
     title: "Civo Lerie - Su oe cun sos corros de atalzu",
     categories: ["SP", "BA"],
     placeId: "P04",
-    description: ""
+    description: "racconto di una antica paristoria thiesina, che parla della Mamma dei Venti, di una maledizione, di un bue dalle corna d' acciaio e due sorelle chiamate a rompere l' incanto. Dialoghi in logudorese"
   },
    
        {
@@ -622,26 +637,6 @@ const programme = [
     categories: ["LA"],
     placeId: "P12",
     description: "Borse in pellami pregiati con inserti in cuoio ispirati alla cultura nuragica. Gioielli realizzati con la tecnica dello sbalzo, ispirati ai simboli della cultura nuragica"
-  },
-   
-     {
-    day: "domenica",
-    time: "15:30",
-    endTime: "16:00",
-    title: "Valentina Pilia - Flamenco",
-    categories: ["SP"],
-    placeId: "P04",
-    description: ""
-  },
-
-     {
-    day: "domenica",
-    time: "11:30",
-    endTime: "12:00",
-    title: "Valentina Pilia - Laboratorio Ritmico",
-    categories: ["BA"],
-    placeId: "P04",
-    description: ""
   },
    
   {
