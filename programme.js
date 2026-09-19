@@ -126,6 +126,26 @@ const programme = [
     placeId: "P05",
     description: ""
   },
+
+                    {
+    day: "sabato",
+    time: "14:30",
+    endTime: "16:00",
+    title: "Gruppo Culturale Alessandra Sorcinelli - Viari Artisti",
+    categories: ["AO"],
+    placeId: "P01",
+    description: "Letture e Racconti vari"
+  },
+
+                       {
+    day: "sabato",
+    time: "21:30",
+    endTime: "22:30",
+    title: "Gruppo Culturale Alessandra Sorcinelli - Viari Artisti",
+    categories: ["AO"],
+    placeId: "P01",
+    description: "Letture e Racconti vari"
+  },
                  {
     day: "sabato",
     time: "11:00",
@@ -446,6 +466,26 @@ const programme = [
      DOMENICA
   ========================= */
 
+                       {
+    day: "domenica",
+    time: "11:00",
+    endTime: "13:00",
+    title: "Gruppo Culturale Alessandra Sorcinelli - Viari Artisti",
+    categories: ["AO"],
+    placeId: "P01",
+    description: "Letture e Racconti vari"
+  },
+
+                       {
+    day: "domenica",
+    time: "15:00",
+    endTime: "16:30",
+    title: "Gruppo Culturale Alessandra Sorcinelli - Viari Artisti",
+    categories: ["AO"],
+    placeId: "P01",
+    description: "Letture e Racconti vari"
+  },
+   
                        {
     day: "domenica",
     time: "15:00",
