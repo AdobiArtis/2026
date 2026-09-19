@@ -121,10 +121,10 @@ const programme = [
     day: "sabato",
     time: "14:30",
     endTime: "15:30",
-    title: "Max - Musicista",
+    title: "Cassim - Musica reggae/folk acustico",
     categories: ["MU"],
     placeId: "P05",
-    description: ""
+    description: "Cassim è un musicista indipendente che trae ispirazione dai viaggi e dalle esperienze emotive, utilizzando strumenti acustici e poesie in diverse lingue per creare un universo musicale intimo e umile."
   },
 
                     {
@@ -494,15 +494,16 @@ const programme = [
     placeId: "P01",
     description: "Letture e Racconti vari"
   },
+
+   {
    
-                       {
     day: "domenica",
     time: "15:00",
     endTime: "16:00",
-    title: "Max - Musicista",
+    title: "Cassim - Musica reggae/folk acustico",
     categories: ["MU"],
-    placeId: "P04",
-    description: ""
+    placeId: "P05",
+    description: "Cassim è un musicista indipendente che trae ispirazione dai viaggi e dalle esperienze emotive, utilizzando strumenti acustici e poesie in diverse lingue per creare un universo musicale intimo e umile."
   },
    
                  {
